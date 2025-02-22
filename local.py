@@ -9,7 +9,7 @@ message.append({"role": "system", "content": sysprompt})
 
 client = OpenAI(
   base_url="http://localhost:11434/v1",
-    api_key="arbitrary placeholder"  # (arbitrary placeholder)
+  api_key="arbitrary placeholder"  # (arbitrary placeholder)
 )
 
 while True:
