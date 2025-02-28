@@ -1,8 +1,12 @@
 import os
+
 from pydantic_ai import Agent
 from pydantic_ai.models.openai import OpenAIModel
 from pydantic import BaseModel
 
+import logfire
+
+logfire.configure(send_to_logfire = os.getenv("LOGFIRE_TOKEN"))
 
 class MyModel(BaseModel):
     meeting_location: str

@@ -10,10 +10,6 @@ message.append({"role": "system", "content": sysprompt})
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.getenv("OPENROUTER_API_KEY"),
-    default_headers={
-        "HTTP-Referer": "https://github.com/your-repo",  # Replace with your actual site/repo
-        "X-Title": "Your App Name"  # Replace with your app name
-    }
 )
 
 messages = [{"role": "system", "content": "You are a helpful assistant"}]
@@ -25,7 +21,7 @@ while True:
     start_time = time.time()
 
     completion = client.chat.completions.create(
-        model="openai/gpt-4o-mini",  # Using the same model as in pydanticai_openrouter
+        model="google/gemini-2.0-flash-lite-preview-02-05:free",  # Using the same model as in pydanticai_openrouter
         messages=message,
         stream=True
     )
