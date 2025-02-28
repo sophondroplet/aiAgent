@@ -13,7 +13,7 @@ from pydantic_ai import Agent, ModelRetry, RunContext
 from pydantic_ai.models.openai import OpenAIModel
 
 #logfire stuff 
-
+logfire.configure(send_to_logfire = os.getenv("LOGFIRE_TOKEN"))
 
 #define model dependecies & final output cconstraints 
 @dataclass
@@ -47,12 +47,14 @@ async def get_lat_long (ctx:RunContext[Deps], location:str) -> dict [str,int]:
         location_description: A description of a location.
     """
     if ctx.deps.latlong_key is None:
-        return {"lat":2.2323232, "long":2.232323}    
+        return {"lat":-121.173649, "long":35.861967}    
 
     #make request throguh the geogrphy api using the weather keys, store response andd add them to context
 
+    
+
 @weather_agent.tool
-async def get_weather (ctx:RunContext[Deps], lat:float, long:float) -> str:
+async def get_weather (ctx:RunContext[Deps], lat:float, long:float) -> dict [str, any]:
     """reaturns weather of the locations given its lat long coordinates
     
     """
@@ -65,7 +67,7 @@ async def get_weather (ctx:RunContext[Deps], lat:float, long:float) -> str:
 
 
 async def main():
-    result = await weather_agent.run("tell me the weather in Beijing", deps=Deps(None,None))
+    result = await weather_agent.run("what is today's date?", deps=Deps(None,None))
     print(result.data)
 
 
