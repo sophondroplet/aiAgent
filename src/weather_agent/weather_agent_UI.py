@@ -18,14 +18,15 @@ def respond(user_input, history):
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     response = loop.run_until_complete(get_weather_response(user_input))
-    history.append((user_input, response))
+    history.append({"role": "user", "content": user_input})
+    history.append({"role": "assistant", "content": response})
     return history, history
 
 with gr.Blocks() as demo:
-    chatbot = gr.Chatbot()
+    chatbot = gr.Chatbot(type='messages')  # Set type to 'messages'
     with gr.Row():
         with gr.Column():
-            user_input = gr.Textbox(show_label=False, placeholder="Ask about the weather...").style(container=False)
+            user_input = gr.Textbox(show_label=False, placeholder="Ask about the weather...")  # Remove .style(container=False)
         with gr.Column():
             submit_btn = gr.Button("Send")
     submit_btn.click(respond, [user_input, chatbot], [chatbot, chatbot])

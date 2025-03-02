@@ -44,7 +44,7 @@ weather_agent = Agent(
 @weather_agent.tool
 async def get_lat_long (ctx:RunContext[Deps], location:str) -> dict [str,int]:
     """
-    returns lat long coordinates of a specified lcaotion
+    returns lat long coordinates of a specified loaction
     args:
         ctx: The context.
         location_description: A description of a location.
