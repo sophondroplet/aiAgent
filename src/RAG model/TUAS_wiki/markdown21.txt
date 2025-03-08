@@ -1,0 +1,244 @@
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Repo Guide 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+# Repo Guide
+This should serve as a basic overview/guide of all the repos that currently exist in the Triton UAS Github.
+  * Knowledge about some repos may be lacking, so the current status for them may be slightly inaccurate.
+  * The default ordering is based off the most recent edits to the repos as of 9-10-22
+
+
+Name/Link | Description | Team | Status  
+---|---|---|---  
+[wiki](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/wiki>) | Your one stop shop for hopefully lots of useful info about TUAS. | All | Active  
+[tritonuas.github.io](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/tritonuas.github.io>) | Amazing website made from the tears of whoever was ~~unlucky~~ lucky enough to work on it | All | Active  
+[hub](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/hub>) | Central node to connect to OBC, front-end, CV suite, etc. | Software | Active  
+[barebones-unet](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/barebons-unet>) | temporary repo to develop UNet segmentor | Software | Active  
+[adopt](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/adopt>) | Aircraft Design OPTimization programs in python | Airframe | Active  
+[tensorboard-local](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/tensorboard-local>) | View datahub tensorboard dashboards locally | Software | Active  
+[not-stolen-israeli-code](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/not-stolen-israeli-code>) | Target generation that wasn't stolen | Software | Active  
+[taxonomy-101](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/taxonomy-101>) | All-in-one wrapper around classifiers for shapes, characters, and colors | Software | Active  
+[hutzler-571](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/hutzler-571>) | Segmentation for shapes and characters | Software | Active  
+[garretts-new-lunchbox](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/garretts-new-lunchbox>) | Everything Saliency | Software | Active  
+[houston2](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/houston2>) | Houston, but better | Software | Active  
+[Real-Time-PP](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/Real-Time-PP>) | Real Time Path Planning, a.k.a PyPlanner 2. Handles static and dynamic obstacle avoidance, coverage, and communication with Hub. | Software | Active  
+[mockterop](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/mockterop>) | A mock of the interop server, mainly to allow us to simulate competition data with json files instead of having to deal with the real thing. | Software | Active  
+[obc-saliency](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/obc-saliency>) | Application to run on the plane (on the Jetson Tx2) to salience images and send the cropped ODLCs to the ground control station. | Software | Inactive  
+[computer-vision-server](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/computer-vision-server>) | Receives images from hub and runs computer vision models on them | Software | Active  
+[houston](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/houston>) | Front-end for Ground Control Station | Software | Active  
+[powerboard](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/powerboard>) | Powerboard design | Embedded | Active  
+[antenna-tracker](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/antenna-tracker>) | Home built antenna tracker code | Embedded | Active  
+[carbon-copy](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/carbon-copy>) | Optimization programs for aircraft design | Airframe | Active  
+[UGV](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/UGV>) | CAD models of UGV | Airframe | Active  
+[localization](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/localization>) | Determines geolocation of targets | Software | Active  
+[nsawatchingyou](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/nsawatchingyou>) | Stich images together to create a map of the competition flight boundary for the mapping task | Software | Active  
+[cv-docker](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/cv-docker>) | TUAS Datahub docker container | Software | Active  
+[classification](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/classification>) | Character classification | Software | Inactive  
+[py-planner](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/py-planner>) | Path planning suite implementing Dubins curves library from rust-step | Software | Active  
+[protos](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/protos>) | Protocol Buffer Definitions | Software | Active  
+[arrakis](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/arrakis>) | Integration system to run complete software system | Software | Active  
+[ugv-code](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/ugv-code>) | Gazebo environment to learn about controls by tuning a yaw and velocity controller for the UGV | Embedded | Active  
+[rust-step](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/rust-step>) | Rust implementation of Dubins curves algorithms for path planning | Software | Inactive  
+[ardupilot](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/ardupilot>) | Fork of the ardupilot firmware | Embedded | Inactive?  
+[matts-new-glasses](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/matts-new-glasses>) | Computer vision suite for saliency, segmentation, classification, etc. | Software | Inactive  
+[sigboard](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/sigboard>) | Signals board schematics, PCB designs, and microcontroller programs | Embedded | Inactive?  
+[automail](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/automail>) | Email automation for various google forms | All | Active  
+[polar-express](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/polar-express>) | Triton UAS Welcome | All | Active  
+[loggo](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/loggo>) | MAV device monitoring and logging | Software | Active  
+[.github](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/.github>) | Organization-wide Github settings | All | Active  
+[mavlink](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/mavlink>) | Marshalling / communication library for drones. | Software | Inactive  
+[lawnchair](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/lawnchair>) | Fiber One Cart (wannabe launcher) | Airframe | Inactive  
+[fiber-one](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/fiber-one>) | Fiber One CAD stuff | Airframe | Inactive  
+[gimbal](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/gimbal>) | Gimbal iterations from Fiber One and Swallow | Airframe | Active?  
+[swallow](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/swallow>) | Swallow CAD stuff | Airframe | Active?  
+[water-bottle-drop](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/water-bottle-drop>) | Old water bottle drop designs for reference (Rascal, Fiber One, Ranger, Believer) | Airframe | Inactive  
+[swallow-drawing](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/swallow-drawing>) | SOLIDWORKS dimensioned drawing of the swallow for 2019-2020 technical paper | Airframe | Active  
+[stolen-israeli-code](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/stolen-israeli-code>) | Generates sample targets for training | Software | Inactive  
+[faster-rcnn-pytorch](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/faster-rcnn-pytorch>) | Fork of faster-rcnn-pytorch | Software | Inactive  
+[char-rc](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/char-rc>) | Erika's char recognition training stuff | Software | Inactive  
+[Better-loggo](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/Better-loggo>) | Loggo, but better using Graphana with InfluxDB | Software | Inactive  
+[path-viz-tools](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/path-viz-tools>) | Visualizing path planning algorithms | Software | Inactive  
+[airframe](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/airframe>) | Old airframe documentation | Airframe | Inactive  
+[tabling-nonsense](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/tabling-nonsense>) | Dumb demo for tabling events | Software | Inactive  
+[planeobc](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/planeobc>) | Onboard computer code | Software | Inactive  
+[ottopilot](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/ottopilot>) | Docker definitions for SITL and MAVProxy | Software | Inactive  
+[mav-uploader](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/mav-uploader>) | Simple uploader for path from py-planner to the pixhawk | Software | Inactive  
+[wires](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/wires>) | Embedded work repository | Embedded | Inactive  
+[heim](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/heim>) | Old target recognition | Software | Inactive  
+[mission-faker](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/mission-faker>) | I don't know what this is for and don't want to read it right now -garrett | Software | Inactive  
+[i-love-pmtischler](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/i-love-pmtischler>) | Weird GRPC serve for tabling demo and uploading to interop? | Software | Inactive  
+[go-mavlink](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/go-mavlink>) | Fork (but not really) of the go-mavlink library | Software | Inactive  
+[tarantula](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/tarantula>) | Backup files for Mr. Taranis | All | Inactive  
+[path-planner](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/path-planner>) | Old obstacle avoidance and mission planning | Software | Inactive  
+[mozart](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/mozart>) | Old integration / orchestration scripts | Software | Inactive  
+[god](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/god>) | Old mono-repo for all thing software | Software | Inactive  
+[mapproxy](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/mapproxy>) | Wrapper around mapproxy | Software | Inactive  
+[montage](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/montage>) | ML model training wrapper | Software | Inactive  
+[stillsuit](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/stillsuit>) | Something to do with getting data from missions | Software | Inactive  
+[airdrop](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/airdrop>) | Something to do with actually triggering the airdrop | Software | Inactive  
+[shell-util](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/shell-util>) | Development environment tools setup scripts | Software | Inactive  
+[docs](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/docs>) | Old documentation | All | Inactive  
+[dubstep](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/dubstep>) | Even older path planning algorithms written in C | Software | Inactive  
+[reals](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/reals>) | Old repo for 3D printed parts | All | Inactive  
+[tuas-junk-filter](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/tuas-junk-filter>) | Old transfer learning to distinguish junk from targets | Software | Inactive  
+[rust-mavlink](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/rust-mavlink>) | Fork (but not really) of the rust-mavlink library | Software | Inactive  
+[flights](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/flights>) | Saved flight specifications | All | Inactive  
+[capsnet-ocr](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/capsnet-ocr>) | Something to do with OCR with capsnet | Software | Inactive  
+[MAVProxy](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/MAVProxy>) | Fork (but not really) of MAVProxy with some other stuff to connect to GCS | Software | Inactive  
+[missions](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas/missions>) | Sample test missions | All | Inactive  
+September 10, 2022
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/general/repo_guide/<https:/facebook.com/tritonuas> "facebook.com")

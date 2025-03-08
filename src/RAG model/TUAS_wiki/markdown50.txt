@@ -1,0 +1,459 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#gcs-configuration>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Configuration 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * Configuration  [ Configuration  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>) Table of contents 
+        * [ Initial setup  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#initial-setup>)
+        * [ Local  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#local>)
+          * [ Run  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#run>)
+          * [ Configuration  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#configuration>)
+            * [ Options  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>)
+        * [ Docker  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker>)
+          * [ Dependencies  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#dependencies>)
+          * [ Run  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#run_1>)
+          * [ Configuration  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#configuration_1>)
+        * [ Docker Compose  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker-compose>)
+          * [ Dependencies  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#dependencies_1>)
+          * [ Run  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#run_2>)
+          * [ Edit Dashboards  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#edit-dashboards>)
+            * [ Example Query  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#example-query>)
+          * [ Logging  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#logging>)
+          * [ Configuration  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#configuration_2>)
+            * [ hub  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#hub>)
+            * [ influxdb  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb>)
+            * [ influxdb_cli  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb_cli>)
+            * [ grafana  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#grafana>)
+            * [ sitl  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#sitl>)
+            * [ mavproxy  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#mavproxy>)
+            * [ dozzle  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#dozzle>)
+        * [ Docker networking  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker-networking>)
+        * [ Troubleshooting  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#troubleshooting>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Initial setup  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#initial-setup>)
+  * [ Local  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#local>)
+    * [ Run  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#run>)
+    * [ Configuration  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#configuration>)
+      * [ Options  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>)
+  * [ Docker  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker>)
+    * [ Dependencies  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#dependencies>)
+    * [ Run  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#run_1>)
+    * [ Configuration  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#configuration_1>)
+  * [ Docker Compose  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker-compose>)
+    * [ Dependencies  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#dependencies_1>)
+    * [ Run  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#run_2>)
+    * [ Edit Dashboards  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#edit-dashboards>)
+      * [ Example Query  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#example-query>)
+    * [ Logging  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#logging>)
+    * [ Configuration  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#configuration_2>)
+      * [ hub  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#hub>)
+      * [ influxdb  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb>)
+      * [ influxdb_cli  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb_cli>)
+      * [ grafana  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#grafana>)
+      * [ sitl  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#sitl>)
+      * [ mavproxy  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#mavproxy>)
+      * [ dozzle  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#dozzle>)
+  * [ Docker networking  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker-networking>)
+  * [ Troubleshooting  ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#troubleshooting>)
+
+
+# GCS Configuration
+## Initial setup
+Download Hub and install its dependencies
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-0-1>)gitclone--recursivehttps://github.com/tritonuas/hub.git
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-0-2>)cdhub
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-0-3>)makeinstall-dependencies
+
+```
+
+There are three ways of running Hub:
+  1. [Locally](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#local>)
+  2. With a [Docker](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker>) container
+  3. Through [Docker Compose](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker-compose>) alongside [InfluxDB](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/www.influxdata.com/products/influxdb/>), [Grafana](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/grafana.com/grafana/>) and [SITL](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html>) (our [SITL build](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/github.com/tritonuas/ottopilot>))
+
+
+## Local
+### Run
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-1-1>)makebuild
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-1-2>)makerun
+
+```
+
+### Configuration
+To run Hub with additional options add command line arguments separated by spaces.
+Example:
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-2-1>)makerunMAV_DEVICE=tcp:127.0.0.1:5760MAV_OUTPUT1=udp:127.0.0.1:14550
+
+```
+
+#### Options
+  * INTEROP_IP
+  * IP of interop computer
+  * INTEROP_PORT
+  * Port of interop computer
+  * INTEROP_USER
+  * Username on interop computer
+  * INTEROP_PASS
+  * Password on interop computer
+  * MAV_DEVICE
+  * Address and port of plane to receive mavlink messages from
+  * If SITL is being run using `docker-compose`, set the address and port to match one of [mavproxy's](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#mavproxy>) output addresses and ports. 
+    * Example: `udp:mavproxy:14551`
+  * Can be a serial, UDP, or TCP connection
+  * See [Docker networking](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#docker-networking>) for more information on connecting to ports on `localhost` or `127.0.0.1`
+  * Format: connectionType:address:port
+  * Example formats:
+    * serial:/dev/serial
+    * tcp:172.17.0.1:14550
+    * udp:172.17.0.1:14550
+
+
+  * INFLUXDB_BUCKET
+  * Name of bucket where data is stored on InfluxDB
+  * Should match the bucket flag from the [influxdb_cli container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb_cli>)
+  * INFLUXDB_ORG
+  * Name of InfluxDB organization
+  * Should match the org flag from the [influxdb_cli container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb_cli>)
+  * INFLUXDB_URI
+  * URI of InfluxDB for mavlink messages to be written to
+  * If InfluxDB is being run using `docker-compose`, set the address to `influxdb` to work with docker's internal networking
+    * Example: `http://influxdb:8086`
+  * Should match the host flag from the [influxdb_cli container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb_cli>)
+  * The port should also match the port of the [influxdb container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb>)
+  * INFLUXDB_TOKEN
+  * Token that allows Hub to have read/write access to the database
+  * Should match the token flag from the [influxdb_cli container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb_cli>)
+  * HUB_PATH
+  * Path to Hub package
+  * Should be: /go/src/github.com/tritonuas/hub
+
+
+## Docker
+### Dependencies
+  * [Docker](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/docs.docker.com/engine/install/>)
+
+
+### Run
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-3-1>)makebuild-docker
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-3-2>)dockerrun--network=hosttritonuas/hub
+
+```
+
+or
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-4-1>)makebuild-docker
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-4-2>)makerun-docker
+
+```
+
+**If changes are made to hub, the docker container must be rebuilt using** `make docker-build`
+### Configuration
+To run Hub with additional options add command line arguments separated by spaces with a `-e` flag before each.
+Example:
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-5-1>)dockerrun-eMAV_DEVICE=tcp:172.17.0.1:5760-eMAV_OUTPUT1=udp:172.17.0.1:14550--network=hosttritonuas/hub
+
+```
+
+Check out [here](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>) for a complete list of options.
+## Docker Compose
+To run Hub, [SITL](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html>) (our [SITL build](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/github.com/tritonuas/ottopilot>)), [Mavproxy](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/ardupilot.org/mavproxy/>), [Grafana](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/grafana.com/grafana/>) and [InfluxDB](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/www.influxdata.com/products/influxdb/>) concurrently run the containers using the `docker-compose.yml` file included in Hub.
+### Dependencies
+  * [Docker](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/docs.docker.com/engine/install/>)
+  * [Docker Compose](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/docs.docker.com/compose/install/>)
+
+
+### Run
+There are two ways to run the docker-compose workflow:
+1) With a simulated plane for testing/development purposes.
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-6-1>)makerun-compose
+
+```
+
+2) With the actual plane physically connected to the computer.
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-7-1>)makerun-broach-compose
+
+```
+
+**If changes are made to hub, the docker container must be rebuilt using** `make build-docker`
+To access the graphical visualizations of plane telemetry through Grafana, open a web browser and navigate to `localhost:3000`. If prompted for a login, enter username "admin" and password "admin". Select a dashboard and view the data.
+![Grafana Dashboard](https://drive.google.com/uc?export=view&id=1P6IcDP0su_HnvLdCyH9zk0tlrYN6Fb90)
+### Edit Dashboards
+Create and edit data on dashboards using the [Flux Language](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/docs.influxdata.com/influxdb/v2.0/query-data/get-started/>)
+Check out [here](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/mavlink.io/en/messages/common.html>) and [here](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/mavlink.io/en/messages/ardupilotmega.html>) for a list of MAVLink message types, fields, and units typically used by our aircraft.
+**Any newly created dashboards or edits made to existing dashboards will not be saved if Grafana is closed and relaunched. To save dashboards after Grafana is closed create/edit dashboards in the deployments/grafana/dashboards folder in Hub.**
+#### Example Query
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-8-1>)from(bucket:"mavlink")
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-8-2>)|>range(start:v.timeRangeStart,stop:v.timeRangeStop)
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-8-3>)|>filter(fn:(r)=>
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-8-4>)r._measurement=="VFR_HUD"and
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-8-5>)r._field=="throttle"
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-8-6>))
+
+```
+
+With unit conversion:
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-9-1>)from(bucket:"mavlink")
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-9-2>)|>range(start:v.timeRangeStart,stop:v.timeRangeStop)
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-9-3>)|>filter(fn:(r)=>
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-9-4>)r._measurement=="GLOBAL_POSITION_INT"and
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-9-5>)r._field=="hdg"
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-9-6>))
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-9-7>)|>map(fn:(r)=>({rwith_value:r._value/100.0}))
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-9-8>)|>aggregateWindow(every:500ms,fn:mean)
+
+```
+
+### Logging
+Once docker-compose is running visit `localhost:9999` in a web browser to view each container's logs.
+![Dozzle Logs](https://drive.google.com/uc?export=view&id=1AqvGY9CKpFj7_A3Qj2jchC18SqaWs2t_)
+### Configuration
+Edit the following fields in the `docker-compose.yml` file found in the `deployments` folder in Hub
+#### hub
+  * environment
+  * Check out [here](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>) for a complete list of environment variables
+
+
+#### influxdb
+  * ports
+  * Port of InfluxDB database and front-end GUI
+  * Default: `"8086:8086"`
+  * If this port is changed, also change the `INFLUXDB_URI` environment variable in [Hub](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>) and the `--host` flag in [influxdb_cli](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb_cli>)
+
+
+#### influxdb_cli
+  * entrypoint
+  * --bucket
+    * Name of bucket where data is stored
+    * Should match the INFLUXDB_BUCKET environment variable from the [Hub container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>)
+  * --org
+    * Name of InfluxDB organization
+    * Should match the INFLUXDB_ORG environment variable from the [Hub container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>)
+  * --token
+    * Token that allows Hub to have read/write access to the database
+    * Should match the INFLUXDB_TOKEN environment variable from the [Hub container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>)
+  * --username
+    * Username used to sign in and view the InfluxDB front-end web application
+  * --password
+    * Password used to sign in and view the InfluxDB front-end web application
+  * --host
+    * URI of InfluxDB to configure
+    * Typically is `http://influxdb:8086` to work with Docker's internal networking
+    * Should match the INFLUXDB_URI environment variable from the [Hub container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>)
+    * The port should also match the port of the [influxdb container](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#influxdb>)
+
+
+For more information check out the InfluxDB [documentation](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/docs.influxdata.com/influxdb/v2.0/reference/cli/influx/setup/>).
+#### grafana
+  * environment
+  * Grafana configuration options can be found [here](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/grafana.com/docs/grafana/latest/administration/configuration/>).
+  * volumes
+  * To make files such as dashboards and Grafana configuration files accessible to the docker container they must be specified here.
+  * Example:
+
+
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-10-1>)  - ./grafana/dashboard.yaml:/etc/grafana/provisioning/dashboards/dashboard.yaml
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-10-2>)  - ./grafana/datasource.yaml:/etc/grafana/provisioning/datasources/datasource.yaml
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-10-3>)  - ./grafana/dashboards/:/var/lib/grafana/dashboards
+
+```
+
+#### sitl
+  * ports
+  * Port where the virtual plane will be hosted on
+  * Default: `"5760:5760"`
+  * If this port is changed, also change the `MAV_DEVICE` environment variable in Hub. More info [here](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#options>)
+
+
+#### mavproxy
+  * environment
+  * MASTER
+    * The address and port where mavproxy should take in messages from.
+    * Typically is `--master=tcp:sitl:5760` to connect with the virtual plane
+    * If connected to a physical plane, use a serial connection such as `--master=/dev/ttyUSB0`
+  * OUT[1-5]
+    * Five different addresses and ports that mavproxy will forward messages to.
+    * OUT1 should typically be `--out=udp:172.17.0.1:14550` to forward messages to [MissionPlanner](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/ardupilot.org/planner>)/[QGroundControl](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<http:/qgroundcontrol.com/>)
+    * OUT2 should typically be `--out=tcpin:mavproxy:14551` to forward messages to Hub
+  * devices
+  * If connected to a physical plane change this to the serial port of the plane.
+  * Example: `/dev/ttyUSB0:/dev/ttyUSB0`
+
+
+#### dozzle
+Configuration opptions can be found [here](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/github.com/amir20/dozzle#environment-variables-and-configuration>).
+## Docker networking
+When attempting to connect to a port on `localhost` or `127.0.0.1` from the host machine, use the address `172.17.0.1` instead.
+Read up more on communicating between the Docker host and the bridge network [here](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/docs.docker.com/network/network-tutorial-standalone/>).
+## Troubleshooting
+If you get this error:
+```
+[](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/#__codelineno-11-1>)ERROR: for influxdb Cannot start service influxdb: driver failed programming external connectivity on endpoint ...
+
+```
+
+Stop the influxd container running in the background with the command `killall influxd` and attempt to run the docker containers again.
+June 4, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/software/gcs/gcs_configuration/<https:/facebook.com/tritonuas> "facebook.com")

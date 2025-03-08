@@ -1,0 +1,852 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#basics-of-unix-and-the-command-line>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+01. Unix/Command Line 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * 01. Unix/Command Line  [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>) Table of contents 
+          * [ Setup  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#setup>)
+          * [ Terminal and Shell  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#terminal-and-shell>)
+          * [ echo  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#echo>)
+          * [ Unix Filesystem  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#unix-filesystem>)
+            * [ Root Directory /  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#root-directory>)
+            * [ Home Directory ~  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#home-directory>)
+            * [ Current Directory .  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#current-directory>)
+            * [ Parent Directory ..  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#parent-directory>)
+          * [ cd  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#cd>)
+          * [ ls  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#ls>)
+          * [ pwd  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#pwd>)
+          * [ cat  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#cat>)
+          * [ mkdir  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#mkdir>)
+          * [ cp  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#cp>)
+          * [ mv  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#mv>)
+          * [ rm  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#rm>)
+          * [ whoami  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#whoami>)
+          * [ sudo  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#sudo>)
+          * [ Stopping programs early  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#stopping-programs-early>)
+          * [ make  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#make>)
+          * [ Terminal Text Editors  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#terminal-text-editors>)
+            * [ Nano  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#nano>)
+            * [ Vim  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#vim>)
+          * [ Shell Configuration  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#shell-configuration>)
+          * [ Environment variables  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#environment-variables>)
+            * [ PATH  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#path>)
+          * [ alias  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#alias>)
+          * [ SSH  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#ssh>)
+            * [ scp  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#scp>)
+          * [ Getting Help  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#getting-help>)
+          * [ Demo  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#demo>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Setup  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#setup>)
+  * [ Terminal and Shell  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#terminal-and-shell>)
+  * [ echo  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#echo>)
+  * [ Unix Filesystem  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#unix-filesystem>)
+    * [ Root Directory /  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#root-directory>)
+    * [ Home Directory ~  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#home-directory>)
+    * [ Current Directory .  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#current-directory>)
+    * [ Parent Directory ..  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#parent-directory>)
+  * [ cd  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#cd>)
+  * [ ls  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#ls>)
+  * [ pwd  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#pwd>)
+  * [ cat  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#cat>)
+  * [ mkdir  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#mkdir>)
+  * [ cp  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#cp>)
+  * [ mv  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#mv>)
+  * [ rm  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#rm>)
+  * [ whoami  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#whoami>)
+  * [ sudo  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#sudo>)
+  * [ Stopping programs early  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#stopping-programs-early>)
+  * [ make  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#make>)
+  * [ Terminal Text Editors  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#terminal-text-editors>)
+    * [ Nano  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#nano>)
+    * [ Vim  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#vim>)
+  * [ Shell Configuration  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#shell-configuration>)
+  * [ Environment variables  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#environment-variables>)
+    * [ PATH  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#path>)
+  * [ alias  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#alias>)
+  * [ SSH  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#ssh>)
+    * [ scp  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#scp>)
+  * [ Getting Help  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#getting-help>)
+  * [ Demo  ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#demo>)
+
+
+# Basics of Unix and the Command Line
+[Here](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/docs.google.com/presentation/d/1S-n866TxdD_RvhI4NEsQonhBg9v7_W3f9zSVuSyYRjQ/edt?usp=sharing>) are the slides that accompany this workshop.
+It is imperative for anyone interested in Software Development to become familiar with the command line and Unix programs. They power many development workflows and allow software engineers to interact with their systems in a simple and efficient manner.
+Here's a brief history lesson before we dive into the main content. The original Unix operating system was developed by AT&T Bell Labs in the 1960s and 70s by some of the pioneers of computing. While the original Unix operating system isn't used much today, many modern systems are inspired by it. Even if you don't personally own a Unix-like system, you will find yourself interacting with one through remote servers or virtual machines. 
+## Setup
+If you're using macOS or Linux, then you already have a Unix-like system. If you're on Windows, follow the instructions [here](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/how_to_contribute/#windows>). For the purposes of this workshop, it may be quicker to get setup with WSL.
+## Terminal and Shell
+The **terminal** is an application on your system that allows you to interact with your shell. We'll get to what a shell is in just a second. 
+The following are a few methods for accessing a terminal:
+  * macOS has a built-in application called "Terminal". You can access it by searching for it in Spotlight.
+  * To access WSL on Windows, search for "wsl" in your start menu. You can also access WSL through the [Windows Terminal application](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/learn.microsoft.com/en-us/windows/terminal/install>).
+  * Your Linux distribution probably comes packaged with a terminal emulator, so you can use that one.
+
+
+The **shell** is a program that runs inside the terminal and allows the user to interact with the operating system using text based commands. The shell reads in text input and runs the corresponding programs. When you open the terminal, you are greeted by a blank window with a cursor. This is the shell, and you can type commands that you want the shell to run.
+Besides the cursor, you'll also see the shell prompt. The shell prompt can greatly vary depending on your shell and configuration, however it usually has information about the current user or current directory.
+Here's an example of what your shell prompt might look like:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-0-1>)user@laptop~/Desktop$
+
+```
+
+Let's break down what each part means:
+  * `user`
+    * The text before the @ sign is the **username** of the current user. 
+  * `laptop`
+    * This is the **hostname** of the computer. A hostname is a label given to a computer for when it communicates to other computers over the network. 
+  * `~/Desktop`
+    * This is the **current working directory** of the shell. As we'll talk about later, you can use your shell to navigate through directories on your system. This is similar to how you would do so with a traditional file explorer (ex: Finder or Windows Explorer). Think of the current working directory as meaning that we currently have a certain folder open. In this case, we have the Desktop folder open. 
+
+
+The user inputted text goes after the dollar sign symbol. If you start typing some characters then you should see them show up in the terminal.
+Let's start running some programs.
+## `echo`
+The `echo` command will print out any text that you provide to it. Let's say we want to print out the text "Hello world!" to the screen.
+You can do so with the following command: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-1-1>)echo"Hello world"
+
+```
+
+If you type this into your shell and hit the "Enter" or "Return" key, the command will be executed. You should see "Hello world" printed out in the terminal. 
+Let's try a deviation of the previous command. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-2-1>)echoHelloworld
+
+```
+
+You might notice that we aren't using quotes around the text we want to print. This is totally fine since `echo` will look at all of its arguments to determine what to print. Arguments are just additional data that we pass into commands. These come after the command name and are separated by spaces. In the fist scenario (`echo "Hello world"`), we wrapped `Hello world` in quotes. This meant that the shell treated `"Hello world"` as a single argument. In our new example of `echo Hello   world`, we don't have quotes, so the shell treats `Hello` and `world` as two different arguments. The number of spaces between the arguments doesn't matter, so they only count as two arguments. Since these are seen as two separate arguments, `echo` will print them out as two strings with a single space between them.
+Demonstration:
+![echo demonstration](https://drive.google.com/uc?export=view&id=1dfNF3rCaahlyVFM7UysHra-iG8EBmv6H)
+## Unix Filesystem
+Before we explore the `cd` command, let's explore the basics of a Unix filesystem.
+### Root Directory `/`
+The root directory is the top level of the filesystem. Every file and directory of the filesystem is a sub-child of the root directory. 
+The symbol for the root directory is a forward slash `/`. When you want to describe a path to a file or directory that starts at the root directory, you start with a `/` symbol. This is called an **absolute path**.
+The following represents an absolute path that points to the `bin` directory. This directory is located one level below the root.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-3-1>)/bin
+
+```
+
+The following is another absolute path that points to a `fonts` directory that is within the `etc` directory. Note that only the first forward slash represents the root directory. Subsequent slashes are simply path separators between directories and files. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-4-1>)/etc/fonts
+
+```
+
+### Home Directory `~`
+On Unix-like systems, every user of a computer is assigned a _home directory_. Every user's home directory contains user-specific files.
+The symbol for the home directory is a tilde `~`. Similarly to the root directory, we can describe paths that start from the home directory (or are relative to the home directory). 
+The following represents a relative path from the home directory that points to my user's `Downloads` directory. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-5-1>)~/Downloads
+
+```
+
+This path points to a Python source code file within my home directory.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-6-1>)~/tuas/garretts-new-lunchbox/main.py
+
+```
+
+Since all directories on a filesystem must be under the root directory, the same applies for every home directory. Usually they follow the following pattern. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-7-1>)/home/USERNAME
+
+```
+
+To see your current user's home directory location you can use `echo` to display the `HOME` environment variable. We'll get to what an environment variables are later in this workshop. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-8-1>)echo$HOME
+
+```
+
+### Current Directory `.`
+The current directory is the directory which the shell is currently working in.
+The current working directory is denoted by a single period `.` symbol.
+The following path represents a directory named `build` that's in the current directory.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-9-1>)./build
+
+```
+
+### Parent Directory `..`
+The parent directory is the directory above the current directory in the filesystem hierarchy. 
+It's denoted by two periods `..`
+## `cd`
+The `cd` command will change the current working directory. As mentioned above, you can use the shell to move around the directories of your computer's filesystem just as you would with a graphical file explorer. 
+`cd` will change to the directory that you provide the path of. There are a few ways that you can describe paths on your system using the symbols that we just discussed. 
+We can change directory to the root directory or describe an absolute path that starts from the root directory. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-10-1>)cd/
+
+```
+
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-11-1>)cd/usr/bin
+
+```
+
+We can also `cd` into directories that are relative to the home directory. The paths begin with a `~` character. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-12-1>)cd~/Downloads
+
+```
+
+To change to the home directory you can either run `cd ~` or simply `cd` on its own. 
+We can also change to directories that are relative to our current working directory. It's important to note that these paths mean different things depending on your current working directory. This is in contrast to the previous commands which would work no matter what your current directory is.
+Let's say there's a directory named `build` in our current directory. We can `cd` into it with the following command. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-13-1>)cd./build
+
+```
+
+We can also remove the `./` which will also evaluate the path relative to our current working directory. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-14-1>)cdbuild
+
+```
+
+To move to the parent directory we can use the following command. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-15-1>)cd..
+
+```
+
+Demonstration:
+![cd demonstration](https://drive.google.com/uc?export=view&id=1sNHZtwtGuPhgohDZiKjrJLdpkS7gZG3V)
+## `ls`
+The `ls` command will list files or directories. If you just type the `ls` command on its own then it will list files and directories in the current directory. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-16-1>)ls
+
+```
+
+You can also specify a path to a directory to list files/directories in. The path can be either absolute or relative. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-17-1>)lsDownloads
+
+```
+
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-18-1>)ls/bin
+
+```
+
+Demonstration:
+![ls demonstration](https://drive.google.com/uc?export=view&id=1_KB67K2tWjKngnKyM_Nx5bNI-hEgyYqL)
+There are many other options that you can specify to change the behavior of `ls`. You can change `ls` to also list out "hidden files/directories". These hidden files/directories aren't normally listed by `ls`. You can tell a file/directory is hidden if it's prepended with a period (example: `.bashrc`).
+You can specify a command line flag for `ls` to list all files, including hidden ones. A command line flag is an option that you can specify to change the behavior of a program. Every program has its own flags and way of handling them, so you'll need to check its respective documentation. 
+To list all files with `ls` you can use the `-a` flag. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-19-1>)ls-a
+
+```
+
+There are many other flags you can provide to `ls`. The `-l` flag will have every result take up its own line. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-20-1>)ls-l
+
+```
+
+You can combine these flags so that both hidden files are shown and everything is displayed on separate lines. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-21-1>)ls-al
+
+```
+
+Demonstration:
+![ls-al demonstration](https://drive.google.com/uc?export=view&id=1oCVLDyErLKO2OzqcaUpOznL__aKPWWr-)
+Now that we've gone through the basics of `cd` and `ls` we can efficiently browse our filesystem and find the files that we want to interact with.
+## `pwd`
+`pwd` will print the current working directory. This is helpful if you get lost and forget what directory you're in.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-22-1>)pwd
+
+```
+
+Demonstration:
+![pwd command](https://drive.google.com/uc?export=view&id=19Lo5CCn4Se08f678TPQwoGPXCvLuuWTO)
+## `cat`
+`cat` will output the contents of a specified file. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-23-1>)catindex.html
+
+```
+
+Demonstration:
+![cat demonstration](https://drive.google.com/uc?export=view&id=1PX7Hf_kGNQ3GT2Tri_8QKz2iFw5F0WU8)
+Demonstration:
+## `mkdir`
+`mkdir` will create a new directory that matches the name you provide.
+This command makes a new, empty directory named `tuas`. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-24-1>)mkdirtuas
+
+```
+
+Demonstration:
+![mkdir demonstration](https://drive.google.com/uc?export=view&id=1ulscxUIcC0BcwFEmGp_OBAco9tHhg2cP)
+## `cp`
+`cp` will copy a file from its current location to somewhere else on your filesystem.
+You can specify a path to a file to copy and a path to a destination directory. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-25-1>)cpindex.html~/Documents
+
+```
+
+If you want to change the name to something else, you can specify a filename in the destination path. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-26-1>)cpindex.html~/Documents/new.html
+
+```
+
+You can also copy multiple files to a destination. The following command will copy both `index.html` and `new.html` to the `Documents` directory. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-27-1>)cpindex.htmlhome.html~/Documents
+
+```
+
+If you try the previous commands to try to copy a directory, they will not work. This is because you need to specify a command line flag to recursively copy a directory's contents. This basically means that the directory and **all** the content it contains will be copied to the destination. 
+The following command uses the `-r` flag to recursively copy the `tuas` directory and everything inside it to the `Documents` directory. After running this command we should see a `tuas` directory inside `Documents`. We can check by running `ls ~/Documents`. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-28-1>)cp-r~/tuas~/Documents
+
+```
+
+Demonstration:
+![cp command](https://drive.google.com/uc?export=view&id=13bhlOtb_-yosiHECE5Ihl7F4F6XKs5kd)
+## `mv`
+`mv` will move a file from one location to another.
+Let's say I want to move the `index.html` file to the `Documents` directory. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-29-1>)mvindex.html~/Documents
+
+```
+
+You can also move directories with `mv` without the need of an extra flag like with `cp`. The following command will move the `tuas` directory to be inside the `Documents` directory. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-30-1>)mvtuas~/Documents
+
+```
+
+You can also use `mv` to rename files or directories. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-31-1>)mvold.txtnew.txt
+
+```
+
+Be careful, if you try to rename a file/directory to something that already exists, the existing file/directory will be overwritten by the one you are moving.
+## `rm`
+`rm` will remove a file or directory. This is a potentially dangerous command since it will delete the file/directory forever. There is no Trash or Recycle Bin that files go to. They are essentially unrecoverable after running `rm`. So use wisely ... 
+To remove a file you can specify a path to a file. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-32-1>)rmindex.html
+
+```
+
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-33-1>)rm~/.config/config.toml
+
+```
+
+To delete a directory you need to pass in the `-r` flag to recursively delete a directory and its contents. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-34-1>)rm-rbuild
+
+```
+
+## `whoami`
+`whoami` will display the user that's currently logged in. This command isn't as useful as some of the others, however it might come in handy from time to time.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-35-1>)whoami
+
+```
+
+## `sudo`
+`sudo` allows you to elevate your permissions and run a command as the root user. Typically, Unix-like systems have a set of permissions on files/directories of the system. Only certain users may be able to interact with some system resources. The root user is the most powerful user on a system. They have permissions to everything on the system. Sometimes it makes sense to temporarily grant yourself root user permissions. There may be a file or directory that you need to modify but usually don't have permission to do so.
+You might be wondering why we don't just run every command as the root user to ensure that we always have sufficient permissions. Always being root can potentially be dangerous because it becomes very easy to tamper with system files that are essential for a working system. 
+This command will run a `cp` command to copy a file to a path that our normal user doesn't have permissions to write to. A regular user only has write permissions to the files in its own user directory. Files above this user directory and in other user directories will not have write permissions. With `sudo`, we can circumvent this by temporarily having superuser permissions. Running a command with `sudo` will prompt you for a sudo password. This is usually the same as your user's login password unless you explicitly changed it. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-36-1>)sudocpdisplay.conf/etc/X11/
+
+```
+
+Demonstration:
+![sudo demonstration](https://drive.google.com/uc?export=view&id=1nUKjrVHsW5slM65cmpVoAd0Wvbv0g_oT)
+## Stopping programs early
+Sometimes there might be a program running that you want to quit before it finishes.
+You can accomplish this by pressing `Ctrl-C` while a program is running.
+As a quick demo, we can try to kill the `sleep` program. If you run `sleep 60`, there will be 60 second delay where the terminal will be unusable. We can kill this program with `Ctrl-C` and gain back control over our terminal.
+Demonstration:
+![ctrlc demonstration](https://drive.google.com/uc?export=view&id=1QNgpCiCk8wMVLFoxtJmt3ElYFYRac4xm)
+## `make`
+`make` is a useful development utility that helps with running shell tasks that are commonly used.
+Let's say you have a project with a complicated command to compile the code. Or maybe there is a set of commands you need to execute for an application to run. `make` can help in these scenarios by providing a convenient way to run these commonly used workflows.
+`make` can get pretty complicated and could be a whole workshop on its own. For this workshop, we'll show you how to run a `make` target and how to write a simple one.
+When it comes to `make`, the most important thing is the `Makefile`. This is where everything associated with `make` will live. For our case, we're going to be talking about the targets that are defined in this file.
+A target can be thought of an "action" we define in the Makefile. We can have a sequence of commands that will be executed when a target is run. 
+The following is an example `make` target. The part at the beginning is the name of the target. The lines that are indented represent the commands run when the target is called. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-37-1>)build:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-37-2>)cpresources/*.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-37-3>)ln-sf/usr/lib/libGL.so./libGL.so
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-37-4>)gccmain.c-Wall-g-Og-olibrary.oapp
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-37-5>)mvappbin/
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-37-6>)@echo"Build completed successfully"
+
+```
+
+Don't pay attention to the content of the commands in the target. They don't really make sense when put together. But the point is that you might have some more complicated build workflow that is longer than a single command. This example shows how there could be some setup and cleanup that you want to do. 
+Even if your target is only a single command, it may be useful to avoid writing out long commands. Here's one place where we do this in our GCS Makefile: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-38-1>)run-broach-compose:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-38-2>)docker-compose-fdeployments/broach-docker-compose.ymlup-d
+
+```
+
+To actually run a `make` target you can run `make <target_name>`. It's important to note that you're current working directory must have a Makefile inside of it for `make` to work. For the two target examples shown here are the commands: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-39-1>)makebuild
+
+```
+
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-40-1>)makerun-broach-compose
+
+```
+
+Here's the [Makefile](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/github.com/tritonuas/gcs/blob/master/Makefile>) for our `gcs` project. You can glance at it and see all the `make` targets that are defined for the project.
+For a great, more comprehensive tutorial on `make`, check out this [page](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/makefiletutorial.com>).
+If you want a deep dive on `make`, check out the [GNU make book](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/www.gnu.org/software/make/manual/html_node/index.html>).
+## Terminal Text Editors
+You'll find that it may be more convenient to quickly edit a file in the terminal rather than open up an entire graphical text editor.
+Here are two of the most commonly used terminal text editors:
+### Nano
+Open file in Nano: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-41-1>)nano<filename>
+
+```
+
+To navigate the file you can use the arrow keys to move left/right across a line and up/down the lines. You can type as you normally would to make your edits.
+Once you're satisfied with your changes you can hit `Ctrl-O` to save your changes to disk. Then you can press `Ctrl-X` to quit Nano.
+Demonstration:
+![nano demonstration](https://drive.google.com/uc?export=view&id=1TS_RsOa_ckHKrX3TP1W5rCYbt5zBP5kI)
+### Vim
+Vim is another terminal text editor. However, Vim works a bit differently compared to most text editors. Vim is another topic that could be its own workshop. We're just going to go over the basics to get you up and running with Vim.
+Open a file in Vim: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-42-1>)vim<filename>
+
+```
+
+When you enter Vim, you'll notice that you can't type as you normally would. This is because Vim is a modal editor. This means that there are different modes that change how you interact with the document. In this workshop, we're only going to talk about `NORMAL`, `INSERT` and `COMMAND` modes.
+When you first launch Vim, you'll be in `NORMAL` mode. Here, you can't modify the document, but you can navigate around it. 
+Navigation keys:
+  * `j` to move down a line
+  * `k` to move up a line
+  * `h` to move one character to the left 
+  * `l` to move one character to the right 
+
+
+You can also prepend each of these motions with a number to represent how many times the motion should be repeated. For example, if you wanted to move 5 lines down, you would type `5j` while in `NORMAL` mode.
+Here are a few more handy navigation keystrokes:
+  * `0` to move to the start of a line
+  * `$` to move to the end of a line
+  * `w` to move to the start of the next word
+  * `b` to move to the start of the previous word
+  * `gg` to move to the start of a file
+  * `G` to move to the end of a file
+
+
+To enter `INSERT` mode, press the `i` key. You should see text on the bottom left of your terminal that indicates that you're in `INSERT` mode.
+![vim insert mode](https://drive.google.com/uc?export=view&id=1zv-buEjK3wmyXvsZ0VrpTmoLnhcoC02v)
+Once you're in `INSERT` mode, you can proceed to edit the file and modify text as you normally would. 
+To exit `INSERT` and return to `NORMAL` mode, press the escape key.
+Once you're done with your edits you can save and quit Vim. To save the changes to disk, press the colon key to enter `COMMAND` mode, type `w` and hit enter. To quit, do the same thing but type `q` instead. You can do both at the same time with the combination of `:wq`.
+Demonstration:
+![vim demonstration](https://drive.google.com/uc?export=view&id=1-4W8hzESAMR8KLKZJ6PYMqXu0sTGmF5t)
+If you want to become more proficient with Vim, vimtutor is a fantastic guide that should already be installed on your system. Just type `vimtutor` in your terminal and follow the lessons. 
+Here's a handy [Vim cheatsheet](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/vim.rtorr.com/>)
+You can also get used to Vim binds by using them in other applications. For example, there is a [VS Code extension](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/marketplace.visualstudio.com/items?itemName=vscodevim.vim>) that provides Vim binds for editing. 
+## Shell Configuration
+There are many ways which we can customize the behavior of our shells. One approach is to modify the shell configuration file. The configuration file is simply a list of commands that are executed when the shell is initialized.
+Most shells will have a configuration file located in a user's home directory. If you're using Bash, your configuration file is called `.bashrc` (Note that it is a hidden file. See the `ls` section for more information about those). If you're using Zsh, it is called `.zshrc`. If you're not sure what shell you're using, run either `echo $SHELL` or `echo $0`. If you're on a recent version of macOS, Zsh is the default shell. Most Linux distributions use Bash by default. The same goes for WSL.
+Let's modify our shell configuration file. You're going to need a text editor to do this. You can use the terminal text editors, such as Nano or Vim, which were discussed in the previous section. A graphical text editor, such as TextEdit, VS Code, also will work for this. Note that since `.bashrc` and `.zshrc` are hidden files, they may not show up in your editor's file picker by default.
+Let's open the shell configuration file in our editor of choice. For this workshop, I'm using `vim` to edit my `.bashrc` file. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-43-1>)vim~/.bashrc
+
+```
+
+As mentioned, the shell configuration file holds a list of commands that are executed when the shell starts up. This means that we can set options that will persist even after we close the shell.
+Let's add some commands that will greet us when our shell starts up.
+If we add the following line to our configuration file and save the file, the next time we open our shell we'll see "Hello there" being printed to the screen. Try adding this line and open a new terminal window. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-44-1>)echo"Hello there"
+
+```
+
+We can run any command in this file, so let's try the `date` command. This will simply print out the date when the shell is started. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-45-1>)date
+
+```
+
+Let's combine the two and print out a greeting that has the date embedded in it. We can use backticks to execute a command and place it's output inside another string. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-46-1>)echo"Hello there, it is `date`"
+
+```
+
+These examples might not seem too useful, however the following sections will show a few use cases that you will encounter in development. There are many other ways you can customize the look and feel of your shell (customize the prompt, change colorscheme, etc.).
+## Environment variables
+Environment variables are system-wide pieces of data that can be used to convey information about your current system. Earlier we saw the `HOME` environment variable and how it stores the username of the current user. 
+As demonstrated previously, we can print out an environment using echo and a dollar sign `$` symbol prepended to its name. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-47-1>)echo$HOME
+
+```
+
+There are many more environment variables that are commonly used. One of the most important is `PATH`.
+### `PATH`
+The `PATH` environment variable is used by the shell to determine where binary files and executables on the system are located. 
+Executables are programs and scripts that you can run at the shell. Every command that we've gone over in this workshop are executables. 
+`PATH` points to multiple directories that contain executable files. Directories are separated from each other using the `:` character. 
+When you type in a program (such as `ls`), the shell looks for the executable in one of the directories described by `PATH`. Sometimes, programs are installed to directories that are not in your PATH, so you must add a directory to your PATH.
+The following command prepends a directory to the `PATH` environment variable. The directory being added is `$HOME/.local/bin/`. The command sets path to that directory and appends the old value of `PATH` to the end. Note the colon that separates them. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-48-1>)exportPATH="$HOME/.local/bin/:$PATH"
+
+```
+
+For this change to `PATH` to be persistent, you need to add it to your shell configuration file (ex: `.bashrc`, `.zshrc`).
+## `alias`
+The `alias` command can be used to register a command with a different string.
+Let's say I don't want to keep typing out `ls -al` whenever I want to list all files in a list format. If I want to alias the command to something shorter like `l`, I can run the following `alias` command: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-49-1>)aliasl="ls -al"
+
+```
+
+For this alias to be persistent even after the shell is closed, you need to add this line to your shell configuration file. 
+## SSH
+You will often find yourself wanting to connect to remote servers and computers during development. A server might have a preferred development environment that is difficult to set up or a computer might be in a production environment.
+The `ssh` program is a simple way to do so via the command line. SSH stands for "Secure Shell" and allows us to connect to a remote computer and use its shell. 
+When connecting via SSH, the command will generally follow this format: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-50-1>)sshusername@host
+
+```
+
+`username` is just the username of the user you want to connect as on the remote server.
+`host` is the network address of the remote server. This can be an IP address (ex: 100.23.24.121) or a domain name (ex: ieng6.ucsd.edu).
+During this workshop, the software leads should have a computer setup that you can SSH into. You can also try SSH-ing into UCSD's ieng6 server.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-51-1>)sshusername@ieng6.ucsd.edu
+
+```
+
+Demonstration:
+![ssh demonstration](https://drive.google.com/uc?export=view&id=1cET8EtPQ3SK96EHrU1sc_0FWwSXi8j4B)
+### `scp`
+`scp` is a command line program that uses SSH to copy files from a local computer to a remote computer and vice versa.
+Copying from local to remote computer. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-52-1>)scppath/to/local_fileremote_host:path/to/remote_file
+
+```
+
+Copying from remote to local computer. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-53-1>)scpremote_host:path/to/remote_filepath/to/local_directory
+
+```
+
+## Getting Help
+It's easy to feel lost when it comes to working with command line applications. There's no intuitive user interface to point you where you need to be. If you forget how to use a command line program or are learning how to use a new one, there are several ways you can quickly get up to speed.
+Many commands have manual pages that explain how to use a program and all its options. You can use the `man` command to view this information. You can scroll around the manual with the arrow keys. To quit, just press q. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-54-1>)manls
+
+```
+
+You can also use the `--help` command line flag which will also give usage information. Usually, `--help` is a bit more brief than a man page. However, that might be all you need. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-55-1>)ls--help
+
+```
+
+There's also this handy program called `tldr` which has short descriptions of common use cases of command line programs. It's great if you want to quickly get launched into using a program. There are several clients you can find [here](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/github.com/tldr-pages/tldr/wiki/tldr-pages-clients>) and this [web application](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tldr.inbrowser.app/>) that has the same information.
+You can also feel free to search online to find what you need. In most cases, this might be faster than digging through a man page or help options.
+Also feel free to ask other people on the team! We're all learning from each other and most people are more than happy to help out.
+## Demo
+Ok enough explaining, let's do something with the knowledge we've gained.
+We're going to make some folders/files and create a Makefile that does a basic task.
+First, let's navigate to a directory where we can mess around in. If you remember, you can use a combination of `cd` and `ls` commands to navigate around your system.
+You can run `pwd` to get your bearings and see what directory you're in. Then run `ls` to see what files/directories are in the current working directory. Then `cd` into the directory you want to. 
+Let's say I want to put the files for this demo in a `~/tuas/unix_workshop` folder.
+I'm going to assume you're in your home directory by default. You can run `cd` on its own to return to your home directory.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-56-1>)cd
+
+```
+
+As mentioned, you can verify you're in your home directory by running the `pwd` command. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-57-1>)pwd
+
+```
+
+Output: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-58-1>)/home/atarbinian
+
+```
+
+That looks correct (for my user at least). Next we need to navigate to the folder we want (which is `~/tuas/unix_workshop`). The first part of the path after the home directory is the `tuas` directory. You might not have a `tuas` directory in your home directory, so we may need to create it. We can check if you have a `tuas` directory with the `ls` command. If you run `ls` and don't see a directory entry that says `tuas`, we have to create it. If you remember, we can create a directory with the `mkdir` command.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-59-1>)mkdirtuas
+
+```
+
+Now that the `tuas` directory exists, we can `cd` into it. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-60-1>)cdtuas
+
+```
+
+If you run `ls`, you shouldn't see any files (assuming you just ran `mkdir`). This makes sense since `mkdir` will create an empty directory. We also wanted a `unix_workshop` directory so let's also make that one. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-61-1>)mkdirunix_workshop
+
+```
+
+Now if you run `ls`, you should see `unix_workshop` as an entry. 
+Let's `cd` into `unix_workshop`. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-62-1>)cdunix_workshop
+
+```
+
+And viola! We have reached our destination. You can run `pwd` to verify this is true. 
+Note that you could have done this with two commands: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-63-1>)mkdir-p~/tuas/unix_workshop
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-63-2>)cd~/tuas/unix_workshop
+
+```
+
+When you pass the `-p` flag to `mkdir`, it will take a path and create any directories that don't exist within the path. The `cd` command will just place us directly in the directory we want to end up in.
+Now that we're in the `unix_workshop` folder, let's make some files. Let's open a new file in a terminal text editor. You can use either Nano or Vim. See their respective sections above for usage information. 
+Let's say we want to edit a new file called `date.txt`. To open a new file in either editor, use the following commands:
+For Vim: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-64-1>)vimdate.txt
+
+```
+
+For Nano: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-65-1>)nanodate.txt
+
+```
+
+Feel free to add any text you want (remember that you need to enter `INSERT` mode for Vim). Once you're done, save the file and quit from the editor.
+To save exit Vim type in `:wq`.
+For Nano, it's `Ctrl-O` then `Ctrl-X`.
+Now let's edit a new file. This time let's make a `Makefile`. As mentioned above, this is what controls the behavior of `make` and allows you to define custom `make` targets.
+So, open the editor of your choice and create a new file called `Makefile`.
+Inside the Makefile, write this: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-66-1>)run:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-66-2>)echo"Hello it is: `date`">>date.txt
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-66-3>)catdate.txt
+
+```
+
+Here we're defining a new `make` target called `run`. As mentioned in the `make` section, the commands inside a target are indented from the target name. This `run` target has two commands that are executed when the target is run.
+It's not essential to know what this target is doing, but we'll quickly explain it. The `echo` command is writing some text to the `date.txt` file. The two angle brackets (`>>`) signs mean that whatever text `echo` outputs will be added onto the end of a file (in this case `date.txt`). The echo command also has these backticks around the word date. This means that the output of the command will be placed in its spot. `date` is a command that will output the current date and time. So the echo will output "Hello it is: " with the current date at the end. The `cat` command will just output the contents of the `date.txt` file to the screen.
+Once you've written this text, we can save and close the file. 
+Now let's execute the command. If you remember, to run a make target the command looks like `make <target_name>`.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-67-1>)makerun
+
+```
+
+You should see the contents of the file be outputted to your terminal. 
+Run the `make` target again and see how the contents of the file have changed.
+Great! We've created a `make` target and successfully ran it. Now let's do some cleanup.
+Let's remove the `unix_workshop` directory that we created.
+First, let's `cd` out of the `unix_workshop` directory to the parent directory.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-68-1>)cd..
+
+```
+
+Run `ls` to verify that you see `unix_workshop` listed. If so, then we can remove it. Recall that we can use the `rm` command to remove files and directories. We need to pass in the `-r` flag to recursively delete directories and what's inside them. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#__codelineno-69-1>)rm-runix_workshop
+
+```
+
+Awesome! We've completed the demo. Hopefully you have some more familiarity when it comes to working with the command line.
+August 1, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/01_unix_basics/<https:/facebook.com/tritonuas> "facebook.com")

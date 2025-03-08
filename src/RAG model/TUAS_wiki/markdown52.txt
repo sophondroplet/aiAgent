@@ -1,0 +1,162 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/#todo-document-all-http-routes-the-backend-should-handle>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Endpoints 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+# **TODO** : Document all HTTP routes the backend should handle
+June 9, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/software/gcs/backend/backend_endpoints/<https:/facebook.com/tritonuas> "facebook.com")

@@ -1,0 +1,750 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#how-to-contribute>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+How to Contribute 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/software_home/>)
+    * How to Contribute  [ How to Contribute  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/>) Table of contents 
+      * [ 1. First Time Introduction  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#1-first-time-introduction>)
+        * [ 1.1 Important Setup  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#11-important-setup>)
+          * [ Windows  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#windows>)
+          * [ MacOS  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#macos>)
+          * [ Linux  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#linux>)
+        * [ 1.2 Creating a Github Account and Joining the TUAS Organization  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#12-creating-a-github-account-and-joining-the-tuas-organization>)
+        * [ 1.3 Setting up an SSH Key  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#13-setting-up-an-ssh-key>)
+          * [ 1.3.1 Generating a New SSH Key  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#131-generating-a-new-ssh-key>)
+          * [ 1.3.2 Getting the Public Key  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#132-getting-the-public-key>)
+          * [ 1.3.3 Uploading the Public Key to GitHub  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#133-uploading-the-public-key-to-github>)
+        * [ 1.4 Cloning a Repository  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#14-cloning-a-repository>)
+      * [ 2. Git Workflow and Etiquette  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#2-git-workflow-and-etiquette>)
+        * [ 2.1 Issues  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#21-issues>)
+        * [ 2.2 Branches  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#22-branches>)
+          * [ 2.2.1 Creating a Branch For a New Issue  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#221-creating-a-branch-for-a-new-issue>)
+        * [ 2.3 How to Use Git to Track Changes  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#23-how-to-use-git-to-track-changes>)
+          * [ 2.3.1 Git vs Github  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#231-git-vs-github>)
+          * [ 2.3.2 Adding Files to the Staging Area  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#232-adding-files-to-the-staging-area>)
+          * [ 2.3.3 Commiting Changes  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#233-commiting-changes>)
+          * [ 2.3.4 (Sidenote) Rebasing  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#234-sidenote-rebasing>)
+          * [ 2.3.5 Pushing Changes to Github  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#235-pushing-changes-to-github>)
+        * [ 2.4 Pull Requests  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#24-pull-requests>)
+          * [ 2.4.1 Creating a Pull Request  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#241-creating-a-pull-request>)
+        * [ 2.5 Code Reviews  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#25-code-reviews>)
+          * [ 2.5.1 Code Review Process  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#251-code-review-process>)
+          * [ 2.5.2 Guide for Reviewers  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#252-guide-for-reviewers>)
+            * [ What to Look For  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#what-to-look-for>)
+            * [ How to Review  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#how-to-review>)
+            * [ Best Practices  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#best-practices>)
+          * [ 2.5.3 Guide for Reviewees  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#253-guide-for-reviewees>)
+            * [ Responding to Review  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#responding-to-review>)
+          * [ 2.5.4 In Person Code Review  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#254-in-person-code-review>)
+        * [ Conclusion  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#conclusion>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ 1. First Time Introduction  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#1-first-time-introduction>)
+    * [ 1.1 Important Setup  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#11-important-setup>)
+      * [ Windows  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#windows>)
+      * [ MacOS  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#macos>)
+      * [ Linux  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#linux>)
+    * [ 1.2 Creating a Github Account and Joining the TUAS Organization  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#12-creating-a-github-account-and-joining-the-tuas-organization>)
+    * [ 1.3 Setting up an SSH Key  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#13-setting-up-an-ssh-key>)
+      * [ 1.3.1 Generating a New SSH Key  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#131-generating-a-new-ssh-key>)
+      * [ 1.3.2 Getting the Public Key  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#132-getting-the-public-key>)
+      * [ 1.3.3 Uploading the Public Key to GitHub  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#133-uploading-the-public-key-to-github>)
+    * [ 1.4 Cloning a Repository  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#14-cloning-a-repository>)
+  * [ 2. Git Workflow and Etiquette  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#2-git-workflow-and-etiquette>)
+    * [ 2.1 Issues  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#21-issues>)
+    * [ 2.2 Branches  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#22-branches>)
+      * [ 2.2.1 Creating a Branch For a New Issue  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#221-creating-a-branch-for-a-new-issue>)
+    * [ 2.3 How to Use Git to Track Changes  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#23-how-to-use-git-to-track-changes>)
+      * [ 2.3.1 Git vs Github  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#231-git-vs-github>)
+      * [ 2.3.2 Adding Files to the Staging Area  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#232-adding-files-to-the-staging-area>)
+      * [ 2.3.3 Commiting Changes  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#233-commiting-changes>)
+      * [ 2.3.4 (Sidenote) Rebasing  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#234-sidenote-rebasing>)
+      * [ 2.3.5 Pushing Changes to Github  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#235-pushing-changes-to-github>)
+    * [ 2.4 Pull Requests  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#24-pull-requests>)
+      * [ 2.4.1 Creating a Pull Request  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#241-creating-a-pull-request>)
+    * [ 2.5 Code Reviews  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#25-code-reviews>)
+      * [ 2.5.1 Code Review Process  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#251-code-review-process>)
+      * [ 2.5.2 Guide for Reviewers  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#252-guide-for-reviewers>)
+        * [ What to Look For  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#what-to-look-for>)
+        * [ How to Review  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#how-to-review>)
+        * [ Best Practices  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#best-practices>)
+      * [ 2.5.3 Guide for Reviewees  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#253-guide-for-reviewees>)
+        * [ Responding to Review  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#responding-to-review>)
+      * [ 2.5.4 In Person Code Review  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#254-in-person-code-review>)
+    * [ Conclusion  ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#conclusion>)
+
+
+# How to Contribute
+## 1. First Time Introduction
+### 1.1 Important Setup
+This document is intended to be a guide for new members of the TritonUAS Software Team. If you are a new member, you should read section in its entirety before starting to work on any software tasks.
+We are assuming that every new member is either using Windows, MacOS, or Linux. However, we require all of our members to set up a Unix based environment, which will require extra steps if your main operating system is Windows. Depending on what you use, skip to the corresponding section.
+#### Windows
+If you are using Windows, then you have three main options.
+  1. Dual Boot a Linux Distribution (likely Ubuntu, if this is your first time with Linux)
+     * This is what the Software Leads currently have set up, and is the easiest to deal with once it is set up.
+     * However, the setting up part is the most difficult and you may run into issues if this is your first time.
+     * If you are interested in this option, you can message a Software Lead (Christopher of Kaz) on Discord for help.
+  2. Use the Windows Subsystem for Linux (WSL)
+     * This is actually very easy to set up, and is what we recommend if you are not comfortable with dual booting.
+     * However, you may run into some issues if you are on a project that uses Docker because the way Docker handles networking is annoyingly different between WSL and a native Linux environment.
+     * To set up WSL, you can follow the guide [here](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/docs.microsoft.com/en-us/windows/wsl/install-win10>)
+  3. You might be able to get away with using Powershell and Git Bash, but we haven't actually tried this so you may run into some issues.
+
+
+To start, we would recommend setting up WSL. This has probably the best trade off between ease of setup and ease of use, at least while you are getting started. If you run into issues, you can always switch to dual booting later if that is something that you are interested in.
+#### MacOS
+If you are using MacOS, as long as you have homebrew you should be fine. To install homebrew, follow the guide [here](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/brew.sh/>)
+#### Linux
+If you already are using Linux, you're fine.
+### 1.2 Creating a Github Account and Joining the TUAS Organization
+If you do not already have a GitHub account, you can create one [here](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/join>).
+Once you have created an account, you will need to join the TritonUAS organization. To do this you should message a Software Lead (Tyler Lentz or Anthony Tarbinian) on Discord to receive an invite.
+### 1.3 Setting up an SSH Key
+To start, let's let GitHub Copilot explain what an SSH key is and why we have to set one up:
+An SSH key is a way to authenticate yourself with GitHub without having to enter your username and password every time you want to push or pull code. This is important because it allows you to use Git without having to enter your password every time, which is annoying and also insecure.
+Essentially, we are going to generate a public/private key pair. The public key will be stored on GitHub, and the private key will be stored on your computer. When you try to push or pull code, GitHub will send a challenge to your computer. Your computer will then use the private key to sign the challenge and send it back to GitHub. GitHub will then use the public key to verify that the challenge was signed by the private key, and if it was then it will allow you to push or pull code.
+#### 1.3.1 Generating a New SSH Key
+To start, enter the following command into the terminal of your choice. If you are using Powershell, then I believe these steps should be basically identical, but I have not tested it.
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-0-1>)ssh-keygen
+
+```
+
+After entering this, you should press enter to select the default options. This will store the public key in the default location, which is `~/.ssh/id_rsa.pub`. If you want to store it somewhere else, you can enter a different path here, but we would recommend just using the default.
+It will then ask you to enter a passphrase. This is optional, but we would recommend not entering one. This does add an extra layer of security, but it will also require you to enter the passphrase every time you push or pull code, which can be annoying. Since we aren't publishing sensitive code we don't think this is necessary, but you can decide for yourself.
+#### 1.3.2 Getting the Public Key
+Assuming you used the default path, you can get the public key by entering the following command into your terminal:
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-1-1>)cat~/.ssh/id_rsa.pub
+
+```
+
+This will output the public key into your terminal, which you will then need to copy to your clipboard. It is important to note that when you are in a terminal, `Control-C` does not copy selected text to your clipboard. Instead, it sends a signal to the program that is currently running in the terminal to stop. To copy text to your clipboard, you will need to use `Control-Shift-C` or `Cmd-C` on macOS.
+If you did not save the public key to the default location, you will need to enter the path that you used instead.
+#### 1.3.3 Uploading the Public Key to GitHub
+Now that you have the public key, you will need to upload it to GitHub. To do this, go to your GitHub profile and click on the dropdown menu in the top right corner. Then, click on `Settings`. Then, find the tab on the left side that says `SSH and GPG Keys`. Then, click on `New SSH Key` and paste the public key into the box. You can name the key whatever you want. Then, click `Add SSH Key`.
+From your current machine, you will now be able to clone and push to any repository that you have access to without having to enter your username and password in the terminal, as long as you choose the SSH option from Github.
+### 1.4 Cloning a Repository
+To start, you will need to clone the repository that you want to work on. To do this, you will need to find the repository on GitHub.
+For a quick recap, here are the main repositories that the Software team works on:
+  1. [gcs](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas/gcs>)
+  2. [obcpp](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas/obcpp>)
+  3. [not-stolen-israeli-code](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas/not-stolen-israeli-code>)
+  4. [will-it-blend](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas/will-it-blend>)
+  5. [localization](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas/localization>)
+  6. [garretts-new-lunchbox](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas/garretts-new-lunchbox>)
+
+
+Once you have the repo you want to clone, click on the green `Code` button. Then, click on the `SSH` tab and copy the link.
+Now, you have to decide where in your filesystem you want to store the repository. We would recommend creating a folder called `tritonuas` in your home directory, and then cloning all TUAS repositories into that directory. To do this, you can enter the following command into your terminal:
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-2-1>)cd//gotohomedirectory
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-2-2>)mkdirtritonuas//createtritonuasdirectory
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-2-3>)cdtritonuas//gototritonuasdirectory
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-2-4>)gitclone<link>//clonerepositoryyoucopiedthelinkofearlier
+
+```
+
+Now, you should be inside of your `tritonuas` directory and you should have a folder for the repository you just cloned. You can now enter that directory and start working on the repository by typing `cd <repo-name>`.
+## 2. Git Workflow and Etiquette
+In any company or organization, there are certain standards and practices that are expected of you. This is especially true in software development, where you are working with other people's code and you need to make sure that you don't break anything. In this section, we will go over the standards and practices that we expect you to follow when working on a TUAS repository.
+Now, you may be thinking that this is a lot of work and that it is unnecessary. However, we can assure you that it is not. In fact, following these standards and practices will make your life easier. It will make it easier for you to work with other people's code, and it will make it easier for other people to work with your code. It will also make it easier for you to keep track of what you have done and why you have done it.
+So, now is probably the time for me to mention that the above two paragraphs were written by GitHub Copilot. They are not my words, but I think they are a good introduction to what is expected in industry and more serious environments. However, we want to emphasize that this club, while competitive, is first and foremost an opportunity to learn. We want to make sure that you are learning and having fun, and we don't want to make you feel like you are working a job. So, while we do expect you to follow these standards and practices, we don't expect you to follow them perfectly. If you make a mistake, we will let you know and we will help you fix it. We will not get mad at you or punish you for making a mistake. We want you to learn from your mistakes, and we want you to have fun while doing it.
+And that was Copilot talking again for the second half the previous paragraph. Scary, but it basically said what I was going to in twice as many words, and it does highlight another point for our club. This isn't a class, and we don't impose anything like academic integrity that you would find in a school setting. We expect everyone in the club to turn to the internet and other members for help, and anyone who wants to use AI tools is free to do so. However, we do expect the base amount of responsibility. For example, you should read over any code you find online before throwing it into the codebase, and you shouldn't copy code from sources that have licenses that don't allow it.
+With that out of the way, let's go into the practices expected of TUAS software members.
+### 2.1 Issues
+All of the Software related "Tasks" will be posted as issues on our GitHub. There are two kinds of issues. First, there are issues that are directly tied to a repository. These can be found under the issues tab on any given repository. The second are organizational level issues. These are basically any tasks that aren't tied to any specific repository. These can be found under the [Tritonuas Github Organization's "Project" tab](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/orgs/tritonuas/projects>).
+When a member is read to begin contributing to a project, they can visit the repository for that project and begin browsing the issues. If it is a user's first issue, we would recommend first reading the list over, then talking to one of the Software Leads before deciding on one. However, more experienced members are free to self-assign themselves to an issue and begin working on it.
+Let's trace this process in its entirety so it is clear what is expected of members when using Git.
+### 2.2 Branches
+By this point, a member has identified an issue they would like to work on. Let's assume you are working in the `foo` repository. There are two separate cases:
+  1. There are already members working on the issue.
+  2. You are the first member to work on the issue.
+
+
+Let's tackle the second case first, then explain how a new member would become integrated into the task.
+#### 2.2.1 Creating a Branch For a New Issue
+For most issues, it will make sense to create a new branch based off of the `main` (or `master`) branch. To do this, you can enter the following command into your terminal:
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-3-1>)gitcheckoutmain//ensureyouareinthemainbranch
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-3-2>)gitpull//pullanychangesthathavebeenmadetothemainbranch
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-3-3>)gitcheckout-b<tag>/<issue-name>//createanewbranchwithappropriatenameandcheckouttoit
+
+```
+
+You might notice that the branch name is split between a tag and the issue name. There are three possible tags that you should use for TUAS. They are:
+  1. `feat` for issues tagged as "Features"
+     * This is probably the most common tag, as most issues will be tagged as "Features"
+  2. `refactor` for issues tagged as "Refactor"
+     * This is mainly reserved for major refactorings, but there might be smaller refactorings that also apply
+  3. `bug` for issues tagged as "Bug Fixes"
+  4. `doc` for issues tagged as "Documentation"
+  5. `chore` for issues tagged as "Chore".
+     * Generally, this refers to maintenance work that doesn't fall under the other three categories.
+  6. `dev/{name}` if you are branching off of another branch that is not `main`.
+     * We will elaborate on this a little later, under the section on Pull Requests.
+
+
+The name of the actual issue might be long, so it makes sense to shorten it for the branch name. For example, if you were working on an issue with the name `Add Vim Keybindings to Frontend Text Input`, you might shorten it to `add-vim-keybindings`. So, the full branch name would be `feat/add-vim-keybindings`.
+### 2.3 How to Use Git to Track Changes
+Now, that you are inside of your newly created branch, you can begin coding. It is important to note for new users of Git that all of the changes you make at this point, up until you run the `git push` command, are only stored locally.
+#### 2.3.1 Git vs Github
+**This is an important distinction to make.** Git and Github, while similar, are actually two separate things. Git was created in 2005, while Github was created in 2008. In short, Git is a version control program that runs locally on your computer, while Github is a remote hosting service for Git repositories without even touching Github, you can go into any directory on your computer and run
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-4-1>)gitinit
+
+```
+
+and you will have created a local Git repository. There are two easy ways to tell if a directory is a local git repository.
+  1. There will be a hidden `.git` subdirectory in the directory. If you run `ls -a` in the directory, you will be able to see hidden files and subdirectories. This is the directory that is created when you run `git init` and is what makes a directory a git repository.
+  2. You can run `git status` and depending on the output you will be able to tell if the current directory or some parent directory is a git repository based on the output. If you are in a repository, then `git status` will list out all of the changed files in the repository. If you are not in a repository, then `git status` will give you an error saying that you are not in a repository.
+
+
+After having run `git init`, you can use Git to keep track of your version history and manage everything locally. You can commit changes, make branches, and do everything short of pushing your changes to a remote server.
+This is where Github comes in, however, and it provides three main benefits:
+  1. It is nice to have a remote backup of your code. If your hard drive/SSD dies, you have all of your code and changes backed up on Github
+  2. When collaborating, it is basically necessary to have a central remote repository that everyone can push to and pull from. This is the main service that Github provides, and it generally does it very well.
+  3. Github provides a nice interface for issues and pull requests, which are not a part of Git itself but rather a way of organizing and managing the process of using Git.
+
+
+To connect a local Git repository to a remote Github repository, you use the following command:
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-5-1>)gitremoteaddoriginhttps://github.com/OWNER/REPOSITORY.git
+
+```
+
+Don't worry about this previous command too much if you are new, however, because when you run `git clone <repo-link>` it will automatically set up the remote for you.
+To summarize this section, Git and Github are two different things. Git is the program that runs locally on your computer, while Github is a website that provides a remote hosting service for Git repositories. Until you run `git push`, none of the changes you make locally will be reflected in the remote repository on Github.
+#### 2.3.2 Adding Files to the Staging Area
+Once you have made some changes, you will want to commit them. Generally, you should commit relatively often, trying to package commits into logical units.
+After you have made some changes to your local repository, you can run the following command to see what files have been changed:
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-1>)tyler:wiki$gitstatus
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-2>)Onbranchsoftware-home-rewrite
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-3>)Yourbranchisuptodatewith'origin/software-home-rewrite'.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-4>)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-5>)Changesnotstagedforcommit:
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-6>)(use"git add <file>..."toupdatewhatwillbecommitted)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-7>)(use"git restore <file>..."todiscardchangesinworkingdirectory)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-8>)modified:docs/software/misc/how_to_contribute.md
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-9>)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-10>)nochangesaddedtocommit(use"git add"and/or"git commit -a")
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-6-11>)tyler:wiki$
+
+```
+
+As you can see, I have made some changes to the file `docs/software/misc/how_to_contribute.md`. If I had edited more files, those would also show up here. And if I had created/deleted any files/directories, those would show up here as well.
+To tell Git that I want to commit these changes, first you have to add the files to the staging area with the following command.
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-7-1>)gitadd-A
+
+```
+
+This command tells Git that I want to add all of the changes I have made to the staging area. The staging area is a place where you can add changes that you want to commit. You are essentially telling Git that these are files that you want to save changes to the next time you commit.
+You can add changes to the staging area one at a time, or you can add all of them at once. The `-A` flag tells Git that I want to add all of the changes I have made to the staging area. Another similar formulation of this command, and the one my muscle memory is used to doing, looks like this
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-8-1>)gitadd.
+
+```
+
+The `.` is a shorthand for the current directory, so this command is equivalent to `git add -A`, assuming that the current directory is the root of the repository.
+Also, it is important to note that you do not always want to run `git add .` or `git add -A`. Sometimes, you only want to add certain files to the staging area. For example, if you have made changes to two files, but only want to commit one of them, you can run `git add <file>` to add only that file to the staging area. And a more common scenario is that there are binary files that you do not want to commit. When I say binary files, I am referring to files like images, videos, and executables. These files are not human-readable, and the way git stores changes to files is very inneficient for these kinds of files, so we do not want to commit them.
+(Furthermore, commonly executable files are operating system specific, so if you are working on a Mac and commit an executable, it might not work on a Linux or Windows machine. This is why Git repositories you find online will often have a `Makefile` or `build.sh` file that you can run to build the executable yourself specific to your machine.)
+Generally, if a project has binary files, there will be a `.gitignore` file in the root of the repository that lists out all of the files that should not be committed. However, sometimes a certain file type may be missing so it is important to check to make sure you are not committing anything you do not intend to.
+In this case, another common scenario is that you have a large number of files you actually want to commit, and a small number of binary files you want to exclude. In this case, it would be very annoying to manually list out all of the files you want to actually add. So instead, you can run `git add -A` to add all of the changes to the staging area, and then run `git restore --staged <file_1> <file_2> ... <file_n>` to remove the binary files from the staging area. This will leave you with only the files you want to commit in the staging area.
+#### 2.3.3 Commiting Changes
+Now that you have added files to the staging area, you are ready to actually commit changes to your local repository
+The standard way to do this is by running the following command.
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-9-1>)gitcommit
+
+```
+
+This will open up a text editor where you can write the commit message. I believe by default MacOS will use Vim, while Ubuntu will use Nano. If you are on Mac and are not familiar with vim keybinds, you might want to switch to nano or another editor, while if you are on Ubuntu you might want to switch to vim. You can do this by running the following command
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-10-1>)gitconfig--globalcore.editor"EDITOR_NAME"
+
+```
+
+where `EDITOR_NAME` is `vim`, `nano`, or some other editor. For operating systems other than Ubuntu or Mac, I'm unsure what the defaults are, but you can decide for yourself if you want to switch.
+Once you have the editor open, it will look something like this. Note: I have manually inserted everything with <> to describe what is actually there.
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-1>)<empty-line>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-2>)# Please enter the commit message for your changes. Lines starting
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-3>)# with '#' will be ignored, and an empty message aborts the commit.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-4>)#
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-5>)# On branch software-home-rewrite
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-6>)# Your branch is up to date with 'origin/software-home-rewrite'.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-7>)#
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-8>)# Changes to be committed:
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-11-9>)#  modified:  docs/software/misc/how_to_contribute.md
+
+```
+
+To write the commit message, you should follow the following format.
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-1>)<commit-title>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-2>)<empty-line>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-3>)<commit-description>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-4>)# Please enter the commit message for your changes. Lines starting
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-5>)# with '#' will be ignored, and an empty message aborts the commit.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-6>)#
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-7>)# On branch software-home-rewrite
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-8>)# Your branch is up to date with 'origin/software-home-rewrite'.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-9>)#
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-10>)# Changes to be committed:
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-12-11>)#  modified:  docs/software/misc/how_to_contribute.md
+
+```
+
+The `<commit-title>` should be a short, one-line description of the changes you are making, and it should be 50 characters or less. If your editor has syntax highlighting for editing commit messages, these first 50 characters will probably be highlighted differently than anything that extends beyond the first 50 characters. This is a good way to check that you are following the convention.
+Another convention that people like to follow is to make sure your `<commit-title>` is in the present imperative tense. A good way to check for this is to see if your title still reads properly if you preface it with "If applied, my commit will".
+After the `<commit-title>`, you have to include a blank line before you have the `<commit-description>`. Another convention is to limit this to 72 characters, but it can technically be as long as you want. The `<commit-description>` should be a more detailed description of the changes you are making. This is where you can explain why you are making the changes, and what the changes are.
+It is important to note that everything I described above is just a convention, and not one that we are particularly strict in following at TUAS. We are more concered with making sure our branch names follow the strict convention than commit messages.
+**Nevertheless, the one thing about commit messages we strongly, strongly recommend following is to make sure that your commit messages are descriptive.** The guidelines for the title and description are just a good way to make sure that this is true, and would probably be expected of you at a company. But just to reiterate again, for TUAS as long as your commit messages are descriptive, we are happy. If you write a commit message that isn't descriptive we won't really get mad, but we'll probably just note it in code review for the future.
+And, to be clear, you definitely can search my commit history and find some silly commit messages, so I'm not trying to be a hypocrite here. It's hard to always be strict with this stuff, so just try your best.
+After you have written your commit message, you can save and exit the editor to finalize your local commit. In vim, you can do this by pressing `esc` and then typing `:wq` and pressing enter. In nano, you can do this by pressing `ctrl + x` and then typing `y` and pressing enter.
+If you change your mind about making the commit you can exit the editor without saving by pressing `esc` and then `:q!` in vim or `ctrl + x` followed by `n` in nano.
+Before this section is over, there are some other notes about commit messages that are worth mentioning.
+A common shorthand for making commits is the following command
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-13-1>)gitcommit-m"<commit-title>"
+
+```
+
+This is very convenient for commits that can be expressed with just the title. And, if you would like to also include a description, you can do so by running the following command.
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-14-1>)gitcommit-m"<commit-title>"-m"<commit-description>"
+
+```
+
+This is a very nice shortcut, and is what most people do, but it does make it harder to notice if you are going over 50 characters in the title, or include other information like what I'll mention in the next paragraph. But, since we don't police this stuff, it's totally fine.
+And one final thing about commit messages that is useful to know is how to include information about co-authors for commits. This is useful if you are pair programming with another person on one laptop, and want to make sure that they get credit for the commit as well. To do this, you can follow the following format
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-15-1>)<commit-title>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-15-2>)<empty-line>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-15-3>)<commit-description>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-15-4>)<empty-line>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-15-5>)<empty-line>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-15-6>)Co-authored-by: <co-author-name> <co-author-email>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-15-7>)# <auto-inserted comments here...>
+
+```
+
+The main things to note here are that you need two empty lines between the `<commit-description>`, and that the name and email should match the co-author's Github account. If you are unsure what the email is, you can check their Github profile. And if you want to include more co-authors, you can duplicate the line as many times as needed, switching out the names and the emails.
+At this point, we have covered how to commit your changes locally, but we still need to cover how to push and pull to/from Github. Before we go over that, however, there is one more thing that is useful to know is possible with commits.
+#### 2.3.4 (Sidenote) Rebasing
+Often times while you are coding it can be hard to try and group your commits into logical units, as you are working your way through a problem and might not have a clear idea of the largest picture. In this case, you may end up with many more commits than needed, and most times the commit messages aren't very useful. Fortunately, there is a way to fix this: rebasing.
+Essentially, rebasing in git is a way to rewrite your git history. This is useful for a number of reasons, but the main one is that it allows you to combine commits together, and rewrite the commit messages. This is useful if you have a bunch of commits that are all related to the same thing, and you want to combine them into one commit with a descriptive message.
+It is important to note, however, that it is generally not a good idea to rebase commits that have already been pushed to the remote if other people have already pulled down the changes. This can cause discrepencies between different people's local repositories, and can cause a lot of headaches. So, if you are going to rebase, make sure that you do it before you push your changes to the remote, or that you are the only one working on the branch.
+To rebase, you can run the following command
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-16-1>)gitrebase-i
+
+```
+
+This will make your terminal look something like the following
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-1>)pick a9c2eb4 Add more information about commit process
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-2>)pick 1a8a02c temp commit
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-3>)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-4>)# Rebase b4b8543..1a8a02c onto b4b8543 (2 commands)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-5>)#
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-6>)# Commands:
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-7>)# p, pick <commit> = use commit
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-8>)# r, reword <commit> = use commit, but edit the commit message
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-9>)# e, edit <commit> = use commit, but stop for amending
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-10>)# s, squash <commit> = use commit, but meld into previous commit
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-11>)# f, fixup [-C | -c] <commit> = like "squash" but keep only the previous
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-12>)#          commit's log message, unless -C is used, in which case
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-13>)#          keep only this commit's message; -c is same as -C but
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-14>)#          opens the editor
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-15>)# x, exec <command> = run command (the rest of the line) using shell
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-16>)# b, break = stop here (continue rebase later with 'git rebase --continue')
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-17>)# d, drop <commit> = remove commit
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-18>)# l, label <label> = label current HEAD with a name
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-19>)# t, reset <label> = reset HEAD to a label
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-20>)# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-21>)# .    create a merge commit using the original merge commit's
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-22>)# .    message (or the oneline, if no original merge commit was
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-23>)# .    specified); use -c <commit> to reword the commit message
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-24>)#
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-25>)# These lines can be re-ordered; they are executed from top to bottom.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-26>)#
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-27>)# If you remove a line here THAT COMMIT WILL BE LOST.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-28>)#
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-17-29>)# However, if you remove everything, the rebase will be aborted.
+
+```
+
+The large comment explains most of the process, but I'll summarize the main points here in the context of squashing multiple commits and changing their messages. If I wanted to combine the two commits listed above, I would change the file to look like the following
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-18-1>)pick a9c2eb4 Add more information about commit process
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-18-2>)squash 1a8a02c temp commit
+
+```
+
+This would update my local commit history to be as if I had only ever made one commit with the changes found in both of those commits. You could also have used the reword command to change a commit message if you wanted to.
+With this, we have covered the basics of rebasing. Here we really only focused on squashing commits, but there are a lot of other things you can do with rebasing, including some more complicated ways to resolve merge conflicts and merge branches without leaving complicated git histories. Some of these things are cool to know, but to get 99% out of git you really don't need to understand the full complexities of rebasing.
+#### 2.3.5 Pushing Changes to Github
+Once you have made one or more local commits and are ready to push them to Github for others to view, or just to have a remote backup, you can run the following command
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-19-1>)gitpush
+
+```
+
+If this is a local branch that has never been pushed to the remote before, you will receive the following error message
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-20-1>)fatal: The current branch <branch-name> has no upstream branch.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-20-2>)To push the current branch and set the remote as upstream, use
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-20-3>)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-20-4>)git push --set-upstream origin <branch-name>
+
+```
+
+As the message suggests, you should run the following command
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-21-1>)gitpush--set-upstreamorigin<branch-name>
+
+```
+
+This will push your local branch to the remote, and set the remote branch as the upstream branch for your local branch. This means that in the future, when you are on your local branch and run `git push`, it will push to the remote branch that you just created.
+If you were working on a branch that already existed on the remote repository, then it is possible that between the time you cloned/pulled the branch and the time you pushed your changes, someone else pushed changes to the remote branch. In this case, you will receive an error message saying that you need to pull the changes before you can push your changes. To do this, make sure all of your changes have been saved in local commits, and then run the following command
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-22-1>)gitpull
+
+```
+
+This command will pull any changes that have happened upstream on your current local branch, assuming the upstream has already been set via you manually typing the command line above or if you pulled a branch earlier. If there are any merge conflicts, you will have to resolve them before you can push your changes. If you are lucky, then Git will be able to automatically resolve them and you won't have to do anything. But, if Git is unable to automatically resolve them (like if you and another person edited the same line of code) then you will have to manually tell Git how to resolve them. We will talk about merge conflicts at the end of the next section on Pull Requests.
+At this point, you already know basically all of the command line commands that you need to use Git. In order, these are
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-1>)gitclone<repo-link>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-2>)gitcheckout-b<new-branch-name>ORgitcheckout<existing-branch-name>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-3>)# make changes
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-4>)gitstatus# optional, but useful to know what files have been changed before running git add -A
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-5>)gitadd-AORgitadd<file_1><file_2>...<file_n>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-6>)gitcommit# or the shorthand git commit -m "<commit-title>" -m "<commit-description>"
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-7>)# once you are ready to push to remote
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-8>)gitpull# if someone else is working on the branch
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-9>)# resolve any merge conflicts
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-23-10>)gitpush--set-upstreamorigin<new-branch-name>ORgitpush
+
+```
+
+Some final notes about this process:
+  * You don't need to memorize the set upstream form of the git push command. You can just type `git push` and then copy and paste the command that Git suggests in the error message.
+  * Don't be afraid to spam `git status` as it does not change anything and only tells you information. I use it so often I have created an alias for it called `git st` that I use instead. You can create aliases for any git command by modifying the following structure:
+
+
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-24-1>)gitconfig--globalalias.ststatus
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-24-2>)gitconfig--globalalias.cocheckout
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-24-3>)gitconfig--globalalias.brbranch
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-24-4>)gitconfig--globalalias.cicommit
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-24-5>)gitconfig--globalalias.ststatus
+
+```
+
+These are the aliases suggested on the actual Git documentation, but you can change them as you like.
+  * The first time you try to make a commit on a new machine, you will have to set your name and email. You can do this by running the following commands
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-25-1>)gitconfig--globaluser.name"<name>"
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-25-2>)gitconfig--globaluser.email"<email>"
+
+```
+
+You should make sure that these are the same name and email that are associated with your Github account. If you are unsure what these are, you should be able to find them in your Github account settings.
+
+
+### 2.4 Pull Requests
+At this point we have covered everything up until the point where you have pushed your changes to the remote repository. Now, we will cover what happens after you have pushed your changes to the remote repository.
+#### 2.4.1 Creating a Pull Request
+The first time you make a push on a new branch to Github, you will be able to begin a pull request. On Github, there are two kinds of pull requests: Draft Pull Requests and Pull Requests. Draft Pull Requests are a way to signal to other people that you are working on a branch, but that you are not ready for it to be reviewed yet. Pull Requests, on the other hand, are for when the changes are finished and you are ready for other people to review them.
+The first time you attempt to push a new branch that you created locally, you will receive an error from Github that looks similar to the following
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-26-1>)fatal: The current branch <branch-name> has no upstream branch.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-26-2>)To push the current branch and set the remote as upstream, use
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-26-3>)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-26-4>)  git push --set-upstream origin <branch-name>
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-26-5>)
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-26-6>)To have this happen automatically for branches without a tracking
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-26-7>)upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+```
+
+To solve this, you can just copy paste the command they give (`git push --set-upstream origin <branch-name>`), and it will correctly push your code and create a new branch with the same name on the remote Github server. Once you have done this once, you can just run `git push` like normal for that branch.
+Once you have correctly pushed the branch to remote, you will receive output that looks similar to the following:
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-1>)Enumerating objects: 4, done.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-2>)Counting objects: 100% (4/4), done.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-3>)Delta compression using up to 8 threads
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-4>)Compressing objects: 100% (2/2), done.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-5>)Writing objects: 100% (3/3), 259 bytes | 129.00 KiB/s, done.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-6>)Total 3 (delta 1), reused 1 (delta 0), pack-reused 0
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-7>)remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-8>)remote: 
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-9>)remote: Create a pull request for 'test-branch' on GitHub by visiting:
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-10>)remote:   https://github.com/Tyler-Lentz/tyde/pull/new/test-branch
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-11>)remote: 
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-12>)To github.com:Tyler-Lentz/tyde.git
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-13>) * [new branch]   test-branch -> test-branch
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-27-14>)branch 'test-branch' set up to track 'origin/test-branch'.
+
+```
+
+As you can see, this is output I received when I pushed a new branch on my `tyde` repository. The important part of this output is the line that says
+```
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-28-1>)remote: Create a pull request for 'test-branch' on GitHub by visiting:
+[](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/how_to_contribute/#__codelineno-28-2>)remote:   https://github.com/Tyler-Lentz/tyde/pull/new/test-branch
+
+```
+
+You should be able to click on the link (in my terminal I have to Control+Click), and it will take you to the Github page for creating a new pull request. If you are unable to click on the link, you can copy and paste it into your browser. If you accidentally close out your terminal without clicking on the link, you should be able to visit the repository's page on Github, and there should be an option that prompts you to create a pull request for your new branch.
+When you create a pull request, you will be able to select whether you want to create a Draft Pull Request or a Pull Request. Usually, the first time you make a push you haven't finished with all of the changes, so you should select Draft Pull Request. However, if it is a small enough change, or if you have already finished all of the work locally, then you should select Pull Request.
+In the image below, you can see that the green option was already selected to "Draft Pull Request." If I wanted it to not be a Draft Pull Request, then I could click on the arrow and select Pull Request.
+![image of pull request screen](https://tritonuas.com/wiki/images/pr.png)
+When writing a pull request description, make sure it includes the following information:
+  1. A title that concisely describes the feature you are implementing.
+  2. A description that explains what the feature is, and how it integrates with the rest of the system.
+  3. A list of all of the issues that are related to the pull request. This is important because it allows Github to automatically close the issue when the pull request is merged. To link issues, just type "Closes #\" where \ is the issue number. For example, if I wanted to link to issue #1, I would type "Closes #1".
+  4. A description of how you tested the feature, and what you tested. This is important because it allows reviewers to know what to test when they are reviewing the pull request. Ideally this would always include unit tests.
+
+
+In addition, normally you will be merging your changes in the main branch, which is the default, but sometimes you want to be merging into a branch that is not main. This is most common when multiple people are working on the same `feature` branch, but are developing parts separately. You can see in the above picture that this is an option near the top.
+Earlier, I mentioned that one of the possible tags you could use when making a new branch was `dev`. The case where you would create a `dev` branch comes in when you are branching off of a `feat`, `bug`, or `doc` branch instead of `main`. The purpose of this kind of branch would be to separate your changes from another person's if you are both working on the same branch.
+For example, let's say that two people (Samir and Jerry) are both assigned to work on an Issue for the Ground Control Station called "Implement Map View of Plane." Either Samir or Jerry would first create the initial branch `feat/plane-map`. Then, once that branch was created and pushed to the Github with a Draft Pull Request, Samir and Jerry decide that Samir will work on the CSS and styling, while Jerry will work on the logic in interfacing with the leaflet library (A Javascript library that lets you easily put maps into your webpages). In this case, Samir would create a new branch off of `feat/plane-map` called `dev/plane-map/samir`, and Jerry would create a new branch off of `feat/plane-map` called `dev/plane-map/jerry`. Then, Samir and Jerry would both work on their respective branches, and when they are done they would create Pull Requests for their respective branches. The main difference with these `dev` branches, however, is that when setting up the Pull Request, the base would not be `main`, but `feat/plane-map`. This would allow the Pull Request to be merged into `feat/plane-map` instead of `main`.
+And to finish this example, once the `feat/plane-map` branch was finished, it would be changed from a Draft Pull Request to a Pull Request. At this point, Samir and Jerry would request reviewers for their change. This should always include both of the Software Leads, currently Tyler and Anthony, and anybody else who is familiar with the codebase and would be able to review the changes. Once the reviewers have approved the Pull Request, it can be merged into `main`.
+(An important side note: I did not mention any review process for merging dev branches into a feature branch during this example, but it is something that should still happen. I just did not want to complicate the example too much.)
+Next, we'll go into more detail about the process of reviewing Pull Requests, which is called code review.
+### 2.5 Code Reviews
+Code review is one of the most important things that happens in any software company/organization, so it is very important to understand how it works.
+The main goals of code review are to:
+  1. **Improve code health**. This includes making code more reusable, more maintainable, more readable while also enforcing style guidelines.
+  2. **Educate and mentor new members**. Receiving code review is a great way to learn about the codebase and the best practices of the organization, and just about programming in general.
+  3. **Share ownership and knowledge**. Having more people understand different parts of the codebase, the club becomes more resiliant to changes. This is why it is a good idea to have lots of people perform code review, and not just the leads.
+  4. **Reduce project risks**. By getting early feedback, we can solve problems and resolve design issues before they become too costly to fix.
+
+
+#### 2.5.1 Code Review Process
+The general code review process is as follows:
+  1. A pull request is marked as ready for review, and reviewers are requested.
+  2. Reviewers review the code, and leave comments on the pull request that request changes.
+  3. The author of the pull request responds to the comments, and makes changes to the code.
+  4. The reviewers review the changes, and either approve the pull request or request more changes.
+  5. Once the pull request is approved, it can be merged into the main branch, or whatever base branch it should be merged into.
+
+
+Now, it is important to note that this is the stereotypical code review process. Sometimes there won't be any changes requested, and so the PR can be marged in after one round of review. Other times, there will be a lot of changes requested, and it will take multiple rounds of review before the PR is ready to be merged. It varies a lot depending on the size of the PR, the experience of the author, and the experience of the reviewers.
+In addition, it is important to note a distinction between **blocking reviewers** and **non-blocking reviewers**.
+Blocking reviewers are reviewers who must approve the PR before it can be merged. This will always be the Software Leads.
+Nonblocking reviewers are reviewers who may have less knowledge about the part of the codebase they are reviewing, or that just are not leads. These reviewers can still request changes, but they do not need to approve the PR before it can be merged. This is a good way to get more people involved in the code review process, and to share knowledge about the codebase.
+**We strongly recommend requesting many nonblocking reviewers, and not just the leads. This will allow more people to understand the greater picture of the codebase, and it will provide the reviewee with more perspectives and ideas. Also, when you are ready for a PR to be reviewed the leads will help request appropriate nonblocking reviewers, so don't worry if you don't know who this should be.**
+#### 2.5.2 Guide for Reviewers
+##### What to Look For
+Here are some questions to ask yourself while reviewing someone's code.
+  1. Does the design make sense?
+  2. Does the code implement what the linked feature request/issue describes?
+  3. Is the code too complex? Can you think of ways to simplify it?
+  4. Are there sufficient comments and documentation? Are there too many comments such that they distract from the actual code?
+  5. Are there unit tests, or does the PR describe what tests the author has performed?
+
+
+##### How to Review
+I find that the best way to actually view changes in a PR is to click on the "Files Changed" tab in the Pull Request screen. This allows you to see all of the lines of code that have changed in the PR. From there, you can also expand out files if you want to see the surrounding context.
+To actually add comments, the best way once you are on the Files Changed page is to click on the line number where you want to add a comment. This will open up a comment box where you can type your comment. You can also highlight multiple lines of code and add a comment to all of them at once.
+Once you have written your comment, make sure to select "Start a Review" and not "Add Single Comment". This will let you submit all your comments at once at the end, which will save the author's email inbox from being spammed and allow you to make any changes if you noticed something later on.
+Once you are ready to submit your review, you can click on the "Finish your review" button at the top of the page. This will allow you to write one final comment summarizing your review, and it will let you either select "Comment," "Approve," or "Request Changes." Approve and Request Changes are pretty self-explanatory, but the case where you would only select Comment would most likely be when the PR isn't entirely finished and you are providing early review, or if you are a nonblocking reviewer and you don't feel comfortable approving the PR. (Also, it's totally fine for a nonblocking reviewer to approve a PR, so don't feel like you can't.)
+##### Best Practices
+When writing comments on somebody's PR, make sure to keep in mind that code review is a very vulnerable process. Nobody likes to have their code criticized, and it can be very easy to get defensive when somebody is criticizing your code. So, when you are writing comments, make sure to be as polite as possible. If you are unsure if a comment is too harsh, you can always ask somebody else to review your comments before you submit them.
+Some good techniques for making sure your review is polite are the following:
+  1. Use inclusive language like "we." For example, "I think _we_ could make this less confusing" sounds better than "I think _you_ could make this less confusing." This is because it makes it seem like you are working together to solve the problem, instead of just criticizing the author.
+  2. Preface smaller concerns with "NIT:" to clarify that what you are suggesting is a nitpick, and not something incredibly important. This allows you to point out all the small little things that might bother you without feeling like you are completely ragging on the author.
+  3. Phrase responses in the form of questions. For example, instead of saying "This is confusing" you could say "I'm confused by this. Could you clarify what you mean here?" This is a good way to make sure that you are not just criticizing the author, but that you are trying to understand what they are doing.
+  4. Another "magic" phrase to use is "I think." You might noticed that I already used this phrase in the first bullet point, and it is a great way to make sure that you are not stating your opinion as fact, and that you are open to the author disagreeing with you.
+
+
+And with that in mind, here are some examples of rude comments, and how you might go about making them more polite.
+  1. "This is way too complicated. You should simplify it." --> "I think this is a little complicated. Could we simplify it so that it is easier to understand?"
+  2. "I hate switch statements. Use if statements instead. They are way less error prone." --> "NIT: I think if statements might be easier to understand than switch statements, and it might lead to less errors in the future sinec we don't have to worry about fall-through logic. Do you think that would be better?"
+     * (**sidenote about this one** : for smaller things that come down to personal preference like an if statement vs. a switch statement, it is usually better to just let the author use what they prefer. But if you really think that something small like this would make a big difference, you can phrase it like I did above.)
+  3. "You need comments here" --> "I'm having trouble understanding the flow of execution here. Could you add some comments to clarify what is happening?"
+
+
+And one last note, when suggesting changes with larger scopes, you should try to help the author out by including resources that might help them or provide more context to what you are saying. That way, you are not off-handedly requesting that they spend X more hours working on their feature, but you are instead providing them with resources that will help them solve the problem faster. For example, someone wrote a piece of code that could be improved by using a library function, you could link them to the documentation to the library function. Or, if you think that the code could be improved by using a design pattern, you could link them to a blog post about the design pattern.
+#### 2.5.3 Guide for Reviewees
+When you are the one receiving code review, there are a few things you should keep in mind.
+  1. Make sure your PR description clarifies anything that a reviewer might find confusing.
+  2. Make sure you can compile and run your code before you request review.
+  3. Make sure you have unit tests, or at least a description of how you tested your code.
+  4. Make sure you run any linting or formatting tools described in the repository README on your code before you request review.
+
+
+##### Responding to Review
+When responding to any given comment, you have a few options.
+  1. You can make the change that the reviewer requested.
+  2. You can explain why you think the reviewer's suggestion might not be the best option.
+  3. You can ask the reviewer for more information about their suggestion.
+
+
+In any of these cases, you should always be polite and respectful. You can follow the same guidelines as in the above section on reviewers.
+#### 2.5.4 In Person Code Review
+It can also be very helpful for newer members, and even experienced ones, to receive feedback from a Lead or experienced member while in the same room. If you want someone to do this for you, please ask! The leads will be happy to help you out.
+One important note about this, however, is that you should still put your comments on the Github PR page as you are performing the in person review. This will create a record of the requested changes so that the person being reviewed doesn't need to remember everything you said. It will also allow other people to see the comments and learn from them.
+### Conclusion
+At this point, we want to emphasize that it's not expected for new members to comprehend everything after reading this page for the first time. We know that the information is quite dense, and that it takes lots of time to learn. We mainly introduce this up front to make sure everyone is aware that these things exist, and to provide a resource for people to refer back to when they have questions. To aid with that, there is also a reference sheet for Git [here](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/tritonuas.com/wiki/software/reference/git>) if you need to quickly look up a command. Please take advantage of it.
+If you have any questions or suggestions for how to improve this guide, please reach out to Tyler or Anthony. We are always looking for ways to improve our documentation, and we would love to hear your feedback.
+October 28, 2024
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/software/how_to_contribute/<https:/facebook.com/tritonuas> "facebook.com")

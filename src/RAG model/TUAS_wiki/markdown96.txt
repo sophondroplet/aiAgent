@@ -1,0 +1,497 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#http-and-rest>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+03. HTTP/REST 
+Type to start searching
+[ GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * 03. HTTP/REST  [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>) Table of contents 
+          * [ 1. HTTP  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#1-http>)
+            * [ 1.1 What is HTTP?  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#11-what-is-http>)
+            * [ 1.2 Client and Server  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#12-client-and-server>)
+            * [ 1.3 Introducing GET  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#13-introducing-get>)
+            * [ 1.4 Anatomy of an HTTP Request and Response  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#14-anatomy-of-an-http-request-and-response>)
+              * [ 1.4.1 HTTP Request Syntax  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#141-http-request-syntax>)
+              * [ 1.4.2 HTTP Response Syntax  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#142-http-response-syntax>)
+              * [ 1.4.3 Takeaways  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#143-takeaways>)
+            * [ 1.5 Other Methods  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#15-other-methods>)
+              * [ 1.5.1 Adding in POST  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#151-adding-in-post>)
+            * [ 1.6 The importance of Content-Type  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#16-the-importance-of-content-type>)
+            * [ 1.7 Query Parameters  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#17-query-parameters>)
+            * [ 1.8 Additional HTTP Methods  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#18-additional-http-methods>)
+              * [ 1.8.1 PUT (and PATCH)  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#181-put-and-patch>)
+              * [ 1.8.2 DELETE  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#182-delete>)
+              * [ 1.8.3 (A Quick explanation of REST and APIS before we go further)  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#183-a-quick-explanation-of-rest-and-apis-before-we-go-further>)
+              * [ 1.8.4 More HTTP Methods  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#184-more-http-methods>)
+          * [ 2. The Statelessness of HTTP  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#2-the-statelessness-of-http>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ 1. HTTP  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#1-http>)
+    * [ 1.1 What is HTTP?  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#11-what-is-http>)
+    * [ 1.2 Client and Server  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#12-client-and-server>)
+    * [ 1.3 Introducing GET  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#13-introducing-get>)
+    * [ 1.4 Anatomy of an HTTP Request and Response  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#14-anatomy-of-an-http-request-and-response>)
+      * [ 1.4.1 HTTP Request Syntax  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#141-http-request-syntax>)
+      * [ 1.4.2 HTTP Response Syntax  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#142-http-response-syntax>)
+      * [ 1.4.3 Takeaways  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#143-takeaways>)
+    * [ 1.5 Other Methods  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#15-other-methods>)
+      * [ 1.5.1 Adding in POST  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#151-adding-in-post>)
+    * [ 1.6 The importance of Content-Type  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#16-the-importance-of-content-type>)
+    * [ 1.7 Query Parameters  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#17-query-parameters>)
+    * [ 1.8 Additional HTTP Methods  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#18-additional-http-methods>)
+      * [ 1.8.1 PUT (and PATCH)  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#181-put-and-patch>)
+      * [ 1.8.2 DELETE  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#182-delete>)
+      * [ 1.8.3 (A Quick explanation of REST and APIS before we go further)  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#183-a-quick-explanation-of-rest-and-apis-before-we-go-further>)
+      * [ 1.8.4 More HTTP Methods  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#184-more-http-methods>)
+  * [ 2. The Statelessness of HTTP  ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#2-the-statelessness-of-http>)
+
+
+# HTTP and REST
+Web development is such a broad and rapidly-changing topic that it is impossible to fully understand every aspect of it, or account for every kind of browser or user that your application may have to serve. However, if you are able to understand the core technologies underneath the hood, then you can understand all of the fancy bells and whistles that get applied on top. One of these core things that is incredibly important to understand is HTTP, and a popular methodology for working with HTTP is REST. We'll start with talking about HTTP then move into what REST means and why it is important.
+## 1. HTTP
+### 1.1 What is HTTP?
+HTTP (Hypertext Transfer Protocol) is the most prevalent protocol for sending information across the internet. You've probably seen the `https://` prefix on URLs before, and every time you open a new webpage you are almost certainly sending 10s of HTTP requests without realizing. HTTP requests are sent when you fill out forms, navigate links, and probably even in some video games you have played.
+### 1.2 Client and Server
+When something makes an HTTP request, we call it the **client**. The thing that handles the HTTP request and returns a response we call the **server**.
+### 1.3 Introducing GET
+Now let's actually see an HTTP request in action. First, let's open a web browser and go to wikipedia.
+![Wikipedia](https://tritonuas.com/wiki/images/wikipedia.png)
+In this simple action, you've already made at least one HTTP request (in reality, many more). If you think about it at a high level, there are two main things that had to happen. You had to "get" the wikipedia homepage from their servers, and then your web browser had to display it.
+It's this first step that interests us right now: the act of "getting" the page.
+Like we said, HTTP is the main protocol for receiving and sending data on the internet, especially for websites. For a website, there are four main kinds of data needed: 1. HTML (to provide the structure of the website and say how it is logically laid out) 2. CSS (to provide an extra layer of styling ontop of the HTML to make it look nice) 3. JavaScript (to provide interactions and other effects) 4. Images/Videos/other content
+When you load a website, you have to get all of these things in order for it to display correctly. Without HTML, you wouldn't have anything. Without CSS, the website would have no styling and look like it was from the 90s. Without JavaScript, any special effects or interactions would stop working. And of course, without images or videos or other content you would be missing important information, or background images to make it look nice.
+The act of "getting" this data is done through an HTTP Request. At a high level, you can imagine it as a conversation between yourself, your web browser, and the website you're trying to load.
+  1. First, you enter `https://www.wikipedia.org` into the address bar.
+  2. Then, your web browser takes this and sends a GET request to the wikipedia domain at the root level (we'll talk about this later).
+  3. The wikipedia server receives your GET request at the root level `(https://www.wikipedia.org/)` and sends back the HTML document for the home page as an HTTP response.
+  4. Your web browser receives the HTML document and starts parsing it so it can be displayed. As it goes through the document, it will find references to oher pieces of content (CSS, JavaScript, images...) and make additional GET requests to get these things.
+  5. Eventually, the entire website will be loaded.
+
+
+Of course, this is an extremely high level description that only focuses on HTTP. There are a ton of other things going on in the background, not limited to DNS name resolution, the dirty details of TCP (another protocol working "underneath" HTTP), and other things necessary to get your request across the internet.
+### 1.4 Anatomy of an HTTP Request and Response
+Every HTTP request/response has three parts:
+  1. The Request/Response Line
+  2. The Headers
+  3. The Message Body (payload)
+
+
+If you can understand these three different parts of an HTTP request, there is basically nothing about HTTP (at least at a highish level) that should be a mystery to you.
+While there are many tools to create HTTP requests, and libraries to help you programatically generate them, at the end of the day an HTTP request is just [ASCII](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange#:~:text=ASCII%20\(American%20Standard%20Code%20for%20Information%20Interchange\)%20is%20the%20most,additional%20characters%20and%20control%20codes.>) text arranged in a specific format. Let's try to see this and the three different parts mentioned above by using the browser developer tools to see behind the scenes.
+First, open your web browser of choice.
+![The Google homepage](https://tritonuas.com/wiki/images/google.png)
+Next, open the developer console window. In Chrome, this can be done by pressing `Ctrl+Shift+J`, or you can right click and select inspect.
+![The developer console](https://tritonuas.com/wiki/images/google_f12.png)
+You'll see that this opened a new window on the right. At the top there are a number of tabs. The one we want to look at right is network, so select that tab.
+![The network tab](https://tritonuas.com/wiki/images/network.png)
+You'll see that there already are a number of things here. Each line is a different HTTP request that was made to load the webpage you are currently viewing. These are a little complicated, however, so we'll ignore them and make a new HTTP request. To do this, google search for anything.
+![The network tab after a google search](https://tritonuas.com/wiki/images/network_2.png)
+When you press enter, you'll notice that the previous list of requests will go away and immediately be replaced by a new set. The one at the top is the first request made, the one to google asking for the search results for "wikipedia." Everything afterwards is additional requests that you needed to load everything, such as images. Select the first one so you can view the HTTP request on the right like shown in the above image.
+Now that we have the HTTP request up for viewing, we can look at all the different parts. You'll see that it defaults to the headers tabs, which in turn has three sections. The top one is general, followed by request headers, then response headers. If you go one tab over, there is a payload section. This mentions something about "query parameters." Over one more and you get the HTML document that was returned in the response. Initiator shows how the cascade of requests was created (what requests spawned more requests), timing shows how long everything took (very useful if you are trying to optimize a website), and cookies shows all of the cookies.
+Now, looking at this for the first time it is all incredibly confusing, and you'll notice it doesn't really match up with the 3 things I mentioned above. That is because your web browser shows it in a format that generally is easy to work with once you understand how everything fits together, but may be harder to track if you have no idea what's going on. So, I'm going to repeat this experiment with two major differences:
+  1. I'm going to make a request to wikipedia itself because there will be less clutter to sift through.
+  2. I'm going to use a different program so that you can see the raw HTTP request as it appears in ASCII text. That way you'll be able to directly see the three different parts and how they are sectioned off.
+
+
+#### 1.4.1 HTTP Request Syntax
+Under the hood, no matter what tool you use to make an HTTP requet, it is always going to look something like the following and obey the following syntax. We often think of syntax in regards to programming languages, but is just as valid here for HTTP because every HTTP request/response must follow the valid HTTP syntax.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-1>)GET / HTTP/1.1
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-2>)User-Agent: PostmanRuntime/7.33.0
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-3>)Accept: */*
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-4>)Postman-Token: 01eb01a3-8df1-4ae0-a76d-da9574346cc3
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-5>)Accept-Encoding: gzip, deflate, br
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-6>)Connection: keep-alive
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-7>)Referer: https://wikipedia.org/
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-8>)Host: www.wikipedia.org
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-0-9>)Cookie: WMF-Last-Access-Global=27-Sep-2023; GeoIP=US:CA:San_Diego:32.72:-117.16:v4
+
+```
+
+The first line of the request is called the **request line** , and it contains three parts separated by spaces.
+  1. **The Request Method** : You can think of the request method as the "verb" of an HTTP request. It essentially tells the server what action is expected of it. In this case we are using GET, which means the client wants the server to retrieve whatever data/information/webpage is stored at the specified location.
+  2. **The Request URI** : In this example, the request URI is the `/` right after the method. A space always separates the method from the URI. The URI is essentially everything that follows the `www.wikipedia.org`. In this case, we made a GET request to the root level, so the URI is just the backslash, which aligns with how unix filesystems work. If, for example, we searched for `www.wikipedia.org/wiki/French_Revolution`, then the URI would be `/wiki/French_Revolution`, specifying the more specific page the request is asking for.
+  3. **The HTTP Version Number** : This specifies the version of HTTP you are using. Don't worry about this too much for now. You can read more about the different versions if you are curious.
+
+
+Following the request line, comes the **headers**. These are additional pieces of information about the request. As you can see, the general format is `name: value`. Certain headers are only found on requests because they contain information only relevant to requests, and certain headers are only found on responses because they contain information only relevant to responses.
+We will go over a small subset of possible headers, some of which are in the above example and some of which are not. If you are curious about a header not described here, you can google more information.
+  * `Host`: the name (and sometimes port) of the server you are sending the request to
+  * `User-Agent`: information about the client that is making the request, like what browser/program they are using to make the request
+  * `Date`: when the request was made
+  * `Content-Type`: an incredibly important header which describes what type of data is being sent in the request/response body. We talk more about this in the next section.
+  * `Cookie`: cookie information tracked by the client and server, used to track users and verify that certain requests are from the same user. This is not necessarily bad, as it is the most popular way to create "sessions", e.g. any website where you have to log in with an account. We'll talk more about cookies later.
+
+
+After the headers comes the **request body**. This is information that the client is sending up to the server. For GET requests, there is no request body because you are simply requesting a resource from the server. However, other methods like POST and PUT almost always will have a request body. For these methods, the headers are followed by two newlines, then the data that is being sent. This data could be a username and password that were entered into a form, among other things, and will have some sort of encoding, whether that is plaintext, JSON, XML, etc.... Up above we mentioned the `Content-Type` header. If, for example, the request body included data encoded in JSON, then the content type header would look like: `Content-Type: application/json` to specify that the body was encoded in JSON. This is incredibly important for reasons we will talk about later, and in addition we'll talk more about other methods later.
+#### 1.4.2 HTTP Response Syntax
+Now that you know what an HTTP request looks like, generally, you will see a lot of similarities with HTTP responses. Here is the raw HTTP response that corresponds with the request we showed earlier:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-1>)HTTP/1.1 200 OK
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-2>)date: Wed, 27 Sep 2023 09:54:37 GMT
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-3>)server: mw-web.codfw.main-64d9d64575-sj4gz
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-4>)last-modified: Mon, 18 Sep 2023 15:35:20 GMT
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-5>)cache-control: s-maxage=86400, must-revalidate, max-age=3600
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-6>)content-type: text/html
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-7>)etag: W/"1514f-605a3e3cdfe00"
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-8>)content-encoding: gzip
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-9>)vary: Accept-Encoding
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-10>)age: 36677
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-11>)x-cache: cp4040 miss, cp4040 hit/1002470
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-12>)x-cache-status: hit-front
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-13>)server-timing: cache;desc="hit-front", host;desc="cp4040"
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-14>)strict-transport-security: max-age=106384710; includeSubDomains; preload
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-15>)report-to: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-16>)nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-17>)set-cookie: WMF-Last-Access=27-Sep-2023;Path=/;HttpOnly;secure;Expires=Sun, 29 Oct 2023 12:00:00 GMT
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-18>)x-client-ip: 75.80.50.240
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-19>)set-cookie: NetworkProbeLimit=0.001;Path=/;Secure;Max-Age=3600
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-20>)accept-ranges: bytes
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-21>)content-length: 20367
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-22>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-23>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-24>)<!DOCTYPE html>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-25>)<html lang="en" class="no-js">
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-26>)<head>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-27>)<meta charset="utf-8">
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-28>)<title>Wikipedia</title>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-29>)<meta name="description" content="Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.">
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-30>)<script>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-31>)document.documentElement.className = document.documentElement.className.replace( /(^|\s)no-js(\s|$)/, "$1js-enabled$2" );
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-32>)</script>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-1-33>)... (continues on for the entire HTML document)
+
+```
+
+As you can see, there are a lot more headers involved here, but we aren't going to entirely focus on them for now. The first line is the **response line** which also contains three parts, but they are slightly different.
+  * First is the **HTTP version number** , which acts the same way as in requests.
+  * Second is the **HTTP Response Code**. There are five different groups of response codes, grouped by the first digit.
+    * 1xx response codes: informational
+    * 2xx response codes: success
+    * 3xx response codes: redirects
+    * 4xx response codes: client side errors (e.g. the client made an error in forming its request)
+    * 5xx response codes: server side errors (e.g. the client request was okay, but something went wrong on the server while handling it)
+  * Third is the "Reason Phrase" which is a human readable form of the response code.
+
+
+You can find a list of HTTP response codes [here](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/developer.mozilla.org/en-US/docs/Web/HTTP/Status>). Some of the most used ones are:
+  * 200: OK 
+  * 400: Bad Request
+  * 404: Not Found
+  * 500: Internal Server Error
+
+
+but there are a lot more specific ones which may apply better to certain scenarios.
+After the response line comes the headers, much in the same way that the request headers follow the request line. For now, if there are any headers you are curious about feel free to search up what they mean. 
+It is important to note the `Content-Type` header, which is set to `text/html` because the response body is an HTML document. In addition, note the `Set-Cookie` header, which is telling your browser that the next time you make a request back to this server you should send up the cookie that was specified in the set-cookie header so that the server can remember that you are the same person.
+Lastly, following the headers we have the two newlines followed by the **response body**. In this case, even though we are using a GET request there is a response body, because the server has to return back the resource that was requested. In this case, it is an HTML document because we were requesting a webpage.
+#### 1.4.3 Takeaways
+Hopefully, by seeing the raw text of HTTP this will begin to demystify the process. Contentwise, there is nothing more than carefully formatted text that your browser automatically generates and sends.
+### 1.5 Other Methods
+Now that we have gone into depth about GET, there are other methods you should be aware of.
+#### 1.5.1 Adding in POST
+The two most important HTTP methods are GET and POST, and if you had to pick only two to know then these would be the two. 
+If GET is basically a client requesting a resource from a server, POST is a client sending up information to the server, which could be happening for a variety of reasons. Probably the most common is when the user fills out a form, which could contain login information or anything else that is sent up.
+Before, when we were doing GET requests, the resources we were requesting usually lined up with a file system-like structure. For example, when we made a GET request to the root level at `www.wikipedia.org` we received a corresponding HTML file for the front page. Then, when we sent a GET request to `www.wikipedia.org/wiki/French_Revolution`, we received the resource stored at `/wiki/French_Revolution` which is almost exactly how it would look if you imagined wikipedia as a file system. This is because usually that is how it works. You can imagine it as some program on the wikipedia servers that takes the HTTP requests, navigates through a file system, and returns the corresponding file. While there might be more things going on behind the scenes (especially with dynamically generated content/pages), this is a basic model that is important to comphrehend. In fact, on some websites you may notice a file extension in the actual URL. If you see this, you know that you are probably accessing a file directly that was on the web server. Most websites, however, hide this to provide a layer of abstraction between their server's file system/system and what the user actually sees.
+So now that we have talked about how GET requests can be used to fetch resources from a webserver, usually from some sort of filesystem structure that corresponds to the URL, we can talk about POST requests. POST requests do not correspond to a specific "resource" on the web server. Instead, usually there is some sort of code that handles POST requests and the data coming in.
+A simple example of when you might use a POST request is a login page. Let's say there is a website called `www.mywebsite.com`. If you send a GET request to `www.mywebsite.com/login` then it sends back an HTML page which provides a form to login to the website. Then, once you typed in your username and password into the form and clicked submit, it sends a POST request back up to `www.mywebsite.com/login`, which might look something like this:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-1>)POST /login HTTP/1.1
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-2>)Host: www.mywebsite.com
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-3>)Content-Type: application/json
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-4>)Content-Length: [size of the request body below, I don't want to calculate this]
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-5>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-6>){
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-7>)   username: "hunter2",
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-8>)   password: "hunter2"
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-2-9>)}
+
+```
+
+Note that for this example I removed a lot of the headers that might be there, because they are not important for the example. The important thing to note is that unlike the GET request we saw earlier, there is a request body underneath the headers. Note the two empty lines between the headers and the request body. These two lines will always be there as part of the protocol, and it is how you distinguish between the headers and the body. 
+Also, for this example I encoded the message data in JSON. This is an incredibly popular format for this kind of data because it interfaces with Javascript very easily (JSON stands for JavaScript Object Notation), but it is not always the best encoding to use as you have to remember that every character is another bit you have to send over the wire, and JSON is not very efficient in this regard. (You could imagine just sending the username and password split by a comma or other delimeter would be the minimum required bits, but doing this would mean you have to remember how the data is being sent on the other side, and just defaulting to JSON makes everything simpler).
+Now, for something at the level of TUAS these amount of bits would not matter in the slightest, but for a company like Google being able to serve their homepage in 1 TCP packet vs. 2 TCP packets could be the difference between millions and millions of dollars. (Sidenote: because of how TCP works under the hood, everything sent over TCP is split into packets of a predetermined size, so if adding a couple of extra bits to a request doesn't push it over the threshold to need another TCP packet, then it will basically take the same amount of time to go across the Internet).
+An example response to the above HTTP request might look like this
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-3-1>)HTTP/1.1 200 OK
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-3-2>)date: Wed, 30 Sep 2023 09:54:37 GMT
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-3-3>)set-cookie: [some cookie that the web server has now identified with the user that just logged in]
+
+```
+
+Note that now there isn't any body being returned. You could imagine some login screens redirecting you to another page, but for this example we are ommiting something like that.
+In addition, note the set-cookie header. Cookies are probably the most common way to implement sessions for things like login, but there are other ways to do it. We'll talk about this more later.
+### 1.6 The importance of Content-Type
+Note that in our POST requests we always have a `Content-Type` header which includes a MIME type that says what kind of data the request body contains. Now, it is important to note that in some cases this isn't required because the browser can "sniff" into the body and try to determine what kind of data it is on its own, but it is also equally important to note that you SHOULD NEVER RELY ON THIS. There are two main reasons:
+  1. It can be a very large security vulnerability. Google "mime sniffing attacks" for more, but the jist of it is that a hacker can create a malicious HTTP request that doesn't have the `Content-Type` header, and when the browser goes to sniff the mime type it can trick it into thinking it is a different kind of data that it actually is, leading to malicious code being executed.
+  2. It can lead to a number of bugs that make you scratch your head. I can't count the number of times I've been working in something along these lines and I forgot to verify that a `Content-Type` header was being correctly set, and because it was either not set or set incorrectly the web server was getting confused and not treating the data in the correct way. This can be hard to debug because most of the time you are not thinking at the abstraction level that this tutorial is showing things at. Instead, you are using some framework or library that handles all of the dirty details under the hood, and it can be easier to miss the fact that the header is incorrectly set, so when--for example--you use a library function to automatically take JSON data and save it into a struct or JavaScript object, it fails. This is why its important to understand things like HTTP at this basic level, because when something goes wrong in the higher level framework you are using you will be then able to go under the hood and inspect what is wrong.
+
+
+In summary, when you are sending data in POST requests always make sure the `Content-Type` header is correctly set.
+### 1.7 Query Parameters
+Earlier we mentioned that GET requests do not have request bodies, while POST requests do. But what happens if you want to include some form of data in your GET request, that may clarify the resource you want to get in some way? The answer are query parameters, and you have almost certainly seen them in URLs before. (Note: you can use query parameters in any URL with any method, but it makes the most sense to explain them in the context of GET).
+Go to Google, and search for anything, then look at the URL. It probably looks something like this:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-4-1>)https://www.google.com/search?q=among+us&oq=among+us&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyDQgBEC4YgwEYsQMYgAQyDQgCEAAYgwEYsQMYgAQyDQgDEAAYgwEYsQMYgAQyDQgEEAAYgwEYsQMYgAQyBwgFEC4YgAQyDQgGEAAYgwEYsQMYgAQyDQgHEAAYgwEYsQMYgAQyCggIEAAYsQMYgAQyCggJEAAYsQMYgATSAQc4MzBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+```
+
+Note that the URL starts off simple, with `www.google.com/search`, but then there is a `?` character that changes everything. You'll note that the first thing is `q=among+us`, followed by `&og=among+us`, then `&gs_lcrp=` and then an incredibly long string of characters that aren't important to this example. If we parse out all of the relevant information, you'll note the following information
+  * `q=among+us`
+  * `og=among+us`
+  * `gs_lcrp=[incredibly long string of characters]`
+  * `sourceid=chrome`
+  * `ie=UTF-8`
+
+
+These are all called query parameters, and they are extra pieces of information being sent to the Google servers specifying more information about the request. The most important one is the first, the `q=among+us`. This is telling Google that your GET request to `www.google.com/search` has a `q`uery of "among us". This makes sense, because you wouldn't want a different URI/endpoint for every possible search parameter. Instead, you just have `www.google.com/search` and you specify what you are searching with the `q` query parameter. This is a protocol Google has set for their own services, but if you were writing your own web server you could make whatever specification you want.
+Syntactically, to specify query parameters, you always begin with the `?` character. Then you put the first query parameter label followed by an `=`, then the value of that parameter encoded in `application/x-www-form-urlencoded`. (Note that this is a MIME type, and is another way you could encode data in a POST request. The main purpose for this type of encoding, however, is to allow text to be placed into a URL, since URLs cannot have things like extra slashes or spaces without changing the meaning of the URL entirely. So you'll note that `among us` became `among+us` when encoded in this format so that it could be displayed in the URL without a space. If you searched for something like `/` in Google then you would noticed that Google's q query parameter would look like `q=%2F`, where the `%2F` is the special encoding for the `/` character).
+After the first query parameter, each subsequent query parameter is deliminated by an `&` character. The general format looks like this:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-5-1>)?label1=value1&label2=value2&label3=value3...
+
+```
+
+If you are familiar with Hashmaps or another key/value data structure, then you would be correct if you thought that this looks similiar. You can think of query parameters as a set of key/value pairs that are sent in a URL to provide more information about the request.
+### 1.8 Additional HTTP Methods
+#### 1.8.1 PUT (and PATCH)
+PUT is essentially like POST, but for a resource that already exists that you want to update.
+Let's say that you made a post to a website called `www.tweeter`, which was saved to the URL `www.tweeter.com/posts/106`. (For a real website they wouldn't have the URL for the post like this, but for the example it makes it simple.) Assuming you were logged in with the correct credentials, you could imagine the update button for a post making a PUT request to `www.tweeter.com/posts/106` behind the scenes. Such a request could look something like this:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-1>)PUT /posts/106 HTTP/1.1
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-2>)Host: www.tweeter.com
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-3>)Cookie: [cookie that verifies you are the owner of post 106]
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-4>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-5>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-6>){
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-7>)   content: "New and updated text for the post"
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-8>)   tags: [
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-9>)     "Work",
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-10>)     "Feeling Good"
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-11>)   ]
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-6-12>)}
+
+```
+
+In addition, there is another method called PATCH. The difference between PUT and PATCH is somewhat small, and I wouldn't be suprised if lots of people just use PUT for all their updates, but there is a distinction worth knowing.
+PUT is for when you are completely updating everything about a resource. In other words, the PUT request body should contain values for all of the resource's values. In the above example, we were assuming posts on tweeter had two different parts: the actual text content, and the tags associated with the post, perhaps for filtering purposes. In a PUT request you would have to specify all of the parts of the resource and provide new values, but in a PATCH request you could only specify the parts of the resource that you wanted to update, and it would be expected that the missing things should stay the same.
+#### 1.8.2 DELETE
+You use the DELETE method when you want to delete a specified resource. For example, the HTTP request to delete a post for the above example might look like the following:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-7-1>)DELETE /posts/106 HTTP/1.1
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-7-2>)Host: www.tweeter.com
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-7-3>)Cookie: [cookie that verifies you are the owner of post 106]
+
+```
+
+#### 1.8.3 (A Quick explanation of REST and APIS before we go further)
+At this point it is important to note that we have gone over all of the most important endpoints for a CRUD app (Create Read Update Delete, think Facebook or any other site where you create posts/tweets/etc... and can read other people's post/tweets/.... while also updating and deleting your own posts/tweets/....).
+In addition, it's probably important to explain something important about this entire topic that might clarify some things. All of this information about HTTP requests and methods are things that the user of a website should never actually have to know. If a user wants to update their post, they shouldn't have to know if they are sending a PUT or PATCH request, just like how they shouldn't have to know they are sending a GET request every time they load a new page, new post, or search for some tweets with some parameter.
+Instead, this is all information that is relevant to the developer of the website. What you are essentially creating when you are specifying URLs and the methods they are expecting is called an **API**. You probably have heard of this term before, but if you haven't you can think of an API as the specifications for how you interface with your app/site. Here is a very simple example of an API, written all out in English. You could expect something like this to be drafted as part of a brainstorming process:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-1>)/ (Root level)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-2>)--------------
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-3>)GET: returns HTML for the homepage, showing a curated selection of posts from across the site
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-4>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-5>)/login
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-6>)--------------
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-7>)GET: returns the HTML for the login page
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-8>)POST: expect JSON in request body with two keys "username" and "password", redirect user back to homepage when done
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-9>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-10>)/posts
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-11>)--------------
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-12>)GET: if the user is logged in, show all of their own posts in chronological order, newest at the top.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-13>)POST: take in JSON data in body specifying new post information, then actually create that post in the server.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-14>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-15>)/posts/[ID]
+[](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/#__codelineno-8-16>)GET: get a page entirely filled up by the post and that has the comments at the bottom
+
+```
+
+This is something very rough, but you can imagine doing this for an entire website, specifying all of the required routes and methods, in order to provide all of the functionality you desire. Then, if you had a completely specified API, you could give this API to your frontend developers so they could make a nice user interface for it, and your backend developers so they could actually write the code that implements the API on your web server.
+In addition, when the backend developers are implementing such an API, there isn't anything that is actually going to break if they make a mistake like using PUT instead of PATCH, or even something really silly (and wrong) like using a POST request to retrieve information. If they have correctly described it in the API, then as long as the frontend adheres to the API thinks should still work, albeit other people may be confused.
+When we adhere to the generally expected rules and regulations of HTTP and create apps around this idea of "resources", we call that **REST** (REpresentational State Transfer ). If a system is in the spirit of REST, a common saying is to say that it is RESTful. REST is a complicated topic, and people are always arguing if something is "RESTful" or not, but if you want to read more you can find articles online like [this](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/www.codecademy.com/article/what-is-rest>).
+If I had to briefly explain REST, however, I would explain it like this:
+  1. Treat your URLs/URIs as "resources" or "nouns"
+  2. Treat the HTTP methods as "verbs" which act on the "nouns"
+
+
+To illustrate this a little more, imagine we have a service with books stored online. Here are some potential ways we could set up the API for such a service:
+  * `GET /api/books` Get all of the books (RESTful)
+  * `GET /api/books/1` Get the first books (still RESTful)
+  * `GET /api/books?id=1` Get the first book (still RESTful, but using query parameters. Some people may like this less)
+  * `GET /api?record=books&id=1` Still get the first book (but watch out! This is definitely less RESTful because we aren't treating the books as their own resource or noun, since they don't have their own URI/endpoint)
+  * `GET /api/books?id=1&action=delete` Delete the first book (everyond would agree this is not RESTful as you are using a GET request to perform a delete action)
+
+
+#### 1.8.4 More HTTP Methods
+There are many more HTTP methods that have their own uses, which you can read about [here](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/developer.mozilla.org/en-US/docs/Web/HTTP/Methods>). Since we've already gone over the most important CRUD related ones here, we'll move on.
+## 2. The Statelessness of HTTP
+An important concept to understand about HTTP, and something we have been alluding to throughout this workshop, is the idea that HTTP is **stateless**. This might not seem like a groundbreaking statement, but when you consider the average persons experience with the web, it becomes more interesting.
+When we say that HTTP is stateless, we mean that there is nothing inherent in the HTTP protocol that saves information between HTTP requests. While some communication protocols may have ways to identify users inside the protocol itself, HTTP does not. So this begs the question, how do you even have things like "sessions" which keep track of users as they browse your site? In other words, if I am browsing Amazon and clicking through tens and tens of pages, each served to me by an independent HTTP request, how does Amazon keep track of the fact that it is still me?
+We already mentioned the most popular solution, and if you guessed cookies then you are correct. However, there are other ways to do it with their own benefits and drawbacks, but here we'll mainly focus on how cookies work.
+Here is the general process for how cookies work:
+  1. You log into Amazon with a POST request. In the HTTP Response, Amazon sends a `set-cookie` header with a uniquely generated token. Now, in the Amazon servers, that token is associated with your account for the next 5/10/30/some amount of minutes. (If you've ever been logged out of a website after going idle, now you know why).
+  2. Your browser receives the `set-cookie` header, and saves it somewhere, knowing that that cookie is associated with Amazon.
+  3. The next time you make a GET request to get a new page, your browser automatically sends back up the cookie you received in a `cookie` header. Amazon's servers receive your HTTP request, check your cookie, and then use it to connect back to your account that you previously logged in with.
+  4. This process continues across all of the HTTP requests you make to Amazon, essentially providing an identifying mark to your HTTP requests so that Amazon knows it is still you.
+
+
+Of course, you can imagine that if someone was able to get ahold of your token during the period of time it was valid, they could easily pretend to be you. This could potentially happen if some malicious software got installed on your computer which monitored your web browser for any cookies you receive. This kind of attack is sometimes called **session spoofing** , and now you understand the basics of how it can happen. (And just to make sure the terminology is clear, the cookie that identifies you as you can also be called a **session ID** , referring to the fact that once you log in you have started a **session** which is active for the next however-many minutes).
+Now that we've talked about how to implement state with cookies, using what you know about HTTP can you think of any other ways to implement sessions without headers/cookies?
+Hint
+Think of the three different parts of an HTTP request: you have (1) the request line (2) the headers and (3) the request body. Cookies involve headers, but is there another way to send around session information?
+Answer
+Including cookies, there are 3 possible ways you could implement sessions 1. Dirty URLS (using the request line) 2. Cookies (using headers) 3. Hidden Form Fields (using the request body) If you use dirty URLs, you would include the session ID in the URL as a query parameter. You may have seen these in URLs before. If you use Hidden Form Fields, you could send up the session ID in the body of http requests. 
+October 28, 2024
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/03_http_and_rest/<https:/facebook.com/tritonuas> "facebook.com")

@@ -1,0 +1,123 @@
+[ Skip to content ](https://ai.pydantic.dev/input/<#image-and-audio-input>)
+[ ![logo](https://ai.pydantic.dev/img/logo-white.svg) ](https://ai.pydantic.dev/input/<..> "PydanticAI")
+PydanticAI 
+Image and Audio Input 
+Type to start searching
+[ pydantic/pydantic-ai  ](https://ai.pydantic.dev/input/<https:/github.com/pydantic/pydantic-ai> "Go to repository")
+[ ![logo](https://ai.pydantic.dev/img/logo-white.svg) ](https://ai.pydantic.dev/input/<..> "PydanticAI") PydanticAI 
+[ pydantic/pydantic-ai  ](https://ai.pydantic.dev/input/<https:/github.com/pydantic/pydantic-ai> "Go to repository")
+  * [ Introduction  ](https://ai.pydantic.dev/input/<..>)
+  * [ Installation  ](https://ai.pydantic.dev/input/<../install/>)
+  * [ Getting Help  ](https://ai.pydantic.dev/input/<../help/>)
+  * [ Contributing  ](https://ai.pydantic.dev/input/<../contributing/>)
+  * [ Troubleshooting  ](https://ai.pydantic.dev/input/<../troubleshooting/>)
+  * Documentation  Documentation 
+    * [ Agents  ](https://ai.pydantic.dev/input/<../agents/>)
+    * [ Models  ](https://ai.pydantic.dev/input/<../models/>)
+    * [ Dependencies  ](https://ai.pydantic.dev/input/<../dependencies/>)
+    * [ Function Tools  ](https://ai.pydantic.dev/input/<../tools/>)
+    * [ Common Tools  ](https://ai.pydantic.dev/input/<../common_tools/>)
+    * [ Results  ](https://ai.pydantic.dev/input/<../results/>)
+    * [ Messages and chat history  ](https://ai.pydantic.dev/input/<../message-history/>)
+    * [ Testing and Evals  ](https://ai.pydantic.dev/input/<../testing-evals/>)
+    * [ Debugging and Monitoring  ](https://ai.pydantic.dev/input/<../logfire/>)
+    * [ Multi-agent Applications  ](https://ai.pydantic.dev/input/<../multi-agent-applications/>)
+    * [ Graphs  ](https://ai.pydantic.dev/input/<../graph/>)
+    * Image and Audio Input  [ Image and Audio Input  ](https://ai.pydantic.dev/input/<./>) Table of contents 
+      * [ Image Input  ](https://ai.pydantic.dev/input/<#image-input>)
+      * [ Audio Input  ](https://ai.pydantic.dev/input/<#audio-input>)
+  * [ Examples  ](https://ai.pydantic.dev/input/<../examples/>)
+Examples 
+    * [ Pydantic Model  ](https://ai.pydantic.dev/input/<../examples/pydantic-model/>)
+    * [ Weather agent  ](https://ai.pydantic.dev/input/<../examples/weather-agent/>)
+    * [ Bank support  ](https://ai.pydantic.dev/input/<../examples/bank-support/>)
+    * [ SQL Generation  ](https://ai.pydantic.dev/input/<../examples/sql-gen/>)
+    * [ Flight booking  ](https://ai.pydantic.dev/input/<../examples/flight-booking/>)
+    * [ RAG  ](https://ai.pydantic.dev/input/<../examples/rag/>)
+    * [ Stream markdown  ](https://ai.pydantic.dev/input/<../examples/stream-markdown/>)
+    * [ Stream whales  ](https://ai.pydantic.dev/input/<../examples/stream-whales/>)
+    * [ Chat App with FastAPI  ](https://ai.pydantic.dev/input/<../examples/chat-app/>)
+    * [ Question Graph  ](https://ai.pydantic.dev/input/<../examples/question-graph/>)
+  * API Reference  API Reference 
+    * [ pydantic_ai.agent  ](https://ai.pydantic.dev/input/<../api/agent/>)
+    * [ pydantic_ai.tools  ](https://ai.pydantic.dev/input/<../api/tools/>)
+    * [ pydantic_ai.common_tools  ](https://ai.pydantic.dev/input/<../api/common_tools/>)
+    * [ pydantic_ai.result  ](https://ai.pydantic.dev/input/<../api/result/>)
+    * [ pydantic_ai.messages  ](https://ai.pydantic.dev/input/<../api/messages/>)
+    * [ pydantic_ai.exceptions  ](https://ai.pydantic.dev/input/<../api/exceptions/>)
+    * [ pydantic_ai.settings  ](https://ai.pydantic.dev/input/<../api/settings/>)
+    * [ pydantic_ai.usage  ](https://ai.pydantic.dev/input/<../api/usage/>)
+    * [ pydantic_ai.format_as_xml  ](https://ai.pydantic.dev/input/<../api/format_as_xml/>)
+    * [ pydantic_ai.models  ](https://ai.pydantic.dev/input/<../api/models/base/>)
+    * [ pydantic_ai.models.openai  ](https://ai.pydantic.dev/input/<../api/models/openai/>)
+    * [ pydantic_ai.models.anthropic  ](https://ai.pydantic.dev/input/<../api/models/anthropic/>)
+    * [ pydantic_ai.models.cohere  ](https://ai.pydantic.dev/input/<../api/models/cohere/>)
+    * [ pydantic_ai.models.gemini  ](https://ai.pydantic.dev/input/<../api/models/gemini/>)
+    * [ pydantic_ai.models.vertexai  ](https://ai.pydantic.dev/input/<../api/models/vertexai/>)
+    * [ pydantic_ai.models.groq  ](https://ai.pydantic.dev/input/<../api/models/groq/>)
+    * [ pydantic_ai.models.mistral  ](https://ai.pydantic.dev/input/<../api/models/mistral/>)
+    * [ pydantic_ai.models.test  ](https://ai.pydantic.dev/input/<../api/models/test/>)
+    * [ pydantic_ai.models.function  ](https://ai.pydantic.dev/input/<../api/models/function/>)
+    * [ pydantic_ai.models.fallback  ](https://ai.pydantic.dev/input/<../api/models/fallback/>)
+    * [ pydantic_graph  ](https://ai.pydantic.dev/input/<../api/pydantic_graph/graph/>)
+    * [ pydantic_graph.nodes  ](https://ai.pydantic.dev/input/<../api/pydantic_graph/nodes/>)
+    * [ pydantic_graph.state  ](https://ai.pydantic.dev/input/<../api/pydantic_graph/state/>)
+    * [ pydantic_graph.mermaid  ](https://ai.pydantic.dev/input/<../api/pydantic_graph/mermaid/>)
+    * [ pydantic_graph.exceptions  ](https://ai.pydantic.dev/input/<../api/pydantic_graph/exceptions/>)
+
+
+Table of contents 
+  * [ Image Input  ](https://ai.pydantic.dev/input/<#image-input>)
+  * [ Audio Input  ](https://ai.pydantic.dev/input/<#audio-input>)
+
+
+  1. [ Introduction  ](https://ai.pydantic.dev/input/<..>)
+  2. [ Documentation  ](https://ai.pydantic.dev/input/<../agents/>)
+
+
+Version
+Showing documentation for the latest release [v0.0.31 2025-03-03](https://ai.pydantic.dev/input/<https:/github.com/pydantic/pydantic-ai/releases/tag/v0.0.31>).
+# Image and Audio Input
+Some LLMs are now capable of understanding both audio and image content.
+## Image Input
+Info
+Some models do not support image input. Please check the model's documentation to confirm whether it supports image input.
+If you have a direct URL for the image, you can use `ImageUrl`[](https://ai.pydantic.dev/input/<../api/messages/#pydantic_ai.messages.ImageUrl>):
+main.py```
+frompydantic_aiimport Agent, ImageUrl
+agent = Agent(model='openai:gpt-4o')
+result = agent.run_sync(
+  [
+    'What company is this logo from?',
+    ImageUrl(url='https://iili.io/3Hs4FMg.png'),
+  ]
+)
+print(result.data)
+#> This is the logo for Pydantic, a data validation and settings management library in Python.
+
+```
+
+If you have the image locally, you can also use `BinaryContent`[](https://ai.pydantic.dev/input/<../api/messages/#pydantic_ai.messages.BinaryContent>):
+main.py```
+importhttpx
+frompydantic_aiimport Agent, BinaryContent
+image_response = httpx.get('https://iili.io/3Hs4FMg.png') # Pydantic logo
+agent = Agent(model='openai:gpt-4o')
+result = agent.run_sync(
+  [
+    'What company is this logo from?',
+    BinaryContent(data=image_response.content, media_type='image/png'), 
+To ensure the example is runnable we download this image from the web, but you can also use Path().read_bytes() to read a local file's contents.
+[](https://ai.pydantic.dev/input/<#__code_1_annotation_1>)
+  ]
+)
+print(result.data)
+#> This is the logo for Pydantic, a data validation and settings management library in Python.
+
+```
+
+## Audio Input
+Info
+Some models do not support audio input. Please check the model's documentation to confirm whether it supports audio input.
+You can provide audio input using either `AudioUrl`[](https://ai.pydantic.dev/input/<../api/messages/#pydantic_ai.messages.AudioUrl>) or `BinaryContent`[](https://ai.pydantic.dev/input/<../api/messages/#pydantic_ai.messages.BinaryContent>). The process is analogous to the examples above.
+© Pydantic Services Inc. 2024 to present 

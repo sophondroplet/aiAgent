@@ -1,0 +1,311 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#level-0-project-writeup>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Overview 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * Overview  [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>) Table of contents 
+          * [ Learning Goals  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#learning-goals>)
+          * [ Project Description  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#project-description>)
+          * [ Recommendations  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#recommendations>)
+            * [ No Programming Experience (e.g. no CSE courses taken)  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#no-programming-experience-eg-no-cse-courses-taken>)
+            * [ Minimal Programming Experiene (e.g. CSE 8A/8B/11)  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#minimal-programming-experiene-eg-cse-8a8b11>)
+            * [ Some Programming Experience (e.g. CSE 12/15L, up to CSE 100)  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#some-programming-experience-eg-cse-1215l-up-to-cse-100>)
+            * [ Much Programming Experience (e.g. taken multiple CSE upper divs)  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#much-programming-experience-eg-taken-multiple-cse-upper-divs>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Learning Goals  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#learning-goals>)
+  * [ Project Description  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#project-description>)
+  * [ Recommendations  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#recommendations>)
+    * [ No Programming Experience (e.g. no CSE courses taken)  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#no-programming-experience-eg-no-cse-courses-taken>)
+    * [ Minimal Programming Experiene (e.g. CSE 8A/8B/11)  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#minimal-programming-experiene-eg-cse-8a8b11>)
+    * [ Some Programming Experience (e.g. CSE 12/15L, up to CSE 100)  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#some-programming-experience-eg-cse-1215l-up-to-cse-100>)
+    * [ Much Programming Experience (e.g. taken multiple CSE upper divs)  ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#much-programming-experience-eg-taken-multiple-cse-upper-divs>)
+
+
+# Level 0 Project Writeup
+The aim of this project is to provide a basic introduction to programming. Whether you are new to programming or just want to get more familiar with a new language, this project is meant to help you get started.
+**This project is designed for those new to programming, or people who want to learn a new language. If you already have the necessary knowlege in one of the languages we use, then feel free to skip to level 1 or even level 2.**
+## Learning Goals
+  * How to set up a basic program skeleton ("Hello World!")
+  * How to use variables
+  * How to use conditionals
+  * How to use loops
+  * How to use functions
+  * How to manipulate strings
+  * How to generate random numbers
+  * How to parse command line arguments
+  * How to do user input/output
+  * How to do file input/output
+
+
+## Project Description
+The project is to create a simple hangman game. The game should be able to read in a list of words from a file, and then randomly select one of those words to be the word that the user has to guess. The user should be able to guess letters until they either guess the word correctly or run out of guesses.
+The following is a sample run of the program, assuming that the word list is in a file called `words.txt` and the executable for the program is called `hangman`:
+```
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-1>)$ ./hangman words.txt
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-2>)Welcome to Hangman!
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-3>)You have 5 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-4>)You have already guessed: 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-5>)_ _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-6>)Guess a letter: h
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-7>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-8>)Incorrect! There are no h's in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-9>)You have 4 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-10>)You have already guessed: h, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-11>)_ _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-12>)Guess a letter: g
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-13>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-14>)Correct! There is 1 g in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-15>)You have 4 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-16>)You have already guessed: g, h, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-17>)g _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-18>)Guess a letter: o
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-19>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-20>)Incorrect! There are no o's in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-21>)You have 3 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-22>)You have already guessed: o, g, h, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-23>)g _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-24>)Guess a letter: a
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-25>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-26>)Correct! There is 1 a in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-27>)You have 3 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-28>)You have already guessed: a, o, g, h, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-29>)g a _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-30>)Guess a letter: r
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-31>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-32>)Correct! There is 1 r in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-33>)You have 3 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-34>)You have already guessed: r, a, o, g, h, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-35>)g a _ _ r 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-36>)Guess a letter: e
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-37>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-38>)Correct! There is 1 e in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-39>)You have 3 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-40>)You have already guessed: e, r, a, o, g, h, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-41>)g a _ e r 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-42>)Guess a letter: z
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-43>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-44>)Incorrect! There are no z's in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-45>)You have 2 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-46>)You have already guessed: z, e, r, a, o, g, h, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-47>)g a _ e r 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-48>)Guess a letter: m
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-49>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-50>)Correct! There is 1 m in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-51>)Congratulations! You guessed the word correctly!
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-0-52>)The word was: gamer
+
+```
+
+And so here is an example of a game where the user loses: 
+```
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-1>)$ ./hangman words.txt
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-2>)Welcome to Hangman!
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-3>)You have 5 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-4>)You have already guessed: 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-5>)_ _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-6>)Guess a letter: a
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-7>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-8>)Incorrect! There are no a's in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-9>)You have 4 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-10>)You have already guessed: a, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-11>)_ _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-12>)Guess a letter: b
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-13>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-14>)Incorrect! There are no b's in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-15>)You have 3 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-16>)You have already guessed: b, a, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-17>)_ _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-18>)Guess a letter: c
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-19>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-20>)Incorrect! There are no c's in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-21>)You have 2 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-22>)You have already guessed: c, b, a, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-23>)_ _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-24>)Guess a letter: d
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-25>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-26>)Incorrect! There are no d's in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-27>)You have 1 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-28>)You have already guessed: d, c, b, a, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-29>)_ _ _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-30>)Guess a letter: e
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-31>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-32>)Correct! There is 1 e in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-33>)You have 1 guesses left.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-34>)You have already guessed: e, d, c, b, a, 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-35>)_ e _ _ _ 
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-36>)Guess a letter: f
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-37>)
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-38>)Incorrect! There are no f's in the word.
+[](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/#__codelineno-1-39>)You are out of guesses! The word was hello.
+
+```
+
+## Recommendations
+  * We expect that there is a wide range of programming skill among the members of the team. In the past, we've had peopl with no programming experience all the way to people with vast internship experience. So, when reading this tutorial we recommend a different course of action depending on how experienced you are.
+  * For all members, we suggest using Visual Studio Code with any relevant language server extensions installed. This will provide you with syntax highlighting, code completion, and other useful features that will help you write code. However, it's important to note that VSCode is not a fully fledged IDE like you possibly are used to with Eclipse, or maybe even Visual Studio itself. This can be a good thing, however, as it forces you to learn the command line and other tools that you will always rely upon in software development. Ultimately, however, if you are more comfortable with another editor, then feel free to use that instead. The tutorial will just not be directed towards that editor/IDE setup.
+  * No matter which of the below categories you fall under, you might still want to read the beginning section of each tutorial to get a working "Hello Word" running in the language if you have never used it before.
+
+
+### No Programming Experience (e.g. no CSE courses taken)
+If you have no programming experience, we would recommend following one of the tutorials provided. These tutorials will walk you through the basics of programming and will help you get started with the project. If you reach a point where you feel like you want to try to do something on your own, we would recommend trying it, and then checking back in with the tutorial if you get stuck or want to verify that you are doing something correctly.
+### Minimal Programming Experiene (e.g. CSE 8A/8B/11)
+If you are in or have only taken CSE 8A/8B/11 (basic object oriented programming), it is very possible that you only have experience in Java. If this is the case, then we would recommend starting with the tutorial of the language you want to work in up to getting a working "Hello World" running. Then, you can start working on the project. If you get stuck, then you can refer to the tutorial for help, or you can Google how to do "X" in the language. Because you have some programming experience, most of what you need to learn will be transfering your knowledge of Java to the new language. This is an incredibly important skill in software engineering, and professional software engineers do this all the time.
+### Some Programming Experience (e.g. CSE 12/15L, up to CSE 100)
+If you've taken most of the lower div CSE courses, or maybe even CSE 100, then you've likely had experience in C (CSE 30), C++ (CSE 100), Java (CSE 11/12), and maybe even some others if you've learned it outside of class. If you have not taken CSE courses at UCSD, these would be equivalent to basic object oriented programming, basic data structures, and cursory level systems programming (e.g. C). If this is the case, then you might feel that you already know how to program, and you probably can easily do this assignment. If so, then feel free to skip to the level 1 project. However, if you do want to learn a new language, this kind of simple project is very effective because it forces you to learn all of the basics in another language, and starts to get you immersed in the syntax. In line with this, you could also just skim the tutorial in the language you want learn, then try to apply the knowledge in a level 1 or even level 2 project. Either way, you can do whatever you feel is best for your learning and engagement.
+### Much Programming Experience (e.g. taken multiple CSE upper divs)
+Much of the advice from the previous section still applies here. Do whatever you feel is right for you.
+October 2, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/software/onboarding/level_0/level_0_overview/<https:/facebook.com/tritonuas> "facebook.com")

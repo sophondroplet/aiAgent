@@ -1,0 +1,342 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#mavlink-frame-structure>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+MAVLink 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * MAVLink  [ MAVLink  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>) Table of contents 
+        * [ MAVLink Frame Structure  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#mavlink-frame-structure>)
+        * [ MAVLink Messages vs. Commands  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#mavlink-messages-vs-commands>)
+        * [ Resources  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#resources>)
+        * [ Relevant Messages  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#relevant-messages>)
+        * [ Writing MAVLink Code  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#writing-mavlink-code>)
+          * [ Receiving Messages (on the Pixhawk)  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#receiving-messages-on-the-pixhawk>)
+        * [ Resources:  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#resources_1>)
+        * [ Documentation:  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#documentation>)
+      * [ UART  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ MAVLink Frame Structure  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#mavlink-frame-structure>)
+  * [ MAVLink Messages vs. Commands  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#mavlink-messages-vs-commands>)
+  * [ Resources  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#resources>)
+  * [ Relevant Messages  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#relevant-messages>)
+  * [ Writing MAVLink Code  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#writing-mavlink-code>)
+    * [ Receiving Messages (on the Pixhawk)  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#receiving-messages-on-the-pixhawk>)
+  * [ Resources:  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#resources_1>)
+  * [ Documentation:  ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#documentation>)
+
+
+# MAVLink
+> "MAVLink is a very lightweight messaging protocol for communicating with drones (and between onboard drone components)." - [Markdown Wiki](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/mavlink.io/en/>)
+## MAVLink Frame Structure
+![MAVLink Frame](https://user-images.githubusercontent.com/86756673/140673533-d78dbb1a-2c97-4717-b95c-ac187ce23e6e.PNG)
+![MAVLink Bytes](https://discuss.ardupilot.org/uploads/default/original/2X/e/e43834a81a0a53a83cc0730b939ae963d99ffa17.png)
+The System ID for the ground control station is typically 255, and 1 for the Pixhawk. The component ID is often set to 0, but if there is more than one component (besides the Pixhawk) receiving messages, it can be modified to specify which component will receive the message.
+## MAVLink Messages vs. Commands
+For clarification, there is a functional difference between messages and commands, although oftentimes they are both referred to as “messages”. Mavlink commands are a subset of messages that have a corresponding number (enum value) and begin with “MAV_CMD”. Specific differences are outlined [here](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/mavlink.io/en/guide/define_xml_element.html>), but the key points are that commands usually perform some action, have built-in acknowledgment behavior, and take in 7 command-specific parameters (eg altitude). You can technically recreate preset commands using messages which would of course be inefficient, but it shows how flexible messages can be.
+![MAVLink diagram 2](https://user-images.githubusercontent.com/86756673/140674990-bd0a0bd9-60e4-48c4-a25e-792193d67b9e.png)
+For example, message COMMAND_LONG (Message ID 76) can take in the command MAV_CMD_NAV_TAKEOFF. The command’s enum (22) and its 7 corresponding parameters would be the data of the message. See [this link](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/mavlink.io/en/messages/common.html>) for a full list of the default messages and commands.
+There exist three subtypes of commands. They each have their own execution priority [described here](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/ardupilot.org/planner/docs/common-mavlink-mission-command-messages-mav_cmd.html>). 
+  * Navigation commands: Control the movement of the vehicle. Have highest priority. Example: 
+```
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-0-1>)  MAV_CMD_NAV_WAYPOINT(16)
+
+```
+
+  * DO commands: Typically set parameters (such as altitude). 
+```
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-1-1>)  MAV_CMD_DO_SET_HOME(179)
+
+```
+
+  * Conditional commands: Used to control DO commands (conditional statements for them) 
+```
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-2-1>)MAV_CMD_CONDITION_DELAY(112)
+
+```
+
+
+
+## Resources
+[Our collaborative useful links doc](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/docs.google.com/document/d/1OJdNDv3bjPkuDh6s05Z7_o0XSG7MM9Relb7983wludw/edit>)
+The Arduino encodes sensor data and sends it to the Pixhawk in the MavLink package format.
+While you can have multiple messages under one component ID, you can’t have duplicate messages under the same component ID (for example 2 thermistor messages) since the data from both thermistors will be written to the same message and overlap. You could for example have 
+There is a set of defined component constants that should ideally be followed for style so the list of components is descriptive. Component 0 is reserved because it will transmit the message to [all components on the system](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/mavlink.io/en/messages/common.html#MAV_COMPONENT>).
+The message ID will correspond to the specific message you’re writing. 
+**_Example_** `BATTERY_STATUS(float temperature, float battery_voltage, int COMP_ID)` Of course, the Pixhawk doesn’t know if there is actually a battery connected or if you are using a random number generator and passing that in as the battery_voltage variable. So long as you format the data correctly for that specific message, whatever data the Arduino sends will be seen by the Pixhawk. This can be useful for testing, but also shows why you must use good coding practices (guilty as charged): Is that temperature field being passed in from the thermistor in the front of the plane or the one actually connected to the battery pack? 
+## Relevant Messages
+For the full list of messages, see: https://mavlink.io/en/messages/common.html For which components we need, see (subject to change): Requirements Sheet
+Motor Battery Pack: 
+  * BATTERY_STATUS (#147)
+    * Voltage and temperature
+
+
+PDB Battery Pack:
+  * BATTERY_STATUS (#147)
+    * Voltage and temperature
+
+
+Plane temperature (Air, ESC):
+  * HYGROMETER_SENSOR (#12920)
+  * ESC_STATUS (#291) or ESC_INFO (#290)
+
+
+Useful for testing:
+  * NAMED_VALUE_FLOAT (#251)
+    * May be viable as more than a test message if the name field can be set (and doesn’t get confusing in the GCS dashboard) since it would be easier than creating our own custom message
+
+
+Interesting messages that may be useful in the future (anything potentially related to future goals):
+  * ONBOARD_COMPUTER_STATUS (#390)
+  * TRAJECTORY_REPRESENTATION_BEZIER (#333) 
+  * HOME_POSITION (#242) and SET_HOME_POSITION (#242)
+  * Commands (don’t have a “#” before them)
+    * MAV_CMD_NAV_PATHPLANNING (81)
+
+
+## Writing MAVLink Code
+#### Receiving Messages (on the Pixhawk)
+Keep in mind that the system ID is the Pixhawk’s ID, so sending/receiving is from the perspective of the Pixhawk. Data collected from the sensors is received by the Pixhawk (it is the destination). Messages can also be sent from the Pixhawk, in which case the destination would be the companion computer (Arduino). Sending messages will be used for more advanced functions in the future as we attempt to automate more of the plane’s functions, but you have to learn to walk before you can run.
+Basics: - The Pixhawk operates at a baud rate of 57600 - The arduino must therefore transmit data at this rate or it will be gibberish
+The general flow of sending a message (sensor code omitted):
+```
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-1>)//Define all constants for your sensors and MAVLink (ideally do this in a .h file)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-2>)#include message_1.h
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-3>)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-4>)void setup() {
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-5>)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-6>)}
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-7>)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-8>)void loop() {
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-9>)HEARTBEAT(COMP_ID_1);
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-10>)MESSAGE_1(param1,param2,...paramn);
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-11>)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-12>)}
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-13>)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-14>)//Define functions that correspond to each MAVlink message you’re using
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-15>)HEARTBEAT(int COMP_ID_1) {
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-16>)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-17>)}
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-18>)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-19>)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-20>)MESSAGE_1(param1, param2,...paramn) {
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-21>)  //variable for message 1
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-22>)mavlink_message_t msg1;   
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-23>)//constant for the size of a mavlink message
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-24>)uint8_t buf[MAVLINK_MAX_PACKET_LEN]; 
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-25>)//packs the mavlink message
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-26>)mavlink_msg_message_1_pack(param1,param2,...paramn); 
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-27>)//loads the message to be sent into a buffer of length buf
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-28>)uint16_t len1 = mavlink_msg_to_send_buffer(buf, &msg1); \
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-29>)//writes the message stored in the buffer over serial
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-30>)mySerial.write(buf, len1); 
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-3-31>)}
+
+```
+
+Download the MAVLink C library from https://github.com/mavlink/c_library_v2 and copy the contents of the top-level folder and paste them into Arduino/libraries. Ideally this Arduino folder/directory will be in your home directory on Linux and in Documents for Windows. That is your core folder. Arduino has 3 places it looks for libraries in, Core Folder, IDE Installation Folder, and sketchbook. More on library installation [here](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/docs.arduino.cc/software/ide-v1/tutorials/installing-libraries>). **Do not** install mavlink from the built-in library manager. That is not the correct one.
+All of the messages you’ll need will be in the common folder, which corresponds to https://mavlink.io/en/messages/common.html. These are the messages for the standard dialect of MAVlink, however there also exist other custom dialects such as https://mavlink.io/en/messages/ardupilotmega.html. 
+Every message will have its own .h file that you’ll need to include if you plan to use that message. 
+In the .h file, CTRL+F “pack” and you will see a function declaration to show you how to use the function. For example:
+```
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-1>)/**
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-2>) * @brief Pack a named_value_float message
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-3>) * @param system_id ID of this system
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-4>) * @param component_id ID of this component (e.g. 200 for IMU)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-5>) * @param msg The MAVLink message to compress the data into
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-6>) *
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-7>) * @param time_boot_ms [ms] Timestamp (time since system boot).
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-8>) * @param name Name of the debug variable
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-9>) * @param value Floating point value
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-10>) * @return length of the message in bytes (excluding serial stream start sign)
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-11>) */
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-12>)static inline uint16_t mavlink_msg_named_value_float_pack(uint8_t system_id, uint8_t component_id, mavlink_message_t* msg,
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-4-13>)                uint32_t time_boot_ms, const char *name, float value)
+
+```
+
+As the name suggests, this function packs messages into the MAVLink format. You can see it being called in the definition of its corresponding function. 
+```
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-1>)void NAMED_VALUE_FLOAT(float temperature, int COMP_ID) {
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-2>)  mavlink_message_t msg3;
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-3>)  uint8_t buf[MAVLINK_MAX_PACKET_LEN];
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-4>)  char name[10] = "abcdefghij";
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-5>)  mavlink_msg_named_value_float_pack(DEST_SYS_ID,
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-6>)                    COMP_ID,
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-7>)                    &msg3,
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-8>)                    0,
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-9>)                    name,
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-10>)                    temperature);
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-11>)  uint16_t len3 = mavlink_msg_to_send_buffer(buf, &msg3);
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-12>)  mySerial.write(buf, len3);                    
+[](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/tritonuas.com/wiki/electrical/communication/mavlink/#__codelineno-5-13>)}
+
+```
+
+The parameters for the pack function should match the parameters of the Arduino message definition function. If you see incorrect data or no message under the component ID you were expecting, abuse print statements to check that all your parameters are correct from the top-down (for example in the void loop you didn’t call `NAMED_VALUE_FLOAT(temperature_esc, DEST_SYS_ID)` instead of `NAMED_VALUE_FLOAT(temperature_esc, SENSOR_2_COMP_ID)`. 
+## Resources:
+MAVLink Protocol Overview For an excellent overview of the MAVLink protocol, see: <https://discuss.ardupilot.org/t/mavlink-step-by-step/9629> <https://discuss.ardupilot.org/t/mavlink-and-arduino-step-by-step/25566>
+## Documentation:
+<https://mavlink.io/en/mavgen_c/>
+Useful guides:
+None atm: 💀
+Useful videos: <https://www.youtube.com/watch?v=vygpjQaycIc>
+<https://www.youtube.com/watch?v=mLpJHNXgEc8>
+<https://www.youtube.com/watch?v=gF3llCRyEqY>
+<https://www.youtube.com/watch?v=d_K6VnJK75o>
+<https://www.youtube.com/watch?v=YPpzIjPwc3s>
+<https://www.youtube.com/watch?v=qLfxzeKu2Hg>
+Ammeter:
+<https://learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout/pinouts>
+February 7, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/electrical/communication/mavlink/<https:/facebook.com/tritonuas> "facebook.com")

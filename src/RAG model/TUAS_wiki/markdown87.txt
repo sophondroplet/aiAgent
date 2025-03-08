@@ -1,0 +1,319 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#ucsd-datahub>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Datahub 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * Datahub  [ Datahub  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/>) Table of contents 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#overview>)
+        * [ Setup  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#setup>)
+        * [ Usage  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#usage>)
+          * [ Connecting and accessing  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#connecting-and-accessing>)
+          * [ Long-running tasks/training (background containers)  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#long-running-taskstraining-background-containers>)
+        * [ Datahub Containers  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#datahub-containers>)
+          * [ Premade Container  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#premade-container>)
+            * [ 1. Use our premade container  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#1-use-our-premade-container>)
+            * [ 2. Select one of the prebuilt UCSD ETS containers  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#2-select-one-of-the-prebuilt-ucsd-ets-containers>)
+          * [ Background Containers  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#background-containers>)
+          * [ Custom Container  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#custom-container>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Overview  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#overview>)
+  * [ Setup  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#setup>)
+  * [ Usage  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#usage>)
+    * [ Connecting and accessing  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#connecting-and-accessing>)
+    * [ Long-running tasks/training (background containers)  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#long-running-taskstraining-background-containers>)
+  * [ Datahub Containers  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#datahub-containers>)
+    * [ Premade Container  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#premade-container>)
+      * [ 1. Use our premade container  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#1-use-our-premade-container>)
+      * [ 2. Select one of the prebuilt UCSD ETS containers  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#2-select-one-of-the-prebuilt-ucsd-ets-containers>)
+    * [ Background Containers  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#background-containers>)
+    * [ Custom Container  ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#custom-container>)
+
+
+# UCSD Datahub
+## Overview
+A resource provided by UCSD that allows us to take advantage of UCSD's powerful GPUs to speed up our various machine learning and computer vision tasks. We can remotely connect these computers to access their power no matter where we are.
+## Setup
+Fill out this [form](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/docs.google.com/forms/d/e/1FAIpQLSdEZvIfDhSJWz9-uxCCrhuCWOdCKPQwLksy-RdHfOQb3LQEkw/viewform>) to request access to use Datahub for Triton UAS. If you have any questions about the form fields, contact a software lead.
+## Usage
+### Connecting and accessing
+There are 3 ways of connecting to and accessing Datahub:
+  1. Web Interface
+     * Navigate to <https://datahub.ucsd.edu> and login with your UCSD active directory credentials
+     * Select an environment with a GPU 
+     * Click "New" in the top right to launch a terminal to run your code
+     * Create/upload/edit files in the graphical file manager and text editor
+  2. VS Code SSH Extension
+     * Install [VS Code](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/code.visualstudio.com/>)
+     * Install the [Remote - SSH](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh>) VS Code extension
+     * Generate an SSH key locally if you haven't already:
+       * Use the command `ssh-keygen -t rsa` to generate one
+     * Copy the contents of your local **public** key
+       * If you used the `ssh-keygen -t rsa` command then your key will be located at `~/.ssh/id_rsa.pub` on your local machine
+       * If you used a diffent key generation algorithm then your public key will be named something else. Just make sure the file ends with the `.pub` extension
+     * Open a terminal and SSH into Datahub with the command `ssh UCSD-USERNAME@dsmlp-login.ucsd.edu`
+     * Paste your public key into the file at `~/.ssh/authorized_keys` on Datahub
+     * Open the `~/.ssh/config` file on your local machine
+     * Add a Host entry to the `~/.ssh/config` file that will tell VS Code to spawn a new container on Datahub and run the VS Code Remote Server inside it. _(Note that this config does_**not** _request a GPU)_
+```
+Host datahub
+  User UCSD-USERNAME
+  ProxyCommand ssh -i ~/.ssh/id_rsa UCSD-USERNAME@dsmlp-login.ucsd.edu /opt/launch-sh/bin/launch-scipy-ml.sh -P Always -i tritonuas/cv-docker:master -H -N datahub-vscode
+
+```
+
+       * **Note that the path to your local ssh private key may vary depending on which key generation algorithm you used**
+     * Add a similar host entry that **will** request a GPU. If you're not training a model with a GPU then fallback to the previous host entry.
+```
+Host datahub-gpu
+  User UCSD-USERNAME
+  ProxyCommand ssh -i ~/.ssh/id_rsa UCSD-USERNAME@dsmlp-login.ucsd.edu /opt/launch-sh/bin/launch-scipy-ml.sh -P Always -g 1 -i tritonuas/cv-docker:master -H -N datahub-vscode
+
+```
+
+     * In the menubar click View -> Command Pallete
+     * Select "Connect to Host"
+     * Select one of the host entries you created
+     * Open your project folder and use the integrated VS Code terminal to run commands
+       * You should be inside our container and be able to use `pipenv` for example 
+  3. SSH (Terminal)
+     * Enter the command: `ssh UCSDUSERNAME@dsmlp-login.ucsd.edu`
+     * Use a prebuilt docker container or a custom one you've created (more info [here](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#docker>))
+
+
+### Long-running tasks/training (background containers)
+Accessing background containers via SSH ProxyCommand currently doesn't work, so you won't be able to use VS Code to work in a background container. To get around this, after finishing development through VS Code, you'll have to exit and shut down the container, and then SSH in from the terminal directly to start and access a background container. You'll be running the training commands directly like this.
+Before you train your model properly on a full dataset and higher epochs, make sure the code as a whole works on a smaller dataset and lower epochs (so an exception doesn't happen after several hours of training) in order to have metrics and results generate properly at the end.
+Simply add the `-b` flag to to the command you used to launch the container. This allows your container to run in the background for up to 6 hours (the default is much lower).
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-0-1>)launch-scipy-ml.sh-b-PAlways-g1-itritonuas/cv-docker:master-H-Ndatahub-vscode
+
+```
+
+To enter the shell of a running container: 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-1-1>)kubeshdatahub-vscode
+
+```
+
+Note that once you run a command to train through the terminal, the shell will lock up. In order to avoid this (and not accidentally kill the training in the terminal), you can use `nohup`[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/en.wikipedia.org/wiki/Nohup>) to send the training task to the background and free up the shell.
+The way to use `nohup` is 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-2-1>)nohupCOMMAND&
+
+```
+
+The "&" at the end is crucial as this actually frees the shell and pipes all the output from the command into a file called `nohup.out`. **Make sure to gitignore this file!**
+For example, if you were running it with a pipenv command 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-3-1>)nohuppipenvrunmainconfigs/template-config.yaml&
+
+```
+
+Now the shell is safe to close, and the model will train in the background!
+## Datahub Containers
+While accessing Datahub from the terminal, you will probably need to use a Docker container to run the software you're intersted in. By default, Datahub doesn't have things like Python3, Pytorch, CUDA, etc. enabled. We can use Docker images to access this software and make our own.
+### Premade Container
+There are two ways we recommend to pull and launch premade containers: 
+#### 1. Use our premade container
+Run this command (recommended to place this command in a script): 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-4-1>)launch-scipy-ml.sh-g1-itritonuas/cv-docker:master
+
+```
+
+If you're feeling spicy, you can actually specify which GPU on Datahub you want to use (make sure it's actually available on the [status page](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/datahub.ucsd.edu/hub/status>)). Example, if you want to request a 2080TI: 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-5-1>)launch-scipy-ml.sh-g1-v2080ti-itritonuas/cv-docker:master
+
+```
+
+#### 2. Select one of the prebuilt UCSD ETS containers
+Select a container [here](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/support.ucsd.edu/its?id=kb_article_view&sysparm_article=KB0032173&sys_kb_id=12459737dbe69810a4bc41db13961976>) and launch the container on datahub using the instructions [here](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/github.com/ucsd-ets/datahub-example-notebook#step-3-launch-a-pod-on-dsmlp>)
+### Background Containers
+If you would like your processes to not be killed when your host machine loses connection to the remote Datahub server, you can launch Docker contains to stay alive in the background.
+Simply add the `-b` flag to to the command you used to launch the container. This allows your container to run in the background for up to 6 hours.
+If you are using our premade container the command will look something like this: 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-6-1>)launch-scipy-ml.sh-g1-itritonuas/cv-docker:master-b
+
+```
+
+Here are a few helpful commands for interfacing with background containers:
+Get a list of all running containers: 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-7-1>)kubectlgetpods
+
+```
+
+Enter the shell of a running container (`POD_NAME` is from the output of the previous command): 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-8-1>)kubeshPOD_NAME
+
+```
+
+Stopsa and deletes a running container: 
+```
+[](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/tritonuas.com/wiki/software/reference/datahub/#__codelineno-9-1>)kubectldeletepodPOD_NAME
+
+```
+
+### Custom Container
+  * Write your own Dockerfile based on our [image](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/github.com/tritonuas/cv-docker/blob/master/Dockerfile>)
+  * Follow the instructions [here](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/support.ucsd.edu/its?id=kb_article_view&sysparm_article=KB0032173&sys_kb_id=12459737dbe69810a4bc41db13961976>) to build the container.
+  * Launch the container on datahub using the instructions [here](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/github.com/ucsd-ets/datahub-example-notebook#step-3-launch-a-pod-on-dsmlp>)
+
+February 23, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/software/reference/datahub/<https:/facebook.com/tritonuas> "facebook.com")

@@ -1,0 +1,652 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#sensor-software-specs>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Signals Board Code 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * Signals Board Code  [ Signals Board Code  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>) Table of contents 
+          * [ Reading in data. Simple math  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#reading-in-data-simple-math>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Reading in data. Simple math  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#reading-in-data-simple-math>)
+
+
+# Sensor Software Specs
+## Reading in data. Simple math
+# Intro
+This document provides telemetry software specifications for the 2022 Swallow.
+The Arduino will receive input from five (5) thermistors, five (5) voltage dividers, and two (2) ammeters. The input comes in as a raw voltage. This value needs to be interpreted and converted into the actual number measurement (degrees Celsius, Volts, Amps/Coulombs) before it can be sent along to the PixHawk via MavLINK.
+Remember to comment your code well, and follow style conventions in indentation and bracket positioning.
+# Thermistors
+Temperature readings come from the thermistors.
+## Logic
+The thermistor has a varying resistance depending on the temperature. As we cannot measure resistance directly, we will instead be measuring the voltage drop across the thermistor.
+## Variables
+The thermistor has intrinsic properties that are necessary to interpret its output. These can be acquired from its datasheet, or from its Amazon listing. These properties include:
+  * Nominal resistance
+  * Nominal temperature
+  * B-coefficient
+
+
+In addition, we need to know the following constants about our circuit:
+  * Series resistor
+  * Sample group size
+  * Thermistor pin
+
+
+These constants should be set at the top of the code for ease of access. I recommend using `#define`.
+## Algorithm
+First, read in the required number of samples in the group, all in quick succession. This is done using `analogRead()`in a for-loop.
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-0-1>)// take N samples in a row, with a slight delay
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-0-2>)for(i=0;i<NUMSAMPLES;i++){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-0-3>)samplesTotal+=analogRead(THERMISTORPIN);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-0-4>)delay(10);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-0-5>)}
+
+```
+
+Next, we need to find the average of these several samples. Taking an average of a few samples each time helps reduce noise and improves reliability of our readings. This is simple math:
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-1-1>)// average out all the samples
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-1-2>)average=samplesTotal/NUMSAMPLES;
+
+```
+
+Now, we have a reliable value for the reading, we need to convert this reading into the actual resistance exhibited by the thermistor. We do this via an application of the following formulae:
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-2-1>)// convert the value to resistance
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-2-2>)average=1023/average-1;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-2-3>)average=SERIESRESISTOR/average;
+
+```
+
+Now that we have the resistance values, we need to convert it to a temperature reading. The formula used for this is the [Steinhart-Hart Equation for Thermistors](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation>). I did not read all the linear algebra in that Wikipedia article, and I don’t expect you to, either. Here is the code that performs the required calculations (I stole it from somewhere):
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-3-1>)floatsteinhart;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-3-2>)steinhart=average/THERMISTORNOMINAL;// (R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-3-3>)steinhart=log(steinhart);// ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-3-4>)steinhart/=BCOEFFICIENT;// 1/B * ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-3-5>)steinhart+=1.0/(TEMPERATURENOMINAL+273.15);// + (1/To)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-3-6>)steinhart=1.0/steinhart;// Invert
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-3-7>)steinhart-=273.15;// convert abs temp to C
+
+```
+
+We are now left with a floating-point number denoting the temperature reading, in Celsius. This entire program should be run repeatedly and frequently.
+# Voltage Dividers
+The voltage readings we want are too large to be measured directly, so we are using a voltage divider.
+## Logic
+The voltage divider circuit, wired into the Arduino’s inputs, is a way for us to indirectly measure large voltages. As the name suggests, a voltage divider gives us a fraction of the actual voltage. This fraction is constant, so the math to calculate the real value should not be too hard.
+## Variables
+Recall that time you read all the way through the Requirements Sheet, and saw this diagram.
+![Voltage Divider](https://drive.google.com/uc?export=view&id=1oqUzhZ_ECbxpI1VER0A89ofcciVtQaFi)
+As you might guess, you will need to know the values of R1 and R2 to be able to figure out the voltage ratio. These values are probably going to be either 64 and 136 and 64 and 272, or 50 and 150 and 50 and 300.
+Regardless, it is important to know accurately what these values are. Use a multimeter to measure the resistances, ask someone who knows, or use [this handy website](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/www.allaboutcircuits.com/tools/resistor-color-code-calculator/>) to interpret all the pretty colors.
+Additionally, as in the Thermistor example, we may want to take several measurements as a group. We will therefore need a constant that sets this number of measurements.
+Finally, we need the pin number where the voltage divider (Vout in the diagram) is connected.
+To summarize, we need:
+  * R1 resistance (the one in series with R2)
+  * R2 resistance (the one we are measuring across)
+  * Number of samples
+  * Pin number
+
+
+## Algorithm
+First, we take several measurements of the voltage. We again use a for-loop and analogRead().
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-4-1>)// take N samples in a row, with a slight delay
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-4-2>) for (i=0; i< NUMSAMPLES; i++) {
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-4-3>)  samplesTotal += analogRead(THERMISTORPIN);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-4-4>)  delay(10);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-4-5>)}
+
+```
+
+Next, we again take the average of all the samples. This reduces noise and improves precision.
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-5-1>)// average out all the samples
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-5-2>) average = samplesTotal/NUMSAMPLES;
+
+```
+
+Now, we have a denoised input value. By the nature of the voltage divider, this input value is a set fraction of the actual voltage. Specifically, this fraction is the same as the proportion of the total resistance that is provided by R2. As such, we can divide by this ratio to get the original value:
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-6-1>)// voltage divider ratio
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-6-2>)ratio = (1.0 * R2) / (R1 + R2);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-6-3>)voltage = average/ratio;
+
+```
+
+![Placeholder Goose](https://drive.google.com/uc?export=view&id=1iuaFDcWmfCDx812gjFAWw48fYfu-ew9X)
+# Ammeters
+The ammeters are more sophisticated sensors. They provide current readings over a data bus.
+## Logic
+The ammeter measures the current running through it. It cannot withstand the full might of our motor battery current, so when we put the ammeters in series with the load, we split the current between the ammeter and a parallel shunt resistor.
+Since the resistances of the shunt resistor and the ammeter are precisely known, we can calculate the actual current from the value of the fraction that we read in — like a current divider of sorts, reminiscent of what we just did in the previous section.
+![Current Divider](https://drive.google.com/uc?export=view&id=12n6h-5-MbI6888OQImhAa7icfmk3zZCA)
+## Variables
+Since we are splitting the current between two branches and only measuring one of them, we need to know their resistance values to know precisely what fraction of the total current passes through the ammeter.
+We need to know the values of R1 and R2. We will also be taking several measurements, as in the other examples, so once again we need the number of samples taken as a variable.
+We will also be using the ammeter’s library, so make sure to [import it](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/github.com/adafruit/Adafruit_INA260>) and include it at the top:
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-7-1>)#include <Adafruit_INA260.h> 
+
+```
+
+To use this library, each device needs an “address” on the bus. This is equivalent to the pin number. This is set by the sensor’s hardware. Consult the [documentation](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout/pinouts>) for more information about ammeter addresses.
+In summary:
+  * R1 (shunt resistor)
+  * R2 (ammeter resistor)
+  * Number of samples
+  * Device address (one of: 40, 41, 44, 45)
+
+
+## Algorithm
+The most important distinction between the code used for the ammeter and the code for the other sensors is that here, we will be reading inputs using the sensor’s own library methods.
+First, check that you remembered to install and #include the Wire library, like I told you to.
+Now, instantiate an instance of the sensor (outside of the main loop):
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-8-1>)Adafruit_INA260ina260=Adafruit_INA260();
+
+```
+
+In setup(), after initializing Serial, make sure that the sensor is connected and found:
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-1>)Serial.begin(115200);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-2>)// Wait until serial port is opened
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-3>)while(!Serial){delay(10);}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-4>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-5>)Serial.println("Adafruit INA260 Test");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-6>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-7>)if(!ina260.begin((uint8_t)ADDRESS))){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-8>)Serial.println("Couldn't find INA260 chip");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-9>)while(1);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-10>)}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-11>)Serial.println("Found INA260 chip");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-12>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-13>)prevTime=millis();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-9-14>)totalCharge=0;
+
+```
+
+Now, we can move on to the main body of our code.
+As always, we begin by reading in several values, only this time we use the readCurrent method instead of analogRead.
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-10-1>)// take N samples in a row, with a slight delay
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-10-2>)for(i=0;i<NUMSAMPLES;i++){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-10-3>)samplesTotal+=ina260.readCurrent();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-10-4>)delay(10);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-10-5>)}
+
+```
+
+Of course we then have to average out the samples:
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-11-1>)// average out all the samples
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-11-2>)average=samplesTotal/NUMSAMPLES;
+
+```
+
+We now have to convert the reading into the actual value using the known ratio. We have the equation R1i1 = R2i2, and we have the values of R1, R2, and i2 As such, we can get iTOTAL = i1 + i2 = R2i2/R1 + i2
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-12-1>)current=average+(R2*average)/R1;
+
+```
+
+We can now do some precalculus to find the amount of charge that has been used since the last charge. We can add this amount to the variable keeping track of the total charge used.
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-13-1>)currTime=millis();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-13-2>)timeDelta=currTime-prevTime;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-13-3>)chargeUsed=timeDelta/1000*current;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-13-4>)totalCharge+=chargeUsed;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-13-5>)prevTime=currTime();
+
+```
+
+Some of this code is from the [official resource](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout/arduino>).
+# Putting it All Together
+Here’s the current version of the code:
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-1>)#include<Adafruit_INA260.h>
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-2>)//numbers of samples for temperature, voltage, and current
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-3>)#define T_NUM_SAMPLES 10
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-4>)#define V_NUM_SAMPLES 10
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-5>)#define C_NUM_SAMPLES 10
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-6>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-7>)intmax_samples=max(T_NUM_SAMPLES,max(V_NUM_SAMPLES,C_NUM_SAMPLES));
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-8>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-9>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-10>)//<------ temperature variables ------>
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-11>)intt_nominal_res=100000;//100k
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-12>)intt_nominal_temp=20;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-13>)intt_B=3950;//this is a wild guess
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-14>)intt_R_series=10000;//10k
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-15>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-16>)// sum of samples taken
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-17>)floatt_sample_sum_air=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-18>)floatt_sample_sum_esc=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-19>)floatt_sample_sum_jetson=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-20>)floatt_sample_sum_motor_batt=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-21>)floatt_sample_sum_pdb_batt=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-22>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-23>)//pins
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-24>)intt_pin_air=A1;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-25>)intt_pin_esc=A2;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-26>)intt_pin_jetson=A3;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-27>)intt_pin_motor_batt=A4;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-28>)intt_pin_pdb_batt=A5;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-29>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-30>)//temperatures
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-31>)floatt_air;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-32>)floatt_esc;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-33>)floatt_jetson;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-34>)floatt_motor_batt;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-35>)floatt_pdb_batt;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-36>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-37>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-38>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-39>)//<------ voltage variables ------>
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-40>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-41>)// sum of samples taken
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-42>)floatv_sample_sum_pack=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-43>)floatv_sample_sum_1=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-44>)floatv_sample_sum_2=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-45>)floatv_sample_sum_3=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-46>)floatv_sample_sum_4=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-47>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-48>)// calculated voltage
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-49>)floatv_value_pack=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-50>)floatv_value_1=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-51>)floatv_value_2=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-52>)floatv_value_3=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-53>)floatv_value_4=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-54>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-55>)//resistors
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-56>)intv_R1_pack=300000;//300k
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-57>)intv_R2_pack=50000;//50k
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-58>)intv_R1_batt=150000;//150k
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-59>)intv_R2_batt=50000;//50k
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-60>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-61>)//pin numbers
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-62>)intv_pin_pack=A10;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-63>)intv_pin_1=A11;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-64>)intv_pin_2=A12;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-65>)intv_pin_3=A13;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-66>)intv_pin_4=A14;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-67>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-68>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-69>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-70>)//<------ current variables ------>
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-71>)// sum of samples taken
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-72>)floatc_sample_sum_motor=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-73>)floatc_sample_sum_pdb=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-74>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-75>)//resistors
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-76>)intc_R1_motor;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-77>)intc_R2_motor;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-78>)intc_R1_pdb;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-79>)intc_R2_pdb;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-80>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-81>)//device addresses
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-82>)intc_address_motor=40;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-83>)intc_address_pdb=41;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-84>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-85>)//timekeeping values
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-86>)longprevTime;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-87>)longcurrTime;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-88>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-89>)//initialize sensors
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-90>)Adafruit_INA260c_sensor_motor=Adafruit_INA260();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-91>)Adafruit_INA260c_sensor_pdb=Adafruit_INA260();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-92>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-93>)//total charge
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-94>)longdoubletotalCharge=0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-95>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-96>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-97>)//<----- end variables ----->
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-98>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-99>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-100>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-101>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-102>)voidsetup(){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-103>)// put your setup code here, to run once:
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-104>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-105>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-106>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-107>)prevTime=millis();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-108>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-109>)// Wait until serial port is opened
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-110>)while(!Serial){delay(10);}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-111>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-112>)Serial.println("Adafruit INA260 motor Test");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-113>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-114>)if(!c_sensor_motor.begin((uint8_t)c_address_motor)){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-115>)Serial.println("Couldn't find INA260 motor chip");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-116>)while(1);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-117>)}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-118>)Serial.println("Found INA260 motor chip");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-119>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-120>)Serial.println("Adafruit INA260 pdb Test");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-121>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-122>)if(!c_sensor_pdb.begin((uint8_t)c_address_pdb)){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-123>)Serial.println("Couldn't find INA260 pdb chip");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-124>)while(1);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-125>)}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-126>)Serial.println("Found INA260 pdb chip");
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-127>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-128>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-129>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-130>)}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-131>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-132>)voidloop(){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-133>)// put your main code here, to run repeatedly:
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-134>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-135>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-136>)// collect samples
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-137>)for(inti=0;i<max_samples;i++){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-138>)if(i<T_NUM_SAMPLES){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-139>)t_sample_sum_air+=analogRead(t_pin_air);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-140>)t_sample_sum_esc+=analogRead(t_pin_esc);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-141>)t_sample_sum_jetson+=analogRead(t_pin_jetson);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-142>)t_sample_sum_motor_batt+=analogRead(t_pin_motor_batt);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-143>)t_sample_sum_pdb_batt+=analogRead(t_pin_pdb_batt);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-144>)}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-145>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-146>)if(i<V_NUM_SAMPLES){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-147>)v_sample_sum_pack+=analogRead(v_pin_pack);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-148>)v_sample_sum_1+=analogRead(v_pin_1);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-149>)v_sample_sum_2+=analogRead(v_pin_2);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-150>)v_sample_sum_3+=analogRead(v_pin_3);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-151>)v_sample_sum_4+=analogRead(v_pin_4);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-152>)}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-153>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-154>)if(i<C_NUM_SAMPLES){
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-155>)c_sample_sum_motor+=c_sensor_motor.readCurrent();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-156>)c_sample_sum_pdb+=c_sensor_pdb.readCurrent();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-157>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-158>)}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-159>)delay(10);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-160>)}
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-161>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-162>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-163>)////<----- average samples ----->
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-164>)floatt_avg_air=t_sample_sum_air/T_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-165>)floatt_avg_esc=t_sample_sum_esc/T_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-166>)floatt_avg_jetson=t_sample_sum_jetson/T_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-167>)floatt_avg_motor_batt=t_sample_sum_motor_batt/T_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-168>)floatt_avg_pdb_batt=t_sample_sum_pdb_batt/T_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-169>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-170>)floatv_avg_pack=v_sample_sum_pack/V_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-171>)floatv_avg_1=v_sample_sum_1/V_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-172>)floatv_avg_2=v_sample_sum_2/V_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-173>)floatv_avg_3=v_sample_sum_3/V_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-174>)floatv_avg_4=v_sample_sum_4/V_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-175>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-176>)floatc_avg_motor=c_sample_sum_motor/C_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-177>)floatc_avg_pdb=c_sample_sum_pdb/C_NUM_SAMPLES;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-178>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-179>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-180>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-181>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-182>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-183>)floatsteinhart;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-184>)//<----- calculate temperatures ----->
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-185>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-186>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-187>)//air
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-188>)t_avg_air=1023.0/t_avg_air-1.0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-189>)t_avg_air=t_R_series/t_avg_air;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-190>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-191>)steinhart=t_avg_air/t_nominal_res;// (R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-192>)steinhart=log(steinhart);// ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-193>)steinhart/=t_B;// 1/B * ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-194>)steinhart+=1.0/(t_nominal_temp+273.15);// + (1/To)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-195>)steinhart=1.0/steinhart;// Invert
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-196>)steinhart-=273.15;// convert abs temp to C
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-197>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-198>)t_air=steinhart;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-199>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-200>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-201>)//esc
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-202>)t_avg_esc=1023.0/t_avg_esc-1.0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-203>)t_avg_esc=t_R_series/t_avg_esc;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-204>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-205>)steinhart=t_avg_esc/t_nominal_res;// (R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-206>)steinhart=log(steinhart);// ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-207>)steinhart/=t_B;// 1/B * ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-208>)steinhart+=1.0/(t_nominal_temp+273.15);// + (1/To)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-209>)steinhart=1.0/steinhart;// Invert
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-210>)steinhart-=273.15;// convert abs temp to C
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-211>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-212>)t_esc=steinhart;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-213>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-214>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-215>)//jetson
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-216>)t_avg_jetson=1023.0/t_avg_jetson-1.0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-217>)t_avg_jetson=t_R_series/t_avg_jetson;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-218>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-219>)steinhart=t_avg_jetson/t_nominal_res;// (R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-220>)steinhart=log(steinhart);// ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-221>)steinhart/=t_B;// 1/B * ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-222>)steinhart+=1.0/(t_nominal_temp+273.15);// + (1/To)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-223>)steinhart=1.0/steinhart;// Invert
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-224>)steinhart-=273.15;// convert abs temp to C
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-225>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-226>)t_jetson=steinhart;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-227>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-228>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-229>)//motor battery
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-230>)t_avg_motor_batt=1023.0/t_avg_motor_batt-1.0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-231>)t_avg_motor_batt=t_R_series/t_avg_motor_batt;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-232>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-233>)steinhart=t_avg_motor_batt/t_nominal_res;// (R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-234>)steinhart=log(steinhart);// ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-235>)steinhart/=t_B;// 1/B * ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-236>)steinhart+=1.0/(t_nominal_temp+273.15);// + (1/To)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-237>)steinhart=1.0/steinhart;// Invert
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-238>)steinhart-=273.15;// convert abs temp to C
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-239>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-240>)t_motor_batt=steinhart;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-241>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-242>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-243>)//pdb battery
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-244>)t_avg_pdb_batt=1023.0/t_avg_pdb_batt-1.0;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-245>)t_avg_pdb_batt=t_R_series/t_avg_pdb_batt;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-246>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-247>)steinhart=t_avg_pdb_batt/t_nominal_res;// (R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-248>)steinhart=log(steinhart);// ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-249>)steinhart/=t_B;// 1/B * ln(R/Ro)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-250>)steinhart+=1.0/(t_nominal_temp+273.15);// + (1/To)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-251>)steinhart=1.0/steinhart;// Invert
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-252>)steinhart-=273.15;// convert abs temp to C
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-253>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-254>)t_pdb_batt=steinhart;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-255>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-256>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-257>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-258>)//<----- calculate voltages ----->
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-259>)floatv_ratio_pack=(1.0*v_R2_pack)/(v_R1_pack+v_R2_pack);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-260>)floatv_ratio_batt=(1.0*v_R2_batt)/(v_R1_batt+v_R2_batt);
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-261>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-262>)floatv_pack=v_avg_pack/v_ratio_pack;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-263>)floatv_1=v_avg_1/v_ratio_batt;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-264>)floatv_2=v_avg_2/v_ratio_batt;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-265>)floatv_3=v_avg_3/v_ratio_batt;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-266>)floatv_4=v_avg_4/v_ratio_batt;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-267>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-268>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-269>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-270>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-271>)//<----- calculate currents ----->
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-272>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-273>)doublec_motor=c_avg_motor+(c_R2_motor*c_avg_motor)/c_R1_motor;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-274>)doublec_pdb=c_avg_pdb+(c_R2_pdb*c_avg_pdb)/c_R1_pdb;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-275>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-276>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-277>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-278>)//<----- calculate charge used ----->
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-279>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-280>)currTime=millis();
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-281>)doubletimeDelta=currTime-prevTime;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-282>)doublechargeUsed=timeDelta/1000*c_motor;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-283>)totalCharge+=chargeUsed;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-284>)prevTime=currTime;
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-285>)
+[](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/#__codelineno-14-286>)}
+
+```
+
+June 4, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-code/<https:/facebook.com/tritonuas> "facebook.com")

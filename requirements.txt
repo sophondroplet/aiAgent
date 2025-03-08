@@ -4,3 +4,5 @@ pydantic-ai
 logfire
 devtools
 gradio
+crawl4ai
+supabase

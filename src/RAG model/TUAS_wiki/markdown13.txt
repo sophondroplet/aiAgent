@@ -1,0 +1,253 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#design>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Mechanism 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * Mechanism  [ Mechanism  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>) Table of contents 
+          * [ Design  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#design>)
+          * [ Arduino Code  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#arduino-code>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Design  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#design>)
+  * [ Arduino Code  ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#arduino-code>)
+
+
+# Mechanism
+## Design
+The payload (water bottles) are stored in a revolving cylinder in order to minmize space occupied and reduce the number of required servos to release each individual payload. There are two servos, one responsible for rotating the cylinder to the correct payload, and the other for releasing it. An angle sensor is utilized to assign an angle to each payload, allowing the plane to differentiate between payloads 1-5. The system is controlled by an Arduino Nano, which is fed instructions from the Jetson.
+![Test Image](https://drive.google.com/uc?export=view&id=1pGtW3EFqCWtN6zwi4mXsAgaNiBYH3s7_)
+## Arduino Code
+The main role of the code is to take in some signal from the Jetson, and be able to interpret that as which payload to rotate to and drop. Due to Jetson limitations, we could only send a high or low signal from 4 pins. Considering that we had to uniquely represent 5 payloads, we chose to assign 3 pins to provide a binary representation of which payload we wanted to rotate to. Payload 1 would be 000, payload 2 would be 001, and so forth until we reach payload 5. Our 4th pin would then be dedicated to providing the drop signal, releasing the payload when high, and returning to its intial position when the signal was low. In order to know which bottle we want to drop, we have this function: 
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-1>)byte whichBottleRotate(){
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-2>) //Read from 4 GPI pins on the Jetson to determine which bottle and when to drop
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-3>) //Pin 1 will be when to drop
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-4>) //Pin 2-3 will be binary for bottle slot 1-5 i.e. bottle 4 will be 011
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-5>) byte bi1 = digitalRead(BINARY_1); //GPIO 298 (LSB)
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-6>) byte bi2 = digitalRead(BINARY_2); //GPIO 480
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-7>) byte bi3 = digitalRead(BINARY_3); //GPIO 486 (MSB)
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-8>) return bi1 | (bi2 << 1) | (bi3 << 2);
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-0-9>)}
+
+```
+
+The logic behind interpreting the high and low signals from the GPIO pins from the Jetson have been condensed into one line: 
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-1-1>)return bi1 | (bi2 << 1) | (bi3 << 2);
+
+```
+
+The initial assignment for each variable is only a high or low signal, but that would only appear in the ones place of the byte it is stored in. So a high signal for **bi1** would look something like 00000001, and the low signal would just be 00000000. But in order to represent, for example, 5, we would need numbers in the hundreds and tens place to so that we get 00000101. To get the value of our Most Significant Bit (MSB) **bi3** into that place, we use the bitwise Left Shift operator (<<) to shift that value to the left by 2 places. We do the same to **bi2** , but only by 1 shift so that it sits in the tens place. Continuing with our example of getting binary 5, **bi1** would be 00000001, **bi2** would be 00000000, and **bi3** would be 00000001. Once we bitwise shift **bi2** and **bi3** , they would look like: 
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-2-1>)00000001
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-2-2>)00000000
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-2-3>)00000100
+
+```
+
+Now we would like to essentially add the 3 bytes together to form 0000101, which is possible using the bitwise OR operator( | ). OR returns a true, or 1, if any of the numbers it compares in that column is true, and returns a false, or zero, if they are all false. So going column by column, it checks if there is a one or not, and if so, keeps the one in the returned bit. Thus, the byte 0000101 is returned. 
+The returned byte can then be converted back into decimal form, indicating which payload we want to drop. 
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-1>)switch ((int)bottleIndex) {
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-2>)  case 1:
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-3>)   setPoint = BOTTLE_1_ANGLE;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-4>)   break;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-5>)  case 2:
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-6>)   setPoint = BOTTLE_2_ANGLE;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-7>)   break;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-8>)  case 3:
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-9>)   setPoint = BOTTLE_3_ANGLE;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-10>)   break;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-11>)  case 4:
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-12>)   setPoint = BOTTLE_4_ANGLE;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-13>)   break;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-14>)  case 5:
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-15>)   setPoint = BOTTLE_5_ANGLE;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-16>)   break;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-17>)  default:
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-18>)   Serial.println("ERROR: bottleIndex " + String((int)bottleIndex));
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-19>)   binarySignalPrint();
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-3-20>) }
+
+```
+
+_ The angles are measured by an angle sensor sitting above the axle. The code responsible for designating the bottle angles is as follows: 
+```
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-1>)void controller(double setPoint) {
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-2>)  //controller gains
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-3>)  double pGain = 10;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-4>)  //min and max meaningful pwm values for rotatingServo
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-5>)  int rotatingServo_max_pwm = 1600;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-6>)  int rotatingServo_min_pwm = 1400;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-7>)  double currAngle = angleSensor.readAngle();
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-8>)  double errorDegrees = (fmod(currAngle - setPoint + 540, 360) - 180);
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-9>)  double P = -errorDegrees*pGain;
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-10>)
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-11>)  double controllerOutput = P; //+I+D later if needed
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-12>)  double pwmOutput = constrain(1500 + controllerOutput, rotatingServo_min_pwm, rotatingServo_max_pwm);
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-13>)  rotatingServo.writeMicroseconds(pwmOutput);
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-14>)  Serial.print("setPoint: ");
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-15>)  Serial.print(setPoint,1);
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-16>)  Serial.print(" currAngle: ");
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-17>)  Serial.print(currAngle,1);
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-18>)  Serial.print(" pwm output: ");
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-19>)  Serial.println(pwmOutput,0);
+[](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/#__codelineno-4-20>)}
+
+```
+
+May 18, 2023 _
+_ Back to top  __
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/airdrop/drop_mechanism/<https:/facebook.com/tritonuas> "facebook.com")
+_

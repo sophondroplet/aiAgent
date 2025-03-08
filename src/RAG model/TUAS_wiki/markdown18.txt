@@ -1,0 +1,286 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/#requirements-sheet>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Signals Board Requirements 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * Signals Board Requirements  [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>) Table of contents 
+          * [ Signals Board Sensors  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/#signals-board-sensors>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Signals Board Sensors  ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/#signals-board-sensors>)
+
+
+# Requirements Sheet
+## Signals Board Sensors
+# Introduction
+The Signals board requires purchases. We must buy sensors to satisfy our requirements. Let us discuss the rationale behind our purchase decisions.
+(Note: all of these requirements are based on the latest data for the 2022 Swallow aircraft. For other vehicles, some of these requirements may need to be adjusted.)
+The requirements are:
+  1. Measure temperature
+  2. Measure voltage
+  3. Measure battery level
+
+
+The following are not currently among the requirements:
+  1. Collision avoidance
+  2. Gyroscope
+  3. Altitude sensing/ground avoidance
+  4. Airspeed
+
+
+Now, for more detail:
+# Requirements
+## I. Temperature
+### Motivation
+We would like to measure temperature as part of our telemetry. First, we want to measure the temperature of the air outside. Second, we want to measure the temperature of some key internal components. This allows us to monitor their performance and wellbeing by seeing how hot they run, and lets us observe overheating before it becomes a problem.
+### Subjects
+  1. Outside air
+  2. Electronic speed controller (ESC) HobbyKing
+  3. Jetson TX2 ML/AI/CV processor
+  4. Motor battery pack 
+  5. PDB battery pack
+
+
+The list of aircraft components that need temperature monitoring comes from the leadership of the Airframe team.
+Note that the Pixhawk is not included in the list of components, as it can handle temperatures up to 85C — which we do not expect to reach.
+### Options
+To measure temperature, we have two main solutions: thermistors or thermocouples. 
+  * A thermistor is a resistor that changes its resistance value depending on the temperature. 
+  * A thermocouple is a device that generates a small voltage based on the temperature.
+
+
+### Method
+We will be using thermistors.
+### Justification
+The thermistor is the superior sensor for our purposes. The main advantage is that while thermocouples generate a very small voltage that needs to be amplified via a custom-made circuit or PCB, the output of thermistors can be read by the Arduino directly. This saves on cost and complexity, as well as time and effort. [Additional advantages](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.ametherm.com/blog/thermistors/temperature-sensors-thermistors-vs-thermocouples>) of thermistors over thermocouples include higher accuracy of measurement and better stability (reliability).
+Although the thermocouple has a superior range of functional temperatures, this is not necessary. The thermistor can easily handle any temperature that may occur in the aircraft. The maximum operating temperature of the thermistor is around 250-300°C. This is well above the maximum operating temperatures of the Jetson ([80°C](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/download.kamami.pl/p569306-DATA%20SHEET%20-%20NVIDIA%20Jetson%20TX2%20System-on-Module.pdf>)), LiPo batteries (no more than [70°C](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.onyxstar.net/safety-rules-for-lipos/>)), ESC ([100°C](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/cdn-global-hk.hobbyking.com/media/file/843091993X7478X57.pdf>)), and Maryland ([43°C](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/en.wikipedia.org/wiki/U.S._state_and_territory_temperature_extremes>)).
+### Purchasing
+Thermistors — specifically, 3D printer thermistors — are rather cheap and commonly available from a variety of sources. For example, here is an Amazon listing selling 10 thermistors for around $8:
+<https://www.amazon.com/HiLetgo-Thermistors-Printers-Temperature-Accessories/dp/B07V6YBFSY/>
+## II. Voltage
+### Motivation
+We want to measure the voltage of our aircraft’s onboard batteries. The voltage of a battery can be used as an approximation of charge level, and is useful for monitoring battery health and wear. Additionally, a voltage reading can be used in conjunction with a current reading to measure the power draw (wattage) of relevant systems.
+### Subjects
+We will be measuring the voltage of all of our batteries. First, the single 4S battery for the power distribution board needs a voltage measurement. Next, the four batteries for the ESC and motor each need a voltage measurement, plus the group of four as a whole needs a voltage measurement. This brings the total count of readings to 6.
+However, we do not need to add a sensor to measure the PDB voltage. Since the PixHawk will be getting power from this same battery using a [Power Brick Mini](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.heliengadin.com/products/power-brick-mini>), we can retrieve voltage information from this device’s built-in voltage sensor without the need for an additional external voltage sensor. This brings the number of voltage readings we need to implement down to 5.
+### Options
+We have two chief alternatives for getting a voltage reading: voltage sensor, or voltage divider.
+  * A voltage sensor is an extra device that measures the given voltage and sends an analog signal to the Arduino’s input ports.
+  * A voltage divider is a circuit setup that takes a set fraction of the given voltage, to ensure that the output voltage is within the Arduino’s input voltage range. Knowing this factor, the actual voltage may be easily calculated.
+
+
+### Method
+We will be using voltage dividers. We will need to design and manufacture them ourselves.
+### Justification
+The use of a custom-built voltage divider would cut out the need to purchase voltage sensors. Additionally, a voltage divider can be designed to our precise specifications, without the need to find and order special sensors for our high-voltage and high-current applications. 
+### Design
+We need to design the voltage divider circuit ourselves. In fact, we need to design it in two “sizes”, since we need to have one sensor for each battery plus one sensor for the group as a whole.
+Let’s look at the first case first. What we have: The battery voltages are rated at 14.8V, but we estimate the maximum voltage at 15.6V (as per [the wiki](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/tritonuas.com/wiki/embedded/payload/payload_ov/#power>)). The Arduino analog voltage range is from 0V to 5V, and the Arduino analog voltage resolution is 4.9mV. This means that we need to scale the maximum 15.6V to 5V. The factor there is around 0.32. 
+Consider the following diagram: ![Voltage Divider](https://drive.google.com/uc?export=view&id=1oqUzhZ_ECbxpI1VER0A89ofcciVtQaFi) This circuit is in parallel with the load.
+If we represent the total resistance of the voltage divider with RT, the resistance of the resistor we are using to measure must be R2 = 0.32 _R T, and consequently R1 = 0.68_RT. 
+In theory, we could pick any value for RT. In practice, however, we are constrained by the high-current nature of our application. If we pick R-values that are too low, our resistors will draw too much current away from the load, and burn up.
+Let’s try large numbers on the order of 100kohm. Let RT = 200kΩ, then R2 = 64kΩ and R1 = 136kΩ. These are difficult to fabricate. How about 50kΩ and 150kΩ? This would mean that the maximum voltage we read in would be 3.9V, which is well and safely below the Arduino’s maximum of 5V. The advantage of 50kΩ and 150kΩ resistors is that these are round values that would be easier to purchase or scavenge, but either these or the previously mentioned values will be acceptable (with the appropriate constants set in the software).
+We also need to create a similar divider for the motor power pack. The four batteries are set up in a “square” formation — two groups of two in parallel. This makes an 8S configuration, since there are two 4S batteries in total; therefore, our voltage doubles from 15.6V to 31.2V. To adapt the voltage divider to this voltage, we can simply double R1 to 300kΩ, which gives us a maximum read voltage of 4.457V.
+### Purchasing
+As described above, there are no large purchases needed for the voltage divider, only cheap resistors in low quantities. In fact, we ought to check our stocks — we may well have the resistors already, and therefore might not need to purchase anything.
+## III. Charge
+### Motivation
+A voltage reading by itself is insufficient to formulate a holistic evaluation of battery charge and discharge. To know exactly how much electric charge remains in the battery, we must count how much charge exits the battery. Additionally, measuring the current drawn from the battery can let us guard against dangerous over-current; together with the voltage measurement, this can allow us to monitor power consumption.
+### Subjects
+We need to measure the charge of both battery packs. We need one measurement for the PDB battery, and one for the pack of 4 batteries that power the motor.
+### Theoretical Considerations
+We have very little choice on the theoretical level. We can say that we will use a coulomb counter or an ammeter. However, whatever sensor we choose, we will either need to measure the current and calculate the charge, or measure the charge and calculate the current. We will need to perform some simple calculus either way. Since we can evulse the same functionality and data from any sensor, the decision comes down to factors like suitable specifications, ease of use and implementation, and cost. As such, our main choices are in the practical execution of this sensor.
+### Practical Considerations
+Even finding a sensor advertised as a “coulomb counter” that matches our requirements is difficult, as most are not rated for the voltage (>30V) of our motor battery pack. The only model we’ve found that matches our requirements is the [LTC2944](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.mouser.com/ProductDetail/Analog-Devices-Inc/LTC2944IDDPBF?qs=sGAEpiMZZMv0NwlthflBi8nOb3NgeXfqvlkijWC7LrY%3D>), which costs $9.19 for just the chip. This does not include the materials and labor for the design and manufacturing of a board on which to mount this chip, and all of this work would have to be done by us, in-house. This would significantly increase price, complexity, and the number of potential failure points. The site also offers an alternative, selling a pre-assembled [test board](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.mouser.com/ProductDetail/Analog-Devices-Inc/DC1812A-B?qs=sGAEpiMZZMv0NwlthflBi5OXwwsAPXM8O2%2FA0JOcozc%3D>) for $66, but this is far too expensive for us. The website does not specify a maximum current rating, and we can’t be sure that this sensor fits our needs.
+A similar issue arises when trying to purchase an appropriate “ammeter”: many sensors advertised as being Arduino-compatible are not, in fact, rated for high enough currents for our purposes. The one available [from Adafruit](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.adafruit.com/product/1164>), for example, is only rated for 5 Amps. Meanwhile, we need to be able to measure currents as high as 65A, based on the [specifications of the motor](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.scorpionsystem.com/catalog/aeroplane/motors_1/sii-40/SII-4035-250/>) we’re powering.
+In short, most available direct-measurement solutions are inadequate for our application.
+Thankfully, the issue of inadequate sensors for high-current applications is a common one, and as such ready solutions exist for us to use. The chief among them is the use of a so-called “shunt resistor”.
+[Here is an example](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.amazon.com/RIIEYOCA-Ammeter-shunt%EF%BC%8CDC-Current-Resistor/dp/B098QBPNPQ/ref=sr_1_3?crid=26QBCLCJK5WAC&keywords=shunt%2Bresistor%2B100a&qid=1642370800&sprefix=shunt%2Bresistor%2B1000a%2Caps%2C147&sr=8-3&th=1>) of such a shunt resistor (100A, 75mV). It is low-tech and affordable. Similar options exist in other “sizes” and max-current ratings. 
+### Options
+We have three main choices when it comes to using a shunt resistor to help us measure the current:
+  1. Measure the voltage drop across the shunt resistor using Ohm’s law. This is easy, but since the maximum voltage across the shunt resistor is (65A/100A)*75mV = 48.75mV and the resolution of the Arduino is only [10 bits](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.arduino.cc/reference/en/language/functions/analog-io/analogread/>), our current reading would have a resolution of around 1.44A if we lower the reference voltage to 1.1V (the reading would be one of 45 distinct values). This may be a problem — the resolution is somewhat coarse.
+  2. Another option would be to read the voltage drop across the shunt resistor, but amplify the range of 0mV-75mV to 0V-5V. This eliminates the aforementioned resolution issue. However, this would likely involve the use of an op-amp, which stirs up a whole host of extra design requirements, calculations, purchases, and manufacturing steps. This option, while hypothetically functional, is far from ideal.
+  3. The last option is to use the shunt resistor in parallel with a dedicated ammeter, in essence creating a “current divider”. By splitting the current between two resistors of known values and measuring the current across one, we may indirectly measure the total current using only a few simple calculations.
+
+
+### Method
+As this last option seems the most workable, let us pursue this line of thinking further.
+### Design
+Our task is to divert at most 15A of our 65A current into a side branch, where it can be measured by an [off-the-shelf ammeter](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.adafruit.com/product/4226>). Our limitation is that we may not use large resistor values, as this will negatively impact system performance. 
+With that, we can imagine a circuit like this, placed in series with the load (i.e. between the batteries and the PDB or ESC).
+![Current Divider](https://drive.google.com/uc?export=view&id=12n6h-5-MbI6888OQImhAa7icfmk3zZCA)
+Here, we denote the total current as iT. At the branch, this splits into i1 and i2, and as such, i1+i2=iT. The relative ratio of i1:i2 is exactly the inverse of the ratio of R1:R2 — for example, if R1 were twice as resistant as R2, then i1 would be half as large as i2.
+Note: it is conventional to ignore the resistance of the ammeter when doing calculations. In practice, the ammeter has a resistance, and in this particular case it is not safe to ignore it. Specifically, the particular ammeter we are considering is specified as having a 2mΩ resistor. This seems insignificant, until we realize that a typical shunt resistance is 75mV/100A = 0.75mΩ. As such, we must include the ammeter’s resistance as part of the R2.
+Looking at the specifications of the ammeter, its maximum current is 15A. This is our value for i2. For the maximum total current of 65A, we need to have i2 = 15A and i1 = 50A. For i1 = 3.33 _i2, we need R2 = 3.33_ R1.
+The inclusion of the ammeter practically imposes a minimum bound on the R2, which has to be at least 3.33x as resistant as R1. As such, we would need R1 to be at most (2mΩ/3.33) = 0.601mΩ.
+Ideally, we wouldn’t add anything to R2, to save on part count and price. As such, we need to find a shunt resistor rated for 100A 50mV. 
+## Purchasing
+Thermistors: <https://www.amazon.com/HiLetgo-Thermistors-Printers-Temperature-Accessories/dp/B07V6YBFSY/>
+Voltage divider: nothing yet
+Ammeter:
+2x <https://www.adafruit.com/product/4226>
+2x shunt
+options:
+<https://www.jaycar.us/heavy-duty-current-shunt-100a-50mv/p/QP5415>
+[https://www.aliexpress.com/item/4000064162901.html?spm=a2g0o.productlist.0.0.29765d9fXXSxnJ&algo_pvid=9e869feb-f653-4851-8c75-2d2dd1decd82&aem_p4p_detail=202201281122357524704339433750051592089&algo_exp_id=9e869feb-f653-4851-8c75-2d2dd1decd82-0&pdp_ext_f=%7B%22sku_id%22%3A%2210000000290612640%22%7D&pdp_pi=-1%3B8.6%3B-1%3B-1%40salePrice%3BUSD%3Bsearch-mainSearch](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/www.aliexpress.com/item/4000064162901.html?spm=a2g0o.productlist.0.0.29765d9fXXSxnJ&algo_pvid=9e869feb-f653-4851-8c75-2d2dd1decd82&aem_p4p_detail=202201281122357524704339433750051592089&algo_exp_id=9e869feb-f653-4851-8c75-2d2dd1decd82-0&pdp_ext_f=%7B%22sku_id%22%3A%2210000000290612640%22%7D&pdp_pi=-1%3B8.6%3B-1%3B-1%40salePrice%3BUSD%3Bsearch-mainSearch>)
+<https://www.ewertenergy.com/store/index.php/shunt-resistor-100a-50mv-model-cssh100.html>
+more options:
+<https://www.amazon.com/Blue-Sea-Systems-Analog-Meter/dp/B00GHU499A>
+<https://www.allelectronics.com/item/snt-100/100-amp-shunt-50mv-100-amps/1.html>
+<https://www.hodgesmarine.com/blu9230-blue-sea-9230-shunt-100-amp50-mv.html>
+<https://www.ebay.com/itm/165294448788>
+<https://www.ebay.com/itm/131878173316>
+August 13, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/signals-board/sigboard-reqs/<https:/facebook.com/tritonuas> "facebook.com")

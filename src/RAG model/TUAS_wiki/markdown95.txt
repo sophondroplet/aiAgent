@@ -1,0 +1,820 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#a-deep-dive-into-git-and-github>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+02. Git/GitHub 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * [ Antenna Tracker  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * 02. Git/GitHub  [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>) Table of contents 
+          * [ Starting Fresh  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#starting-fresh>)
+            * [ Installing git  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#installing-git>)
+            * [ Creating a local repository  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#creating-a-local-repository>)
+            * [ Adding Changes  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#adding-changes>)
+            * [ Committing Changes  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#committing-changes>)
+            * [ Pushing to a Remote repository  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#pushing-to-a-remote-repository>)
+          * [ Making changes to a project  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#making-changes-to-a-project>)
+            * [ Cloning a repository  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#cloning-a-repository>)
+            * [ Creating a new feature branch  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#creating-a-new-feature-branch>)
+            * [ Making a Pull Request  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#making-a-pull-request>)
+          * [ Summary  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#summary>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Starting Fresh  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#starting-fresh>)
+    * [ Installing git  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#installing-git>)
+    * [ Creating a local repository  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#creating-a-local-repository>)
+    * [ Adding Changes  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#adding-changes>)
+    * [ Committing Changes  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#committing-changes>)
+    * [ Pushing to a Remote repository  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#pushing-to-a-remote-repository>)
+  * [ Making changes to a project  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#making-changes-to-a-project>)
+    * [ Cloning a repository  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#cloning-a-repository>)
+    * [ Creating a new feature branch  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#creating-a-new-feature-branch>)
+    * [ Making a Pull Request  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#making-a-pull-request>)
+  * [ Summary  ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#summary>)
+
+
+# A Deep Dive into Git and GitHub
+This material has been adapted from the [How to Contribute Page](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute>). While that page serves as a reference for how to use Git and GitHub to contribute to Triton UAS, this page serves to be more interactive and provide hands-on experience. If you haven't read through that page, check it out to become familiar with the concepts mentioned here.
+You should also look through the [Unix Basics](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/01_unix_basics>) to get a foundation of interacting with the command line.
+This workshop will be broken up into two sections:
+  1. Starting a fresh repository
+  2. Contributing a feature to an existing remote repository 
+
+
+## Starting Fresh
+### Installing git
+To get started with `git`, the first thing to do is to ensure that you have it installed.
+Run the following command to verify that you have `git` installed. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-0-1>)git --version
+
+```
+
+If you get some error back that looks like `command not found: git`, follow the steps for your operating system:
+  * Many Linux distributions will come with `git` preinstalled. If not, you can install it with your system's package manager. (For Ubuntu/Debian systems you can run `sudo apt install git`)
+  * macOS allows you to install `git` via XCode command line utilities. You can do so with the command `xcode-select --install`. Note that this will install other software and can take up a decent chunk of space on your system (around 3GB). To just install `git`, you can use [homebrew](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/brew.sh/>) with the command `brew install git`.
+  * On Windows, we recommend that you set up WSL or a Linux virtual machine for development. You can follow the steps here [here](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute/#windows>). Once either is setup you can follow the Linux steps. For the purposes of this workshop, you can do everything once you install [Git for Windows](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/git-scm.com/downloads>).
+
+
+### Creating a local repository
+We're going to create a local Git repository first. But first, what even is a repository?
+In the context of software and git, a **repository** (or repo) is a collection of files that make up a single project. As mentioned in the [How to Contribute Page](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute/#231-git-vs-github>), a git repository can be either local and/or remote. For example, we can have a local git repo on our computer's storage that operates independently of a GitHub repo. If we modify files on our computer's git repo, the GitHub repo will not be updated. Similarly, if someone else updates a GitHub repo, our local repo will not suddenly change to include those changes. There are ways to synchronize a local and remote git repo, but we will discuss that later. 
+Ok, back to creating a local repository. Find somewhere on your filesystem where you want to create a repository for this workshop. Maybe in a `~/projects` or `~/tuas` folder.
+Now, create a new folder that will contain our repository. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-1-1>)mkdirmy_local_repo
+
+```
+
+`cd` into that folder and run the `git init` command. `git init` will set up a git repository. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-2-1>)cdmy_local_repo
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-2-2>)gitinit
+
+```
+
+You can verify that the folder is a git repo but running `git status` or running `ls -a` and verifying that there is a `.git` folder. The `.git` folder is where git keeps all it's internal data to keep track of the state of your local repository. 
+### Adding Changes
+Now that we have a git repo, we can begin to add files and have git track our changes. 
+Let's make a README for our new repo. If you're not familiar, a README is a file that is commonly placed at the root of a repo. The README file contains high level information that is useful to those that are new to the project. It usually contains a summary of the project's objectives, setup instructions, links to documentation, and more. 
+We can make our README follow the Markdown format by giving it `.md` extension. Markdown is a markup language for creating formatted text. That basically means that you can create things like bulleted lists, tables, headings, checklists, **bolded text** , _italicized text_ , and more. In fact, this wiki is written with Markdown.
+To create a Markdown README file, create a `README.md` file in the repository folder that we created. You can use the text editor of your choice (VSCode, Nano, Emacs, Vim, etc). This workshop will be showing commands in Vim. If you want to learn more about Vim, check out the [Vim section of the command line workshop](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/#vim>).
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-3-1>)vimREADME.md
+
+```
+
+Now that we've opened a new file called `README.md`, let's add some content. Feel free to write whatever Markdown you want or use the provided text. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-1>)# Sample README
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-2>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-3>)## Here's a sub-heading
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-4>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-5>)Here's some text.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-6>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-7>)Here's some **bold** text and here's some *italicized* text.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-8>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-9>)- Here's a bulleted item
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-10>)- Here's another one
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-11>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-12>)### Here's a sub-sub-heading
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-13>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-14>)- [ ] Here's a checkbox item
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-15>)- [X] Here's one that's checked
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-16>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-17>)```sh
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-18>)echo "Here's a code snippet"
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-4-19>)```
+
+```
+
+Once we're done editing, we can save to the file and quit our editor. If you're following along with Vim, enter `NORMAL` mode and type `:wq` to write and quit.
+Now we can check how git is tracking the changes we made to the file. 
+If you type `git status`, you'll be able to see the current status of the changes in the current git project.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-5-1>)gitstatus
+
+```
+
+Sample output: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-1>)On branch master
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-2>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-3>)No commits yet
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-4>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-5>)Untracked files:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-6>) (use "git add <file>..." to include in what will be committed)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-7>)  README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-8>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-6-9>)nothing added to commit but untracked files present (use "git add" to track)
+
+```
+
+You'll see that git is reporting that our `README.md` file is "untracked". What does untracked mean? This is a great time to explain the lifecycle changes go through as they are tracked in Git.
+**Untracked**
+Untracked is a file that is unknown to Git. Even though the file exists on our filesystem inside the Git directory, Git will not keep track of any updates to the file. If a new file is created in an existing Git repo, it will start off as untracked.
+**Tracked**
+A tracked file is checked in with Git and it will detect changes to the file. 
+**Staged**
+When a file is staged (or changes to a file are staged), this means that the changes are moved to a temporary storage area before they are committed. Staging changes allows you to separate what you want to commit vs. what you want to leave behind. If you're not sure what commiting is, we'll get to that right now.
+**Committed**
+Committing changes means that the changes are part of the Git repository's history. Every time you have a new batch of changes, you can add them to the repo's history by making a commit. The commit will take whatever changes were in the staging area and store them as a single entity (as a single commit).
+**Pushed**
+While, this step isn't necessary to store changes in a local repository, it's important to highilght since most of our code ends up on a remote endpoint (the TritonUAS GitHub). When commits are pushed to a remote repostiory, the remote repository is updated to have knowledge of our local commits. After pushing, the remote repository will have our local changes as a part of it's history. 
+Ok, back to our single untracked `README.md` file. This file is currently untracked so let's change that. We can use the `git add` command to tell Git to track and stage the file.
+When using `git add`, you need to specify arguments that represent the files or directory getting staged. There are a few ways we could do this.
+We could add the entire current directory. If you remember your shell symbols, you'll know that a single `.` represents the current working directory.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-7-1>)gitadd.
+
+```
+
+This action is so common that Git has a built in flag to accomplish the same behavior.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-8-1>)gitadd-A
+
+```
+
+You can also stage specific files or directories instead of all changes in the entire current working directory. In most cases, this is favorable so you can organize related changes into a single commit. For example, if I modified a single file to add a new feature, I would only commit that file.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-9-1>)gitaddREADME.md
+
+```
+
+Now that we've run `git add`, Git is tracking the `README.md` file and the changes have been staged. We can verify by running `git status` again.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-10-1>)gitstatus
+
+```
+
+Sample output:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-11-1>)On branch master
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-11-2>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-11-3>)No commits yet
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-11-4>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-11-5>)Changes to be committed:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-11-6>) (use "git rm --cached <file>..." to unstage)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-11-7>)  new file:  README.md
+
+```
+
+Nice! The command output tells us the staged changes in the section that says `Changes to be committed`. As mentioned above, staged changes live in a temporary area until they are committed. 
+Now the next step is to commit our changes. 
+### Committing Changes
+When one commits their changes to a Git repository, it means that they become a part of the repository's history. You can think of a commit as a snapshot of a repository at a certain point in time.
+As mentioned, we can only commit changes that are staged. So make sure to stage your changes using `git add` (as mentioned in the previous section. 
+Once we've staged our desired changes, we can commit them.
+One more important thing to note is that every commit must have a commit message. The commit message will tell other people what changes you made in this commit. For guidelines, on how to write a good commit message, check out the [How to Contribute](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute/#233-commiting-changes>) section on committing changes.
+It's crucial to write a descriptive yet succinct commit message. Other people will be looking at the history of the repository to get a summary of how a project has changed over time. 
+The history might look something like this:
+git log --oneline```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-12-1>)f374de2 2021-2022 updated sponsorship brochure
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-12-2>)1fa963c Removed pilot interest form
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-12-3>)91e4416 Updated favicon to have a background
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-12-4>)1af3681 Added sponsorship brochure pdf
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-12-5>)3b05aa5 About us spelling fix
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-12-6>)6c74441 Changed name of acs deploy workflow
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-12-7>)5ad7bcb Removed copyright footer
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-12-8>)8149cbc Updated deploy build icon
+
+```
+
+Commits can also have a description. Descriptions are optional, but can be useful. If you'd like to provide more context behind some changes and it's not succinct enough for a message, write a description that goes more in depth. You can explain rationale for changes, link to resources, or enumerate other smaller changes that didn't make it into the main commit message. 
+There are a few ways you can make a commit.
+If you run `git commit` with the `-m` flag, you can specify a commit message. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-13-1>)gitcommit-m"<message-here>"
+
+```
+
+You can also specify a commit description with another `-m` flag. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-14-1>)gitcommit-m"<message-here>"-m"<description-here>"
+
+```
+
+You can also use the text editor of your choice to write a commit.
+Simply write `git commit` and a text buffer will be opned up in your default editor. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-15-1>)gitcommit
+
+```
+
+To change the editor you can run this command and re-open the file. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-16-1>)gitconfig--globalcore.editor"EDITOR_NAME"
+
+```
+
+Once you enter the editor, you should see a text buffer that looks like this:
+![git-commit-vim](https://drive.google.com/uc?export=view&id=1ZoCHBrcqcpDNjP1Xk5pfy8l0fKsBxoM5)
+In this buffer, you can write your commit message, description and other commit information.
+Simply write your message on the first line, save and close the buffer. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-1>)initial README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-2>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-3>)# Please enter the commit message for your changes. Lines starting
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-4>)# with '#' will be ignored, and an empty message aborts the commit.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-5>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-6>)# On branch master
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-7>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-8>)# Initial commit
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-9>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-10>)# Changes to be committed:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-11>)#  new file:  README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-17-12>)#
+
+```
+
+To add a description, add a line break below the message and write away.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-1>)initial README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-2>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-3>)As you can see here, I have created a README.md and populated it with 
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-4>)some markdown content. It is blazingly fast and will double our 
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-5>)performance.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-6>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-7>)# Please enter the commit message for your changes. Lines starting
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-8>)# with '#' will be ignored, and an empty message aborts the commit.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-9>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-10>)# On branch master
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-11>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-12>)# Initial commit
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-13>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-14>)# Changes to be committed:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-15>)#  new file:  README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-18-16>)#
+
+```
+
+Let's say you did some pair-programming and teamed up to work on a commit. You can give the other person credit for the commit as well. To list co-authors, create a new line after the message/description and begin it with `Co-authored-by:`. See the example below for the format:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-1>)initial README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-2>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-3>)As you can see here, I have created a README.md and populated it with 
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-4>)some markdown content. It is blazingly fast and will double our 
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-5>)performance.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-6>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-7>)Co-authored-by: Tyler Lentz <tlentz@ucsd.edu>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-8>)Co-authored-by: Samir Rashid <srashid@ucsd.edu>"
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-9>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-10>)# Please enter the commit message for your changes. Lines starting
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-11>)# with '#' will be ignored, and an empty message aborts the commit.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-12>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-13>)# On branch master
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-14>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-15>)# Initial commit
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-16>)#
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-17>)# Changes to be committed:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-18>)#  new file:  README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-19-19>)#
+
+```
+
+Ok, at this point you've seen too many variations of how to make a commit. Feel free to pick your favorite between `git commit -m` and just `git commit`. Additionally, use a description or enumerate co-authors when appropriate. 
+For the purposes of this workshop, pick your favorite method of creating a commit, write a short message, and maybe a description if you want.
+Once you've done this you should see something like this output to your terminal: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-20-1>)[master (root-commit) 43cff3d] initial README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-20-2>) 1 file changed, 20 insertions(+)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-20-3>) create mode 100644 README.md
+
+```
+
+We can also verify that the commit went through with other commands. 
+If you run `git log`, you'll be able to see a history of commits made to your local repository.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-21-1>)gitlog
+
+```
+
+Here's some sample output: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-1>)commit 43cff3d6788ea5bf171b9aab9a9017759cc14d22 (HEAD -> master)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-2>)Author: Anthony Tarbinian <atar137h@gmail.com>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-3>)Date:  Tue Aug 29 22:51:23 2023 -0700
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-4>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-5>)  initial README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-6>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-7>)  As you can see here, I have created a README.md and populated it with
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-8>)  some markdown content. It is blazingly fast and will double our
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-22-9>)  performance.
+
+```
+
+You'll notice on the first line it says `commit:` then some weird combination of seemingly random characters. This is what is called a commit hash. Each commit has a hash that is generated based on the parent commit and attributes about the commit itself. For a detailed breakdown, check out this [page](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/gist.github.com/masak/2415865>).
+A hash is used to identify a commit and they should be unique (most of the time). 
+On GitHub you can see a list of commits for a repo. For example, you can see the commits for the wiki [here](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/github.com/tritonuas/wiki/commits/master>).
+Notice on the right there are some more seemingly random characters. These are the first few characters of the full hash that we saw earlier.
+![wiki_git_history](https://drive.google.com/uc?export=view&id=1GBWxpM4V6GnLXsOEoJR5HrP_TE6JpPjU)
+We can also use the `git-show` command to show information about the latest commit and view the changes themselves.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-23-1>)gitshow
+
+```
+
+If you want to see a specific commit you can do `git show <hash>`. Let's try this with the commit we just made. You can get the commit hash by running `git log`. You only need the first few characters of the hash to identify it. Note that your hash will be different than the one in the following sample command. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-24-1>)gitshow43cff3d
+
+```
+
+Let's make some more changes on top of our previous commit.
+Open the `README.md` up again and add some new text. Also delete a line or two. It doesn't really matter what the changes are. 
+Once you've saved your changes and exited the editor, let's verify that they've been tracked by git.
+As mentioned previously, you can use `git status` to see what git is keeping track of. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-25-1>)gitstatus
+
+```
+
+You should see something like this: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-26-1>)On branch master
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-26-2>)Changes not staged for commit:
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-26-3>) (use "git add <file>..." to update what will be committed)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-26-4>) (use "git restore <file>..." to discard changes in working directory)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-26-5>)  modified:  README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-26-6>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-26-7>)no changes added to commit (use "git add" and/or "git commit -a")
+
+```
+
+You can also run `git diff` to see the exact changes. This will list the exact lines that have been added or deleted. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-27-1>)gitdiff
+
+```
+
+Sample output for the changes I made. Your changes should look different: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-1>)diff --git a/README.md b/README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-2>)index 51d19aa..e124f96 100644
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-3>)--- a/README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-4>)+++ b/README.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-5>)@@ -7,7 +7,6 @@ Here's some text.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-6>) Here's some **bold** text and here's some *italicized* text.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-7>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-8>) - Here's a bulleted item
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-9>)-- Here's another one
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-10>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-11>) ### Here's a sub-sub-heading
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-12>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-13>)@@ -15,6 +14,6 @@ Here's some **bold** text and here's some *italicized* text.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-14>) - [X] Here's one that's checked
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-15>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-16>) ```sh
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-17>)-echo "Here's a code snippet"
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-18>)+echo "Here's a code snippet" >> code.txt
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-28-19>) ```
+
+```
+
+Let's make another commit with these changes. You can use whatever method of making a commit that you want. I'll just do a quick `git commit -m` and you can follow along if you'd like.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-29-1>)gitcommit-m"modified README"
+
+```
+
+At this point, we've setup a local git repo with two commits. Let's figure out how to publish our code to GitHub so other developers can contribute.
+### Pushing to a Remote repository
+As mentioned, local repositories exist independently from remote ones, however there are ways which the two can communicate. Pushing is one of them.
+Before we start pushing our local changes to a remote repository, we need to create one. For the purposes of this workshop, we're going to be creating a GitHub repository and pushing to there. 
+Let's create a personal GitHub repository. First create a GitHub account if you don't already have one. You will also need to setup GitHub SSH keys if you haven't already. See the section in the [How to Contribute guide](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute/#13-setting-up-an-ssh-key>). Once that's all setup, go and hit the green "New" button on the left of your GitHub homepage. You can also access the same page from [this link](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/github.com/new>).
+You should see a screen like this:
+![github_new_repo](https://drive.google.com/uc?export=view&id=1msYxoJqtXXJdQTffo_pcsKJEWpmOio_h)
+Give the repository a name. It can be "git-workshop" or whatever you want. Choose if you want it to be public on your GitHub profile. You can ignore most of the other options and hit the "Create repository" button at the bottom.
+You should see a landing page that looks something like this:
+![new_repo_landing](https://drive.google.com/uc?export=view&id=1vN6G_n9jwETmge4KtG7stbUZ7QYM55xr)
+We're going to follow the commands at the bottom since we already have an existing local repository. Don't write the exact same command as the image since these are specific to my repository.
+Let's break down what each command is doing instead of just mindlessly copy pasting it.
+This line is telling git that this repo has a remote component called `origin` that exists at the following URL. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-30-1>)gitremoteaddorigingit@github.com:atar13/git-workshop.git
+
+```
+
+This renames our default branch to `main`. We haven't really touched on branches yet, so stay tuned for later sections. GitHub is moving to have the default branch name be `main` instead of `master`. You can read up more about it [here](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/github.com/github/renaming>). 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-31-1>)gitbranch-Mmain
+
+```
+
+Ok, now this is the exciting part. The next line will push our changes to the main branch on a remote called `origin`. Git knows where `origin` is because we told it when we ran `git remote add origin`. You might notice the `-u` flag that's also included. This is short for `--set-upstream` and it sets up an association between our local branch and the remote one. When we want to push code to the same remote in the future, we won't need to specify `-u` since git already knows which remote to use.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-32-1>)gitpush-uoriginmain
+
+```
+
+Once this command is run, our changes should be on GitHub. The terminal should output something like this:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-1>)You should see some terminal output like this: 
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-2>)Enumerating objects: 3, done.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-3>)Counting objects: 100% (3/3), done.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-4>)Delta compression using up to 16 threads
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-5>)Compressing objects: 100% (2/2), done.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-6>)Writing objects: 100% (3/3), 490 bytes | 490.00 KiB/s, done.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-7>)Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-8>)To github.com:atar13/git-workshop.git
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-9>) * [new branch]   main -> main
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-33-10>)branch 'main' set up to track 'origin/main'.
+
+```
+
+Refresh your repo's GitHub page and you should see the files and any changes you've made.
+![simple_repo](https://drive.google.com/uc?export=view&id=1WVLNhwCjQW_amJsNu1h91KV31dDrxDvt)
+It's looking good! We've been able to write some changes locally and push them to GitHub.
+## Making changes to a project
+Usually when you work on a project, you will be developing new features or fixes for existing software. You won't find yourself creating a brand new repo too often. We're going to emulate this workflow using the new remote GitHub repository that we created.
+The workflow usually follows the idea of branching off from the main project, developing your feature, and merging the feature back into the main project. The idea is to isolate your new changes away from the known working state of the project. If your changes are contained to your own version, there is no risk of breaking the working version until your changes get merged in. It also allows for multiple people to be working on separate development branches of the project. These features that are independent from each other can coexist in their own domains until it's time to bring them together. 
+Let's try this workflow on our repo.
+First, let's delete the repo from our computer so we can replicate pulling a repo from GitHub. Don't worry, it's completely safe because it's pushed on GitHub. 
+You're probably still inside the local repo folder. You can use the `pwd` command to see your shell's current working directory. Exit out of the repo's directory to go to the parent directory: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-34-1>)cd..
+
+```
+
+Now make sure that you're in the right place. If you run `ls` now, you should see the folder that contains the local repo (in our case we made the folder called `my_local_repo`)
+Once you've verified that you can see the repo folder, let's delete it. You can use the following `rm` command to do so: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-35-1>)rm-rfmy_local_repo
+
+```
+
+Make sure you type this correctly, otherwise you could damage your system by deleting another directory by accident. As mentioned in the unix tutorial, there is no Recycle Bin/Trash to undo a `rm` command.
+### Cloning a repository
+Now that our old copy of the repo is gone, let's download it from GitHub! Go to your repo on GitHub and clock the green "Code" button on the top right.
+![code_button](https://drive.google.com/uc?export=view&id=1nUKdCzGdp38cSqliM42AX6ycffMsy3I0)
+Now you should see a few options for how to clone a repo. Cloning a repo just means that we are looking to make a copy of a remote repository. You can think we're downloading a copy of the repository at this point in time.
+![clone_options](https://drive.google.com/uc?export=view&id=1aNaIE6P4c14opTOtzXTpYL_Bj3m0FRZH)
+For our purposes here at TUAS, we use SSH to communicate with remote Git repos. Copy the command under the `SSH` option. It should look something like this: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-36-1>)git@github.com:<username>/<repo_name>.git
+
+```
+
+`cd` to a suitable place on your system where you want this repo to live. Once you've found a good spot, run the command `git clone` followed by the URL you just copied. So something like this: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-37-1>)gitclonegit@github.com:<username>/<repo_name>.git
+
+```
+
+You should see some output to your terminal that looks like this: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-38-1>)Cloning into 'git-workshop'...
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-38-2>)remote: Enumerating objects: 6, done.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-38-3>)remote: Counting objects: 100% (6/6), done.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-38-4>)remote: Compressing objects: 100% (3/3), done.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-38-5>)remote: Total 6 (delta 1), reused 6 (delta 1), pack-reused 0
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-38-6>)Receiving objects: 100% (6/6), done.
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-38-7>)Resolving deltas: 100% (1/1), done.
+
+```
+
+If your repo isn't cloning then it might be an issue with your SSH key setup. You can revisit the section on the [How to Contribute guide](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute/#13-setting-up-an-ssh-key>) for setting up an SSH key. Also feel free to contact a software lead to get more help.
+Now that we have cloned the repo, let's branch off and add our own changes. 
+### Creating a new feature branch
+Git branches allow one to make changes to a repository in a separated environment. Any changes one makes in a branch will not affect the main branch or any other branch. You can keep developing in parallel to other branches.
+Every repository must have at least one branch. They all will have what is called a default branch. This default branch is commonly called `main` or `master`.
+You can run the `git branch` command to see exactly which branches you have locally. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-39-1>)gitbranch
+
+```
+
+Since our repo is pretty small and we just cloned it, we should only have one branch (the default one). Output of `git branch` should look like this: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-40-1>)* main
+
+```
+
+As mentioned previously, when we wan't to develop a new feature we will work on it inside a branch that's isolated from the rest of the code. 
+There are several ways to do this if you look online. We're going to be covering one of them with the `git checkout` command:
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-41-1>)gitcheckout-b<branch_name>
+
+```
+
+This command will create a new branch that branches off at whatever commit your previous branch was on and switch to it. In our case, we will branch off at the latest commit we had pulled from the `main` branch. 
+Run the command to branch off onto you're own development branch. You can choose whatever name you want for the new branch. I'll call it `feat/README-overhaul`. You may see this pattern of adding `feat` or `fix` before branch names. For more information on branch naming conventions, read the section in the [How to Contribute](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute/#22-branches>) page. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-42-1>)gitcheckout-bfeat/README-overhaul
+
+```
+
+Sample output: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-43-1>)Switched to a new branch 'feat/README-overhaul'
+
+```
+
+Now we've created a new branch and switched to it. Let's verify with the `git branch` command. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-44-1>)gitbranch
+
+```
+
+Sample output: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-45-1>)* feat/README-overhaul
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-45-2>) main
+
+```
+
+You should see something like this. The asterisk on the left means that we're currently working in the `feat/README-overhaul` branch. If we wanted to swtich back to `main`, we could do so with `git checkout`. 
+Don't pass in the `-b` flag this time since we don't want to create a new branch. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-46-1>)gitcheckoutmain
+
+```
+
+Verify again with `git branch`: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-47-1>)gitbranch
+
+```
+
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-48-1>) feat/README-overhaul
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-48-2>)* main
+
+```
+
+Ok hopefully you're getting the flow of switching betweeen branches. Let's swtitch back to our feature branch. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-49-1>)gitcheckoutfeat/README-overhaul
+
+```
+
+Let's make some changes to the files as if we're developing a new feature. As before, feel free to make any changes you want. I'll be adding the following lines to the end of my `README.md` file. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-50-1>)# README v2
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-50-2>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-50-3>)- Bigger and better
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-50-4>)- Updated performance
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-50-5>)- Patched security vulnerabilities
+
+```
+
+Once you're done adding your "feature", stage and commit your changes as you normally would. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-51-1>)gitaddREADME.md
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-51-2>)gitcommit-m"overhauled README"
+
+```
+
+Now we've made a commit on our new `feat/README-overhaul` branch that doesn't exist on the `main` branch. If you run `git log` you should see something like this for the two most recent commits: 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-52-1>)gitlog
+
+```
+
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-1>)commit 412e25c28071a8895d177a810db822d6f804d54a (HEAD -> feat/README-overhaul)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-2>)Author: Anthony Tarbinian <atar137h@gmail.com>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-3>)Date:  Sat Sep 2 08:37:54 2023 -0700
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-4>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-5>)  overhauled README
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-6>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-7>)commit 40d35dbad9724e2088bc6f86e883e22fa56243c6 (origin/main, origin/HEAD, main)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-8>)Author: Anthony Tarbinian <atar137h@gmail.com>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-9>)Date:  Wed Aug 30 22:57:35 2023 -0700
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-10>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-53-11>)  blazingly fast README
+
+```
+
+You'll notice at the end of each commit section there's a part in parentheses that has some branch names. Notice that the most recent commit only has `feat/README-overhaul` while the other one has `main`. This means that the `main` branch has remaiend intact and unmodified from our most recent changes.
+If we switch back to the `main` branch and run `git log`, we'll also see that our most recent commit doesn't show up in main's history. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-54-1>)git checkout main
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-54-2>)git log
+
+```
+
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-55-1>)commit 40d35dbad9724e2088bc6f86e883e22fa56243c6 (HEAD -> main, origin/main, origin/HEAD)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-55-2>)Author: Anthony Tarbinian <atar137h@gmail.com>
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-55-3>)Date:  Wed Aug 30 22:57:35 2023 -0700
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-55-4>)
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-55-5>)  blazingly fast README
+
+```
+
+In these `git log` output, you may have noticed the word `HEAD` a few times. `HEAD` is a reference to the latest commit on the branch you're currently on.
+Ok, let's head back over to our feature branch again. 
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-56-1>)gitcheckoutfeat/README-overhaul
+
+```
+
+Now that our changes are commited, let's push them to GitHub. Remember that we need the `-u origin feat/README-overhaul` for the first time we push to GitHub. Subsequent pushed can be done with just `git push`.
+```
+[](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/#__codelineno-57-1>)gitpush-uoriginfeat/README-overhaul
+
+```
+
+### Making a Pull Request
+A Pull Request is a way that GitHub organizes new changes that seek to be integrated into a project. The pull request presents all the new changes and provides a medium for users to discuss the changes through code review. It's important to note that Pull Requests exist only on **GitHub** and are not part of Git itself. For more info on pull requests, check out the section of the [How to Contribute guide](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/how_to_contribute/#24-pull-requests>).
+Head over to your repo on GitHub and find the Pull Requests tab. You should see a green button on the top right that says "New Pull Request". Go ahead and click it.
+![new_pr](https://drive.google.com/uc?export=view&id=1PpKk-g9ctKChRyEr5WddpdrPwIvM2Le5)
+On the next page you'll be prompted to select which branch you want to merge into another branch. 
+![empty_pr](https://drive.google.com/uc?export=view&id=1D02v-hyqQGiSBm1EvqbEEDSZLxeg-VoN)
+In our case, we want to merge our feature branch into the `main` branch. So let's select `feat/README-overhaul` to be merged into `main`.
+![pr_preview](https://drive.google.com/uc?export=view&id=1L1wSTVizbwpUTkbQLWLzqncMvF3oO0Mh)
+Hit the green "Create Pull Request" button on the top right. 
+![pr_creation](https://drive.google.com/uc?export=view&id=1lLQEjrpCpwYRFfwdG5laBRJyPhuzsDxv)
+Here you can write a comment for your Pull Request, You can also request people to review, assign it to someone, attach a label and etc.
+You'll notice the little green arrow on the "Create Pull Request" button. This will allow you to choose between a "Draft Pull Request" and a regular Pull Request. A draft pull request is useful for when you want to make a pull request and stil have more changes to add before merging in. For the purposes of this workshop, you can make a regular pull request.
+![pr_review](https://drive.google.com/uc?export=view&id=1TKQYXU9swTK5gEDhrIwSQe_02ujtvmZe)
+Nice! We've successfully made a new Pull Request. 
+Normally, another member of the team would review your changes and approve/suggest edits. For the purpose of this workshop, we're going to assume your changes are ready to be merged i edits. For the purpose of this workshop, we're going to assume your changes are ready to be merged in. To merge our changes into the `main` branch, hit the "Merge Pull Request button at the bottom".
+If you head back to the main page of the repo in GitHub, you'll see that the latest commit has changed. It should look something like this:
+![post_pr](https://drive.google.com/uc?export=view&id=1qP61xwd1jcaEVZxDweV4wogIrI-rOdYS)
+If you click on the button on the right that says "4 commits", you'll be able to see a history of the repo's `main` branch.
+![post_pr_history](https://drive.google.com/uc?export=view&id=1yPHD53Pd_X4dQGu8PlvTU142gp1IkG2J)
+Notice that our changes have been merged into the history of the `main` branch. Also notice that a new commit with the message "Merge pull request #1 from atar13/feat/README-overhaul " has been created and is the most recent commit. This is called a "merge commit". Every time you merge with `Git`, a merge commit is created to outline the changes of the merge.
+## Summary
+That basically covers the main `git` workflow. You've learned to:
+1) Create a local repository
+2) Stage changes
+3) Commit changes
+4) Push changes
+5) Clone a remote repository
+6) Create a new development branch
+7) Merge changes with a GitHub Pull Request
+These skills are indisposable to a software engineer and are essential for collaboration in a team environment. 
+If you want a summary of the most important Git commands, check out our [Git reference page](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/tritonuas.com/wiki/software/reference/git>).
+October 30, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/software/workshops/contents/02_git_deep_dive/<https:/facebook.com/tritonuas> "facebook.com")

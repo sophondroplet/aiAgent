@@ -1,0 +1,258 @@
+[ Skip to content ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#quick-start-guide>)
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/> "TritonUAS Wiki")
+TritonUAS Wiki 
+Antenna Tracker 
+Initializing search 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/>)
+  * [ General ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+  * [ Onboarding ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+  * [ Hardware ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/hardware/wings/>)
+  * [ Mechanical ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+  * [ Electrical ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+  * [ Software ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/software_home/>)
+
+
+[ ![logo](https://tritonuas.com/wiki/assets/tuas_2020_favicon_white.svg) ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/> "TritonUAS Wiki") TritonUAS Wiki 
+[ GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/github.com/tritonuas/wiki/> "Go to repository")
+  * [ Home  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/>)
+  * General  General 
+    * [ Town Hall Notes  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/general/town_hall_notes/>)
+    * [ Test Flight  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/general/test_flight/>)
+    * [ Repo Guide  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/general/repo_guide/>)
+    * [ Useful Links  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/general/links/>)
+    * [ Wiki Editing  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/general/wiki_editing/>)
+    * [ Website Editing  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/general/website_editing/>)
+  * Onboarding  Onboarding 
+    * [ Foam Aircraft Project  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/onboarding/foam_aircraft_project/>)
+    * [ Servos  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/onboarding/servos/>)
+  * Hardware  Hardware 
+    * [ Wings  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/hardware/wings/>)
+    * [ Fuselage  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/hardware/fuselage/>)
+    * [ VTOL  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/hardware/vtol/>)
+    * [ Camera Gimbal  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/hardware/camera_gimbal/>)
+    * [ Payload  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/hardware/payload/>)
+    * [ GCS  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/hardware/gcs/>)
+  * Mechanical  Mechanical 
+    * [ Mechanical Home  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/mechanical_home/>)
+    * Competition Planes  Competition Planes 
+      * [ Toothless  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/toothless/toothless/>)
+      * [ Duckasaurus  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/duckasaurus/duckasaurus/>)
+    * Onboarding Projects  Onboarding Projects 
+      * [ The Marius  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/onboarding-projects/the_marius/>)
+    * Manufacturing  Manufacturing 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/manufacturing/manufacturing_overview/>)
+      * [ Mold Manufacturing  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/manufacturing/Mold_Manufacturing/>)
+      * [ CNC Hot Wire Cutter  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/manufacturing/CNC_hot_wire/>)
+    * Design/Analysis  Design/Analysis 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/design-analysis/overview/>)
+      * Optimization  Optimization 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/optimization/optimization_overview/>)
+    * Tutorials  Tutorials 
+      * [ Solidworks  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/tutorials/solidworks/>)
+      * [ Ansys  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/tutorials/ansys/>)
+      * [ Matlab/Optimization  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/tutorials/matlab-optimization/>)
+    * [ Mechanical Packing List  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/mechanical/packing_list/>)
+  * Electrical  Electrical 
+    * [ Electrical Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/electrical-overview/>)
+    * [ Electronics Diagram  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/electronics-diagram/>)
+    * Projects  Projects 
+      * Airdrop  Airdrop 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/airdrop/overview/>)
+        * [ Mechanism  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_mechanism/>)
+        * [ GPIO Setup  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/airdrop/GPIO_setup/>)
+        * [ Drop Calculation  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/airdrop/drop_script/>)
+      * Antenna Tracker  [ Antenna Tracker  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/>) Table of contents 
+        * [ Quick Start Guide  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#quick-start-guide>)
+          * [ Setup  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#setup>)
+          * [ Troubleshooting  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#troubleshooting>)
+        * [ Objective  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#objective>)
+        * [ System Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#system-overview>)
+          * [ Coordinate Transformations  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#coordinate-transformations>)
+          * [ Trigonometry  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#trigonometry>)
+          * [ PID Controller  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#pid-controller>)
+            * [ Why do we need a controller for a servo?  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#why-do-we-need-a-controller-for-a-servo>)
+            * [ PID Controller Implementation  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#pid-controller-implementation>)
+        * [ Improvements  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#improvements>)
+          * [ Latency  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#latency>)
+          * [ Cable twisting  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#cable-twisting>)
+      * [ Power Board  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/power-board/>)
+      * Signals Board  Signals Board 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/signals-board/signals-board/>)
+        * [ Sensor Input  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sensor-input/>)
+        * [ Signals Board Code  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-code/>)
+        * [ Signals Board Requirements  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/signals-board/sigboard-reqs/>)
+    * Communication  Communication 
+      * [ CAN  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/communication/can/>)
+      * [ I2C  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/communication/i2c/>)
+      * [ MAVLink  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/communication/mavlink/>)
+      * [ UART  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/communication/uart/>)
+      * [ Wireless Communication  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/communication/wireless-comms/>)
+    * Other Tutorials  Other Tutorials 
+      * [ Fabrication  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/other-tutorials/fabrication/>)
+      * [ Ardupilot/Pixhawk  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/other-tutorials/ardupilot-pixhawk/>)
+  * Software  Software 
+    * [ Software Home  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/software_home/>)
+    * [ How to Contribute  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/how_to_contribute/>)
+    * Reference  Reference 
+      * [ Git  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/reference/git/>)
+      * [ Computer Vision  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/reference/computer_vision/>)
+      * [ Datahub  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/reference/datahub/>)
+    * GCS  GCS 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/gcs/gcs_overview/>)
+      * [ Configuration  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/gcs/gcs_configuration/>)
+      * Frontend  Frontend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_overview/>)
+        * [ Pages  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/gcs/frontend/frontend_pages/>)
+      * Backend  Backend 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/gcs/backend/backend_overview/>)
+        * [ Endpoints  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/gcs/backend/backend_endpoints/>)
+    * OBC  OBC 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/obc_overview/>)
+      * Pathing  Pathing 
+        * [ RRT-Star  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/pathing/rrt-star/>)
+        * [ Coverage  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/pathing/coverage/>)
+      * Tick Architecture  Tick Architecture 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/tick_overview/>)
+        * [ Guide  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/guide/>)
+        * Ticks  Ticks 
+          * [ Mission Prep  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missionprep/>)
+          * [ Path Gen  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathgen/>)
+          * [ Path Validate  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/pathvalidate/>)
+          * [ Mav Upload  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/mavupload/>)
+          * [ Takeoff  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/takeoff/>)
+          * [ Fly Waypoints  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flywaypoints/>)
+          * [ Fly Search  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/flysearch/>)
+          * [ CV Loiter  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/cvloiter/>)
+          * [ Airdrop Prep  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropprep/>)
+          * [ Airdrop Approach  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/airdropapproach/>)
+          * [ Manual Landing  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/manuallanding/>)
+          * [ Auto Landing  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/autolanding/>)
+          * [ Mission Done  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/obc/tick_architecture/ticks/missiondone/>)
+    * Target Detection Team  Target Detection Team 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/target_detection_team/target_detection_overview/>)
+      * [ Saliency  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/target_detection_team/saliency/>)
+      * [ Segmentation  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/target_detection_team/segmentation/>)
+      * [ Classification  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/target_detection_team/classification/>)
+    * Localization  Localization 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/localization/localization_overview/>)
+    * Dataset Generation  Dataset Generation 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/dataset_generation/dataset_generation_overview/>)
+    * Workshops  Workshops 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/workshops_overview/>)
+      * Contents  Contents 
+        * [ 01. Unix/Command Line  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/01_unix_basics/>)
+        * [ 02. Git/GitHub  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/02_git_deep_dive/>)
+        * [ 03. HTTP/REST  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/03_http_and_rest/>)
+        * [ 04. Docker  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/04_docker/>)
+        * [ 05. Pointers  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/05_pointers/>)
+        * [ 06. Unit Tests  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/06_unit_tests/>)
+        * [ 07. Design Patterns  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/07_design_patterns/>)
+        * [ 08. Async Programming  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/08_async_programming/>)
+        * [ 09. Continuous Integration  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/workshops/contents/09_continuous_integration/>)
+    * Onboarding  Onboarding 
+      * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/onboarding/onboarding_overview/>)
+      * Level 0  Level 0 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_overview/>)
+        * [ Python Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_python/>)
+        * [ Go Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_go/>)
+        * [ C++ Tutorial  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/onboarding/level_0/level_0_cpp/>)
+      * Level 1  Level 1 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/onboarding/level_1/level_1_overview/>)
+      * Level 2  Level 2 
+        * [ Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/onboarding/level_2/level_2_overview/>)
+    * Miscellaneous  Miscellaneous 
+      * [ Design Proposals  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/misc/design_review/>)
+      * [ Nanostation Setup  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/misc/nanostations/>)
+      * [ Passwords  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/misc/passwords/>)
+      * [ Test Flight Checklist  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/software/misc/test_flight_checklist/>)
+
+
+Table of contents 
+  * [ Quick Start Guide  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#quick-start-guide>)
+    * [ Setup  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#setup>)
+    * [ Troubleshooting  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#troubleshooting>)
+  * [ Objective  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#objective>)
+  * [ System Overview  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#system-overview>)
+    * [ Coordinate Transformations  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#coordinate-transformations>)
+    * [ Trigonometry  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#trigonometry>)
+    * [ PID Controller  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#pid-controller>)
+      * [ Why do we need a controller for a servo?  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#why-do-we-need-a-controller-for-a-servo>)
+      * [ PID Controller Implementation  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#pid-controller-implementation>)
+  * [ Improvements  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#improvements>)
+    * [ Latency  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#latency>)
+    * [ Cable twisting  ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#cable-twisting>)
+
+
+# Antenna Tracker
+![antenna tracker picture](https://drive.google.com/uc?export=view&id=1q2taXzSc21YTzB783scTemhk5QEWz385) _Antenna Tracker with the Nanostation mounted the wrong way, 2 February 2023._
+## Quick Start Guide
+### Setup
+  1. Connect an Ethernet cable between the Arduino and the router.
+  2. Connect power to the Arduino. After aquiring a GPS lock (which may take a couple minutes, especially if at a new location) and no telemetry, the antenna tracker will point at Geisel.
+  3. Make sure GCS is setup correctly and powered on. Aircraft GPS telemetry will be forwarded, and antenna tracker will begin operation.
+
+
+### Troubleshooting
+  * Antenna tracker spins at a constant speed without stopping
+    * Something has caused the Arduino code to crash. Repower the antenna tracker to reset it.
+  * Antenna tracker is not pointing at the plane
+    * Due to GPS errors, the antenna tracker is not accurate at close range (<10m).
+
+
+## Objective
+Point the antenna at the plane.
+## System Overview
+To get the location of the plane, the GCS sends the most recent GPS location from the plane to the Arduino through the Ethernet connection. The antenna tracker has its own GPS onboard, and computes the azimuth and elevation angles needed to point from antenna tracker to the plane using some [coordinate transformations](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#coordinate-transformations>) and [trigonometry](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/tritonuas.com/wiki/electrical/projects/antenna-tracker/#trigonometry>). The elevation angle is then written to the elevation servo, while the azimuth angle is fed into a PID controller to align the antenna tracker with the setpoint using a magnetometer.
+### Coordinate Transformations
+The GPS data we get from the aircraft and the antenna tracker GPS consists of a latitude, longitude, and altitude. These values do not have much meaning without a reference ellipsoid (where are we measuring altitude from?). We will use the semi major and semi minor axis values defined by [WGS84](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/en.wikipedia.org/wiki/World_Geodetic_System>) for our calculations. Now that we have our reference ellipse, the first thing we do is use it to convert these coordinates to an [Earth Centered, Earth Fixed (ECEF)](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/en.wikipedia.org/wiki/Earth-centered,_Earth-fixed_coordinate_system>) coordinate system. This is a 3D coordinate system with the origin located at the center of the Earth. By substracting the ECEF location of the station from that of the aircraft, we can obtain the vector pointing from the antenna tracker to the aircraft. Now, we rotate it so that it is in [East, North, Up (ENU)](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/en.wikipedia.org/wiki/Local_tangent_plane_coordinates>) coordinates relative to the antenna tracker. The latitude and longitude from the antenna tracker GPS is used to do this. [This wikipedia page](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/en.wikipedia.org/wiki/Geographic_coordinate_conversion#From_ECEF_to_ENU>) explains these processes in more detail and with the relevant equations.
+### Trigonometry
+Now that we have a vector pointing from the antenna tracker to the aircraft in ENU coordinates, we can compute the azimuth and elevation angles required to point at the plane.
+```
+azimuth = atan2(east, north)
+
+```
+
+The elevation is slightly more complicated because we need to find our horizontal distance first.
+```
+hdistance = sqrt(east^2 + north^2)
+elevation = atan2(up, hdistance)
+
+```
+
+Now, the antenna tracker knows where it should point! This angle can be written to the elevation servo, but there is still more to do before we know what to send to the azimuth servo.
+### PID Controller
+#### Why do we need a controller for a servo?
+At this point, you may be wondering why we need a PID controller to control a servo. Normally, servos are sent a PWM signal with a duty cycle corresponding to the desired angle, but our azimuth servo has been modified. We took out the potentiometer and replaced it with a voltage divider so that now, the servo thinks it is always in its middle position. Additionally, we have taken out the mechanical end stops so that it is free to rotate continously. With a little deception, our servo is now a PWM controlled bidirectional motor. When given a duty cycle greater than 1500 µs, the servo will spin indefinately, and when given a duty cycle less than 1500 µs, the servo will spin the other way. The speed of rotation depends on how far the duty cycle is from 1500 µs (although we max it out fairly early, so our useful range is around 1400-1600 µs).
+#### PID Controller Implementation
+In order to compute the command to send to the servo, we first need to find the error. This is equal to the setpoint (where we want to be) minus the current state (where we are). But there is a problem with simply subtracting these two values. Consider the case where our setpoint is 6 degrees, and our current state is 359 degrees. Our error would then be -353 degrees. This would cause the antenna tracker to spin all the way around the long way, and we would prefer to take the short path. What we want instead is an error of +7 degrees. In Arduino, we use the following to achieve this:
+```
+errorDegrees = -(fmod(state - setPoint + 540, 360) - 180);
+
+```
+
+Now, we can use our error value to get proportional, integral, and derivative terms.
+```
+proportional = errorDegrees;
+integral = integral + (errorDegrees / frequency);
+derivative = (errorDegrees - previousError) * frequency;
+previousError = errorDegrees;
+
+```
+
+Our controller output is just the sum of these terms multiplied by coefficients that we input during tuning.
+```
+controllerOutput = pGain*proportional + iGain*integral + dGain*derivative;
+
+```
+
+The tracker was tuned by trial and error. Because the magnetometer signal was fairly noisy, our D term could not be raised too high. The P term was just raised as high as it could go without causing overshooting, and the I term was raised until it started causing problems at which point we selected a slightly lower value. A more rigorous tuning method may result in better performance, but for now we have a somewhat working system.
+## Improvements
+### Latency
+Currently, the antenna tracker recieves aircraft telemetry once per second. This results in the antenna tracker "jumping" to each position every time it gets a telemetry update. While this currently may be acceptable for keeping the plane within the beam width of the antenna, a more continuous movement would look way cooler. Possible solutions include increasing the telemetry rate or including a predictive filter.
+### Cable twisting
+Currently, the Ethernet cables for the Arduino and Nanostation run through the azimuth bearing. After many revolutions, these cables twist together. This might be an issue at competition if the waypoint mission includes many laps around the ground station. Slip rings would be the perfect solution, if they weren't so expensive.
+May 16, 2023
+Back to top 
+Made with [ Material for MkDocs ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/squidfunk.github.io/mkdocs-material/>)
+[ ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/github.com/tritonuas> "github.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/gitlab.com/tuas> "gitlab.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/hub.docker.com/orgs/tritonuas> "hub.docker.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/medium.com/tuas> "medium.com") [ ](https://tritonuas.github.io/wiki/electrical/projects/antenna-tracker/<https:/facebook.com/tritonuas> "facebook.com")
