@@ -89,7 +89,7 @@ async def main():
         db_supabase = supabase
     )
 
-    user_input = "what is the software pipline of the OBC?"
+    user_input = "what is the purpose of the onboarding foam aircraft project?"
 
     final_response = await RAG_agent.run(user_input, deps=deps)
     print(final_response.data)
